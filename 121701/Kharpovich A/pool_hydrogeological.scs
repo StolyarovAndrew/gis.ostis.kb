@@ -1,0 +1,6 @@
+pool_hydrogeological => nrel_main_ru_idtf:
+[Барсуковское] ;;
+pool_hydrogeological => nrel_main_en_idtf:
+[Pool hydrogeological] ;;
+
+pool_hydrogeological => nrel_defenition: [крупная гидрогеологическая структура, приуроченная к отрицательной геологической структуре. ];;
