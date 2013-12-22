@@ -1,0 +1,6 @@
+izluchina => nrel_main_ru_idtf:
+[Излучина] ;;
+izluchina => nrel_main_en_idtf:
+[Bend] ;;
+
+izluchina => nrel_prototype: meandr;;
