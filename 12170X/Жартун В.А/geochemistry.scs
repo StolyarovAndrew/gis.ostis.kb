@@ -1,0 +1,21 @@
+geochemistry => nrel_main_ru_idtf:
+[Геохимия] ;;
+geochemistry => nrel_main_en_idtf:
+[geochemistry] ;;
+
+geochemistry  => nrel_defenition: [ наука о химическом составе Земли и законах пространственного и хронологического распределения, сочетания, миграции хим. элементов в земной коре и нижележащих геосферах при различных природных процессах. ];;
+
+nrel_partition_by_scientific_areas => nrel_main_ru_idtf:
+[разбиение по признаку научных направлений*];;
+
+nrel_partition_by_scientific_areas<- quasybinary_relation;;
+
+geochemistry  <= nrel_partition_by_scientific_areas:
+{
+calculationAndAnalysis(* => nrel_main_ru_idtf: [подсчёт и анализ кларков];; => nrel_main_en_idtf: [calculation and analysis of Clarks];; *);
+geochemicalMapping(* => nrel_main_ru_idtf: [геохимическое картирование];; => nrel_main_en_idtf: [geochemical mapping];; *);
+ecologicalAndGeochemicalMapping (* => nrel_main_ru_idtf: [эколого-геохимическое картирование];; => nrel_main_en_idtf: [ecological and geochemical mapping];; *);
+developmentMethodsOfSearch(* => nrel_main_ru_idtf: [разработка новых геохимических методов поиска];; => nrel_main_en_idtf: [development of new geochemical methods of search];; *);
+technogenesisAndBiosphereResearch(* => nrel_main_ru_idtf: [исследование техногенеза и биосферы];; => nrel_main_en_idtf: [technogenesis research and biosphere];; *);
+esperimentalGeochemistry(* => nrel_main_ru_idtf: [эксперементальная геохимия];; => nrel_main_en_idtf: [Esperimental geochemistry];; *);
+};;

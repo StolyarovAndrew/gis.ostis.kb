@@ -1,0 +1,20 @@
+geochemicalExploration => nrel_main_ru_idtf:
+[Геохимические поиски полезных ископаемых] ;;
+geochemicalExploration => nrel_main_en_idtf:
+[Geochemical exploration of minerals] ;;
+
+geochemicalExploration  => nrel_defenition: [ выявление полезных ископаемых геохимическими методами по закономерностям распределения (рассеяние и накопление) и миграции хим. элеаментов, их соединений или ассоциаций в горных породах, воде, атмосфере, растительных и животных организмах.  ];;
+
+nrel_partition_by_object_of_study => nrel_main_ru_idtf:
+[разбиение по признаку объекта исследования*];;
+
+nrel_partition_by_object_of_study<- quasybinary_relation;;
+
+geochemicalExploration  <= nrel_partition_by_object_of_study:
+{
+lithogeochemical (* => nrel_main_ru_idtf: [литогеохимический];; => nrel_main_en_idtf: [lithogeochemical];; *);
+hydrogeochemical(* => nrel_main_ru_idtf: [гидрогеохимический];; => nrel_main_en_idtf: [hydrogeochemical];; *);
+atmogeochemical(* => nrel_main_ru_idtf: [атмогеохимический];; => nrel_main_en_idtf: [atmogeochemical];; *);
+biochemical(* => nrel_main_ru_idtf: [биохимический];; => nrel_main_en_idtf: [biochemical];; *);
+radiometric(* => nrel_main_ru_idtf: [радиометрический];; => nrel_main_en_idtf: [radiometric];; *);
+};;
