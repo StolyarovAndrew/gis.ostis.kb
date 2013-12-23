@@ -1,19 +1,19 @@
 steppe => nrel_main_ru_idtf:
-[Степь] ;;
+[РЎС‚РµРїСЊ] ;;
 steppe => nrel_main_en_idtf:
 [Steppe] ;;
 
 nrel_partition_by_view => nrel_main_en_idtf:
-[разбиение по виду*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РІРёРґСѓ*];;
 
 nrel_partition_by_view <- quasybinary_relation;;
 
 steppe <= nrel_partition_by_view:
 {
-mountain_steppes (* => nrel_main_ru_idtf: [горные степи];; => nrel_main_en_idtf: [mountain steppes];; *);
-meadow_steppes (* => nrel_main_ru_idtf: [луговые степи];; => nrel_main_en_idtf: [meadow steppes];; *);
-saz_steppe (* => nrel_main_ru_idtf: [сазовые степи];; => nrel_main_en_idtf: [saz steppe];; *);
-desert_steppes (* => nrel_main_ru_idtf: [пустынные степи];; => nrel_main_en_idtf: [desert steppes];; *);
+mountain_steppes (* => nrel_main_ru_idtf: [РіРѕСЂРЅС‹Рµ СЃС‚РµРїРё];; => nrel_main_en_idtf: [mountain steppes];; *);
+meadow_steppes (* => nrel_main_ru_idtf: [Р»СѓРіРѕРІС‹Рµ СЃС‚РµРїРё];; => nrel_main_en_idtf: [meadow steppes];; *);
+saz_steppe (* => nrel_main_ru_idtf: [СЃР°Р·РѕРІС‹Рµ СЃС‚РµРїРё];; => nrel_main_en_idtf: [saz steppe];; *);
+desert_steppes (* => nrel_main_ru_idtf: [РїСѓСЃС‚С‹РЅРЅС‹Рµ СЃС‚РµРїРё];; => nrel_main_en_idtf: [desert steppes];; *);
 };;
 
-steppe  => nrel_defenition: [в физической географии — равнина, поросшая травянистой растительностью, в умеренных и субтропических зонах северного и южного полушария. Характерной особенностью степей является практически полное отсутствие деревьев (не считая искусственных насаждений и лесополос вдоль водоёмов). ];;
+steppe  => nrel_defenition: [РІ С„РёР·РёС‡РµСЃРєРѕР№ РіРµРѕРіСЂР°С„РёРё вЂ” СЂР°РІРЅРёРЅР°, РїРѕСЂРѕСЃС€Р°СЏ С‚СЂР°РІСЏРЅРёСЃС‚РѕР№ СЂР°СЃС‚РёС‚РµР»СЊРЅРѕСЃС‚СЊСЋ, РІ СѓРјРµСЂРµРЅРЅС‹С… Рё СЃСѓР±С‚СЂРѕРїРёС‡РµСЃРєРёС… Р·РѕРЅР°С… СЃРµРІРµСЂРЅРѕРіРѕ Рё СЋР¶РЅРѕРіРѕ РїРѕР»СѓС€Р°СЂРёСЏ. РҐР°СЂР°РєС‚РµСЂРЅРѕР№ РѕСЃРѕР±РµРЅРЅРѕСЃС‚СЊСЋ СЃС‚РµРїРµР№ СЏРІР»СЏРµС‚СЃСЏ РїСЂР°РєС‚РёС‡РµСЃРєРё РїРѕР»РЅРѕРµ РѕС‚СЃСѓС‚СЃС‚РІРёРµ РґРµСЂРµРІСЊРµРІ (РЅРµ СЃС‡РёС‚Р°СЏ РёСЃРєСѓСЃСЃС‚РІРµРЅРЅС‹С… РЅР°СЃР°Р¶РґРµРЅРёР№ Рё Р»РµСЃРѕРїРѕР»РѕСЃ РІРґРѕР»СЊ РІРѕРґРѕС‘РјРѕРІ). ];;
