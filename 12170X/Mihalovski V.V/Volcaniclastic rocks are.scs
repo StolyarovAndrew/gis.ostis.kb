@@ -1,20 +1,20 @@
 volcaniclasticRocksAre => nrel_main_ru_idtf:
-[Вулканокластические горные породы] ;;
+[Р’СѓР»РєР°РЅРѕРєР»Р°СЃС‚РёС‡РµСЃРєРёРµ РіРѕСЂРЅС‹Рµ РїРѕСЂРѕРґС‹] ;;
 volcaniclasticRocksAre => nrel_main_en_idtf:
 [Volcaniclastic rocks are] ;;
 
 nrel_partition_by_origin => nrel_main_en_idtf:
-[разбиение по происхождению*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЋ*];;
 
 nrel_partition_by_origin<- quasybinary_relation;;
 
 volcaniclasticRocksAre<= nrel_partition_by_origin:
 {
-lavoklasticheskie(* => nrel_main_ru_idtf: [лавокластические];; => nrel_main_en_idtf: [lavoklasticheskie];; *);
-pyroclastic(* => nrel_main_ru_idtf: [пирокластические];; => nrel_main_en_idtf: [pyroclastic];; *);
-psevdopiroklasticheskie(* => nrel_main_ru_idtf: [псевдопирокластические];; => nrel_main_en_idtf: [psevdopiroklasticheskie];; *);
-mixed(* => nrel_main_ru_idtf: [смешанные];; => nrel_main_en_idtf: [mixed];; *);
+lavoklasticheskie(* => nrel_main_ru_idtf: [Р»Р°РІРѕРєР»Р°СЃС‚РёС‡РµСЃРєРёРµ];; => nrel_main_en_idtf: [lavoklasticheskie];; *);
+pyroclastic(* => nrel_main_ru_idtf: [РїРёСЂРѕРєР»Р°СЃС‚РёС‡РµСЃРєРёРµ];; => nrel_main_en_idtf: [pyroclastic];; *);
+psevdopiroklasticheskie(* => nrel_main_ru_idtf: [РїСЃРµРІРґРѕРїРёСЂРѕРєР»Р°СЃС‚РёС‡РµСЃРєРёРµ];; => nrel_main_en_idtf: [psevdopiroklasticheskie];; *);
+mixed(* => nrel_main_ru_idtf: [СЃРјРµС€Р°РЅРЅС‹Рµ];; => nrel_main_en_idtf: [mixed];; *);
 };;
 
-volcaniclasticRocksAre  => nrel_defenition: [ 1)обломочные вулканогенные породы (вулканические брякчии, туфы, игнимбриты идр.), выброшенные при эксплозициях (вулканических взрывах) и в результате мех. разрушения вулканического материала, остывших лавовых потоков.
-2)смесь обломков разных размеров (от глыб до пылеватого материала) рыхлых, уплотнённых или спёкшихся продуктов вулканических извержений, иногда с примеью осадочных пород.];;
+volcaniclasticRocksAre  => nrel_defenition: [ 1)РѕР±Р»РѕРјРѕС‡РЅС‹Рµ РІСѓР»РєР°РЅРѕРіРµРЅРЅС‹Рµ РїРѕСЂРѕРґС‹ (РІСѓР»РєР°РЅРёС‡РµСЃРєРёРµ Р±СЂСЏРєС‡РёРё, С‚СѓС„С‹, РёРіРЅРёРјР±СЂРёС‚С‹ РёРґСЂ.), РІС‹Р±СЂРѕС€РµРЅРЅС‹Рµ РїСЂРё СЌРєСЃРїР»РѕР·РёС†РёСЏС… (РІСѓР»РєР°РЅРёС‡РµСЃРєРёС… РІР·СЂС‹РІР°С…) Рё РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РјРµС…. СЂР°Р·СЂСѓС€РµРЅРёСЏ РІСѓР»РєР°РЅРёС‡РµСЃРєРѕРіРѕ РјР°С‚РµСЂРёР°Р»Р°, РѕСЃС‚С‹РІС€РёС… Р»Р°РІРѕРІС‹С… РїРѕС‚РѕРєРѕРІ.
+2)СЃРјРµСЃСЊ РѕР±Р»РѕРјРєРѕРІ СЂР°Р·РЅС‹С… СЂР°Р·РјРµСЂРѕРІ (РѕС‚ РіР»С‹Р± РґРѕ РїС‹Р»РµРІР°С‚РѕРіРѕ РјР°С‚РµСЂРёР°Р»Р°) СЂС‹С…Р»С‹С…, СѓРїР»РѕС‚РЅС‘РЅРЅС‹С… РёР»Рё СЃРїС‘РєС€РёС…СЃСЏ РїСЂРѕРґСѓРєС‚РѕРІ РІСѓР»РєР°РЅРёС‡РµСЃРєРёС… РёР·РІРµСЂР¶РµРЅРёР№, РёРЅРѕРіРґР° СЃ РїСЂРёРјРµСЊСЋ РѕСЃР°РґРѕС‡РЅС‹С… РїРѕСЂРѕРґ.];;

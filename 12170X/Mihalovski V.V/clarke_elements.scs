@@ -1,7 +1,7 @@
 clarke_elements => nrel_main_ru_idtf:
-[Кларки элементов] ;;
+[РљР»Р°СЂРєРё СЌР»РµРјРµРЅС‚РѕРІ] ;;
 clarke_elements => nrel_main_en_idtf:
 [Clarke elements] ;;
 
 
-clarke_elements => nrel_defenition: [ числовые оценки средних содержаний хим. элементов в земной коре или др. ];;
+clarke_elements => nrel_defenition: [ С‡РёСЃР»РѕРІС‹Рµ РѕС†РµРЅРєРё СЃСЂРµРґРЅРёС… СЃРѕРґРµСЂР¶Р°РЅРёР№ С…РёРј. СЌР»РµРјРµРЅС‚РѕРІ РІ Р·РµРјРЅРѕР№ РєРѕСЂРµ РёР»Рё РґСЂ. ];;

@@ -1,56 +1,56 @@
 gabbro => nrel_main_ru_idtf:
-[Габбро] ;;
+[Р“Р°Р±Р±СЂРѕ] ;;
 gabbro => nrel_main_en_idtf:
 [Gabbro] ;;
 
 nrel_partition_by_structure => nrel_main_en_idtf:
-[разбиение по структуре*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ СЃС‚СЂСѓРєС‚СѓСЂРµ*];;
 
 nrel_partition_by_structure<- quasybinary_relation;;
 
 gabbro<= nrel_partition_by_structure:
 {
-grainStructure(* => nrel_main_ru_idtf: [зернистая структура];; => nrel_main_en_idtf: [grain structure];; *);
-ophiticStructure(* => nrel_main_ru_idtf: [офитовая структура];; => nrel_main_en_idtf: [ophitic structure];; *);
-theCrownStructure(* => nrel_main_ru_idtf: [венцовая структура];; => nrel_main_en_idtf: [the crown structure];; *);
+grainStructure(* => nrel_main_ru_idtf: [Р·РµСЂРЅРёСЃС‚Р°СЏ СЃС‚СЂСѓРєС‚СѓСЂР°];; => nrel_main_en_idtf: [grain structure];; *);
+ophiticStructure(* => nrel_main_ru_idtf: [РѕС„РёС‚РѕРІР°СЏ СЃС‚СЂСѓРєС‚СѓСЂР°];; => nrel_main_en_idtf: [ophitic structure];; *);
+theCrownStructure(* => nrel_main_ru_idtf: [РІРµРЅС†РѕРІР°СЏ СЃС‚СЂСѓРєС‚СѓСЂР°];; => nrel_main_en_idtf: [the crown structure];; *);
 };;
 
 nrel_partition_by_texture => nrel_main_en_idtf:
-[разбиение по текстурам*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ С‚РµРєСЃС‚СѓСЂР°Рј*];;
 
 nrel_partition_by_texture<- quasybinary_relation;;
 
 gabbro<= nrel_partition_by_texture:
 {
-massiveSpotted(* => nrel_main_ru_idtf: [массивная пятнистая];; => nrel_main_en_idtf: [massive spotted];; *);
-massivePloschataya(* => nrel_main_ru_idtf: [массивная плосчатая];; => nrel_main_en_idtf: [massive ploschataya];; *);
+massiveSpotted(* => nrel_main_ru_idtf: [РјР°СЃСЃРёРІРЅР°СЏ РїСЏС‚РЅРёСЃС‚Р°СЏ];; => nrel_main_en_idtf: [massive spotted];; *);
+massivePloschataya(* => nrel_main_ru_idtf: [РјР°СЃСЃРёРІРЅР°СЏ РїР»РѕСЃС‡Р°С‚Р°СЏ];; => nrel_main_en_idtf: [massive ploschataya];; *);
 };;
 
 nrel_partition_by_color => nrel_main_en_idtf:
-[разбиение по цвету*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ С†РІРµС‚Сѓ*];;
 
 nrel_partition_by_color<- quasybinary_relation;;
 
 gabbro<= nrel_partition_by_color:
 {
-grey(* => nrel_main_ru_idtf: [серый];; => nrel_main_en_idtf: [grey];; *);
-darkGray(* => nrel_main_ru_idtf: [тёмно-серый];; => nrel_main_en_idtf: [dark gray];; *);
-greenishGray(* => nrel_main_ru_idtf: [зеленовато-серый];; => nrel_main_en_idtf: [greenish gray];; *);
+grey(* => nrel_main_ru_idtf: [СЃРµСЂС‹Р№];; => nrel_main_en_idtf: [grey];; *);
+darkGray(* => nrel_main_ru_idtf: [С‚С‘РјРЅРѕ-СЃРµСЂС‹Р№];; => nrel_main_en_idtf: [dark gray];; *);
+greenishGray(* => nrel_main_ru_idtf: [Р·РµР»РµРЅРѕРІР°С‚Рѕ-СЃРµСЂС‹Р№];; => nrel_main_en_idtf: [greenish gray];; *);
 };;
 
 nrel_partition_by_species => nrel_main_en_idtf:
-[разбиение по разновидностям*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ СЂР°Р·РЅРѕРІРёРґРЅРѕСЃС‚СЏРј*];;
 
 nrel_partition_by_species<- quasybinary_relation;;
 
 gabbro<= nrel_partition_by_species:
 {
-olivine(* => nrel_main_ru_idtf: [оливиновый];; => nrel_main_en_idtf: [olivine];; *);
-hornblende(* => nrel_main_ru_idtf: [роговообманковый];; => nrel_main_en_idtf: [hornblende];; *);
-uralitovy(* => nrel_main_ru_idtf: [уралитовый];; => nrel_main_en_idtf: [uralitovy];; *);
-norit(* => nrel_main_ru_idtf: [норит];; => nrel_main_en_idtf: [norit];; *);
-gabbro_norite(* => nrel_main_ru_idtf: [габбро-норит];; => nrel_main_en_idtf: [gabbro-norite];; *);
-labradorite(* => nrel_main_ru_idtf: [лабродорит];; => nrel_main_en_idtf: [labradorite];; *);
+olivine(* => nrel_main_ru_idtf: [РѕР»РёРІРёРЅРѕРІС‹Р№];; => nrel_main_en_idtf: [olivine];; *);
+hornblende(* => nrel_main_ru_idtf: [СЂРѕРіРѕРІРѕРѕР±РјР°РЅРєРѕРІС‹Р№];; => nrel_main_en_idtf: [hornblende];; *);
+uralitovy(* => nrel_main_ru_idtf: [СѓСЂР°Р»РёС‚РѕРІС‹Р№];; => nrel_main_en_idtf: [uralitovy];; *);
+norit(* => nrel_main_ru_idtf: [РЅРѕСЂРёС‚];; => nrel_main_en_idtf: [norit];; *);
+gabbro_norite(* => nrel_main_ru_idtf: [РіР°Р±Р±СЂРѕ-РЅРѕСЂРёС‚];; => nrel_main_en_idtf: [gabbro-norite];; *);
+labradorite(* => nrel_main_ru_idtf: [Р»Р°Р±СЂРѕРґРѕСЂРёС‚];; => nrel_main_en_idtf: [labradorite];; *);
 };;
 
-gabbro  => nrel_defenition: [ интрузивная (плутоническая) кристаллическая порода основного состава (45-53% SiO2).];;
+gabbro  => nrel_defenition: [ РёРЅС‚СЂСѓР·РёРІРЅР°СЏ (РїР»СѓС‚РѕРЅРёС‡РµСЃРєР°СЏ) РєСЂРёСЃС‚Р°Р»Р»РёС‡РµСЃРєР°СЏ РїРѕСЂРѕРґР° РѕСЃРЅРѕРІРЅРѕРіРѕ СЃРѕСЃС‚Р°РІР° (45-53% SiO2).];;

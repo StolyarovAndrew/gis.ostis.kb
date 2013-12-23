@@ -1,28 +1,28 @@
 weathering => nrel_main_ru_idtf:
-[Выветривание] ;;
+[Р’С‹РІРµС‚СЂРёРІР°РЅРёРµ] ;;
 weathering => nrel_main_en_idtf:
 [Weathering] ;;
 
 nrel_partition_by_origin => nrel_main_en_idtf:
-[разбиение по происхождению*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЋ*];;
 
 nrel_partition_by_origin<- quasybinary_relation;;
 
 weathering<= nrel_partition_by_origin:
 {
-physical(* => nrel_main_ru_idtf: [физическое];; => nrel_main_en_idtf: [physical];; *);
-chemical(* => nrel_main_ru_idtf: [химическое];; => nrel_main_en_idtf: [chemical];; *);
+physical(* => nrel_main_ru_idtf: [С„РёР·РёС‡РµСЃРєРѕРµ];; => nrel_main_en_idtf: [physical];; *);
+chemical(* => nrel_main_ru_idtf: [С…РёРјРёС‡РµСЃРєРѕРµ];; => nrel_main_en_idtf: [chemical];; *);
 };;
 
 nrel_partition_by_weathering_crusts => nrel_main_en_idtf:
-[разбиение по кор выветривания*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РєРѕСЂ РІС‹РІРµС‚СЂРёРІР°РЅРёСЏ*];;
 
 nrel_partition_by_weathering_crusts<- quasybinary_relation;;
 
 weathering<= nrel_partition_by_weathering_crusts:
 {
-modern(* => nrel_main_ru_idtf: [современные];; => nrel_main_en_idtf: [modern];; *);
-ancient(* => nrel_main_ru_idtf: [древние];; => nrel_main_en_idtf: [ancient];; *);
+modern(* => nrel_main_ru_idtf: [СЃРѕРІСЂРµРјРµРЅРЅС‹Рµ];; => nrel_main_en_idtf: [modern];; *);
+ancient(* => nrel_main_ru_idtf: [РґСЂРµРІРЅРёРµ];; => nrel_main_en_idtf: [ancient];; *);
 };;
 
-weathering  => nrel_defenition: [процесс разрушения и преобразования минералов и горных пород под воздействием физ., хим. и орган. агентов.];;
+weathering  => nrel_defenition: [РїСЂРѕС†РµСЃСЃ СЂР°Р·СЂСѓС€РµРЅРёСЏ Рё РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ РјРёРЅРµСЂР°Р»РѕРІ Рё РіРѕСЂРЅС‹С… РїРѕСЂРѕРґ РїРѕРґ РІРѕР·РґРµР№СЃС‚РІРёРµРј С„РёР·., С…РёРј. Рё РѕСЂРіР°РЅ. Р°РіРµРЅС‚РѕРІ.];;

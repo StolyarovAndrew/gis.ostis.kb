@@ -1,29 +1,29 @@
 extinctionOfSpecies => nrel_main_ru_idtf:
-[Вымирание видов] ;;
+[Р’С‹РјРёСЂР°РЅРёРµ РІРёРґРѕРІ] ;;
 extinctionOfSpecies => nrel_main_en_idtf:
 [Extinction of species] ;;
 
 nrel_partition_by_origin => nrel_main_en_idtf:
-[разбиение по происхождению*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЋ*];;
 
 nrel_partition_by_origin<- quasybinary_relation;;
 
 extinctionOfSpecies<= nrel_partition_by_origin:
 {
-evolution(* => nrel_main_ru_idtf: [эволюция];; => nrel_main_en_idtf: [evolution];; *);
-environmentalCauses(* => nrel_main_ru_idtf: [экологические причины];; => nrel_main_en_idtf: [environmental causes];; *);
-biologicalCauses(* => nrel_main_ru_idtf: [биологические причины];; => nrel_main_en_idtf: [biological causes];; *);
+evolution(* => nrel_main_ru_idtf: [СЌРІРѕР»СЋС†РёСЏ];; => nrel_main_en_idtf: [evolution];; *);
+environmentalCauses(* => nrel_main_ru_idtf: [СЌРєРѕР»РѕРіРёС‡РµСЃРєРёРµ РїСЂРёС‡РёРЅС‹];; => nrel_main_en_idtf: [environmental causes];; *);
+biologicalCauses(* => nrel_main_ru_idtf: [Р±РёРѕР»РѕРіРёС‡РµСЃРєРёРµ РїСЂРёС‡РёРЅС‹];; => nrel_main_en_idtf: [biological causes];; *);
 };;
 
 nrel_partition_by_reasons => nrel_main_en_idtf:
-[разбиение по причинам*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёС‡РёРЅР°Рј*];;
 
 nrel_partition_by_reasons<- quasybinary_relation;;
 
 extinctionOfSpecies<= nrel_partition_by_reasons:
 {
-internal(* => nrel_main_ru_idtf: [внутренние];; => nrel_main_en_idtf: [internal];; *);
-external(* => nrel_main_ru_idtf: [внешние];; => nrel_main_en_idtf: [external];; *);
+internal(* => nrel_main_ru_idtf: [РІРЅСѓС‚СЂРµРЅРЅРёРµ];; => nrel_main_en_idtf: [internal];; *);
+external(* => nrel_main_ru_idtf: [РІРЅРµС€РЅРёРµ];; => nrel_main_en_idtf: [external];; *);
 };;
 
-extinctionOfSpecies  => nrel_defenition: [исчезновение систематических категорий (видов) растений и животных в результате природных процессов или неумышленного опосредованного воздействия человека.];;
+extinctionOfSpecies  => nrel_defenition: [РёСЃС‡РµР·РЅРѕРІРµРЅРёРµ СЃРёСЃС‚РµРјР°С‚РёС‡РµСЃРєРёС… РєР°С‚РµРіРѕСЂРёР№ (РІРёРґРѕРІ) СЂР°СЃС‚РµРЅРёР№ Рё Р¶РёРІРѕС‚РЅС‹С… РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РїСЂРёСЂРѕРґРЅС‹С… РїСЂРѕС†РµСЃСЃРѕРІ РёР»Рё РЅРµСѓРјС‹С€Р»РµРЅРЅРѕРіРѕ РѕРїРѕСЃСЂРµРґРѕРІР°РЅРЅРѕРіРѕ РІРѕР·РґРµР№СЃС‚РІРёСЏ С‡РµР»РѕРІРµРєР°.];;

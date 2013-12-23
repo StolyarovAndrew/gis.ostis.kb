@@ -1,40 +1,40 @@
 volcanicRocks => nrel_main_ru_idtf:
-[Вулканогенные горные породы] ;;
+[Р’СѓР»РєР°РЅРѕРіРµРЅРЅС‹Рµ РіРѕСЂРЅС‹Рµ РїРѕСЂРѕРґС‹] ;;
 volcanicRocks => nrel_main_en_idtf:
 [Volcanic rocks] ;;
 
 nrel_partition_by_origin => nrel_main_en_idtf:
-[разбиение по происхождению*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЋ*];;
 
 nrel_partition_by_origin<- quasybinary_relation;;
 
 volcanicRocks<= nrel_partition_by_origin:
 {
-effusive(* => nrel_main_ru_idtf: [эффузивные];; => nrel_main_en_idtf: [effusive];; *);
-volcaniclastic(* => nrel_main_ru_idtf: [вылканокластические];; => nrel_main_en_idtf: [volcaniclastic];; *);
+effusive(* => nrel_main_ru_idtf: [СЌС„С„СѓР·РёРІРЅС‹Рµ];; => nrel_main_en_idtf: [effusive];; *);
+volcaniclastic(* => nrel_main_ru_idtf: [РІС‹Р»РєР°РЅРѕРєР»Р°СЃС‚РёС‡РµСЃРєРёРµ];; => nrel_main_en_idtf: [volcaniclastic];; *);
 };;
 
 nrel_partition_by_composition => nrel_main_en_idtf:
-[разбиение по составу*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ СЃРѕСЃС‚Р°РІСѓ*];;
 
 nrel_partition_by_composition<- quasybinary_relation;;
 
 volcanicRocks<= nrel_partition_by_composition:
 {
-key(* => nrel_main_ru_idtf: [основные];; => nrel_main_en_idtf: [key];; *);
-averages(* => nrel_main_ru_idtf: [средние];; => nrel_main_en_idtf: [averages];; *);
-acidic(* => nrel_main_ru_idtf: [кислые];; => nrel_main_en_idtf: [acidic];; *);
+key(* => nrel_main_ru_idtf: [РѕСЃРЅРѕРІРЅС‹Рµ];; => nrel_main_en_idtf: [key];; *);
+averages(* => nrel_main_ru_idtf: [СЃСЂРµРґРЅРёРµ];; => nrel_main_en_idtf: [averages];; *);
+acidic(* => nrel_main_ru_idtf: [РєРёСЃР»С‹Рµ];; => nrel_main_en_idtf: [acidic];; *);
 };;
 
 nrel_partition_by_alcalis => nrel_main_en_idtf:
-[разбиение по щелочному составу*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ С‰РµР»РѕС‡РЅРѕРјСѓ СЃРѕСЃС‚Р°РІСѓ*];;
 
 nrel_partition_by_alcalis<- quasybinary_relation;;
 
 volcanicRocks<= nrel_partition_by_alcalis:
 {
-alkalineEarth(* => nrel_main_ru_idtf: [щелочноземельные];; => nrel_main_en_idtf: [alkaline earth];; *);
-alkaline(* => nrel_main_ru_idtf: [щелочные];; => nrel_main_en_idtf: [alkaline];; *);
+alkalineEarth(* => nrel_main_ru_idtf: [С‰РµР»РѕС‡РЅРѕР·РµРјРµР»СЊРЅС‹Рµ];; => nrel_main_en_idtf: [alkaline earth];; *);
+alkaline(* => nrel_main_ru_idtf: [С‰РµР»РѕС‡РЅС‹Рµ];; => nrel_main_en_idtf: [alkaline];; *);
 };;
 
-volcanicRocks  => nrel_defenition: [горные породы, образовавшиеся в результате вулканической деятельности.];;
+volcanicRocks  => nrel_defenition: [РіРѕСЂРЅС‹Рµ РїРѕСЂРѕРґС‹, РѕР±СЂР°Р·РѕРІР°РІС€РёРµСЃСЏ РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РІСѓР»РєР°РЅРёС‡РµСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё.];;

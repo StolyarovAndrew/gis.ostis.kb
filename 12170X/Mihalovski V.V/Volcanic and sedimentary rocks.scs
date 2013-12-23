@@ -1,17 +1,17 @@
 volcanicAndSedimentaryRocks => nrel_main_ru_idtf:
-[Вулканогенно-осадочные горные породы] ;;
+[Р’СѓР»РєР°РЅРѕРіРµРЅРЅРѕ-РѕСЃР°РґРѕС‡РЅС‹Рµ РіРѕСЂРЅС‹Рµ РїРѕСЂРѕРґС‹] ;;
 volcanicAndSedimentaryRocks => nrel_main_en_idtf:
 [Volcanic and sedimentary rocks] ;;
 
 nrel_partition_by_origin => nrel_main_en_idtf:
-[разбиение по происхождению*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЋ*];;
 
 nrel_partition_by_origin<- quasybinary_relation;;
 
 volcanicAndSedimentaryRocks<= nrel_partition_by_origin:
 {
-conglomerates(* => nrel_main_ru_idtf: [конгломераты];; => nrel_main_en_idtf: [conglomerates];; *);
-sandstones(* => nrel_main_ru_idtf: [песчаники];; => nrel_main_en_idtf: [sandstones];; *);
+conglomerates(* => nrel_main_ru_idtf: [РєРѕРЅРіР»РѕРјРµСЂР°С‚С‹];; => nrel_main_en_idtf: [conglomerates];; *);
+sandstones(* => nrel_main_ru_idtf: [РїРµСЃС‡Р°РЅРёРєРё];; => nrel_main_en_idtf: [sandstones];; *);
 };;
 
-volcanicAndSedimentaryRocks  => nrel_defenition: [горные породы, состоящие из продуктов мех. разрушения и переотложения различных вулканогенных пород, сцементированных материалом осадочного происхождения (конгломераты, песчаники и др.).];;
+volcanicAndSedimentaryRocks  => nrel_defenition: [РіРѕСЂРЅС‹Рµ РїРѕСЂРѕРґС‹, СЃРѕСЃС‚РѕСЏС‰РёРµ РёР· РїСЂРѕРґСѓРєС‚РѕРІ РјРµС…. СЂР°Р·СЂСѓС€РµРЅРёСЏ Рё РїРµСЂРµРѕС‚Р»РѕР¶РµРЅРёСЏ СЂР°Р·Р»РёС‡РЅС‹С… РІСѓР»РєР°РЅРѕРіРµРЅРЅС‹С… РїРѕСЂРѕРґ, СЃС†РµРјРµРЅС‚РёСЂРѕРІР°РЅРЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРј РѕСЃР°РґРѕС‡РЅРѕРіРѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ (РєРѕРЅРіР»РѕРјРµСЂР°С‚С‹, РїРµСЃС‡Р°РЅРёРєРё Рё РґСЂ.).];;
