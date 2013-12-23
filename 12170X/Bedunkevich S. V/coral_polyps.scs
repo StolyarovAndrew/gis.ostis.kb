@@ -1,17 +1,17 @@
 coral_polyps => nrel_main_ru_idtf:
-[Коралловые полипы] ;;
+[РљРѕСЂР°Р»Р»РѕРІС‹Рµ РїРѕР»РёРїС‹] ;;
 coral_polyps => nrel_main_en_idtf:
 [coral polyps] ;;
 
 nrel_partition_by_reef_form_ability => nrel_main_ru_idtf:
-[разбиение по способности формировать рифы*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ СЃРїРѕСЃРѕР±РЅРѕСЃС‚Рё С„РѕСЂРјРёСЂРѕРІР°С‚СЊ СЂРёС„С‹*];;
 
 nrel_partition_by_reef_form_ability<- quasybinary_relation;;
 
 coral_polyps <= nrel_partition_by_reef_form_ability:
 {
-hermatypic(* => nrel_main_ru_idtf: [герматипные];; => nrel_main_en_idtf: [hermatypic];; *);
-ahermatypic(* => nrel_main_ru_idtf: [агерматипные];; => nrel_main_en_idtf: [ahermatypic];; *);
+hermatypic(* => nrel_main_ru_idtf: [РіРµСЂРјР°С‚РёРїРЅС‹Рµ];; => nrel_main_en_idtf: [hermatypic];; *);
+ahermatypic(* => nrel_main_ru_idtf: [Р°РіРµСЂРјР°С‚РёРїРЅС‹Рµ];; => nrel_main_en_idtf: [ahermatypic];; *);
 };;
 
-coral_polyps  => nrel_defenition: [ морские одиночные и колониальные животные типа кишечнополостных, или стрекающих. ];;
+coral_polyps  => nrel_defenition: [ РјРѕСЂСЃРєРёРµ РѕРґРёРЅРѕС‡РЅС‹Рµ Рё РєРѕР»РѕРЅРёР°Р»СЊРЅС‹Рµ Р¶РёРІРѕС‚РЅС‹Рµ С‚РёРїР° РєРёС€РµС‡РЅРѕРїРѕР»РѕСЃС‚РЅС‹С…, РёР»Рё СЃС‚СЂРµРєР°СЋС‰РёС…. ];;

@@ -1,31 +1,31 @@
 conglomerate => nrel_main_ru_idtf:
-[Конгломерат] ;;
+[РљРѕРЅРіР»РѕРјРµСЂР°С‚] ;;
 conglomerate => nrel_main_en_idtf:
-[Сonglomerate] ;;
+[РЎonglomerate] ;;
 
 nrel_partition_by_formation_condition => nrel_main_ru_idtf:
-[разбиение по условию образования*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ СѓСЃР»РѕРІРёСЋ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ*];;
 
 nrel_partition_by_formation_condition<- quasybinary_relation;;
 
 conglomerate <= nrel_partition_by_formation_condition:
 {
-sea (* => nrel_main_ru_idtf: [морской];; => nrel_main_en_idtf: [sea];; *);
-continental(* => nrel_main_ru_idtf: [континентальный];; => nrel_main_en_idtf: [continental];; *);
+sea (* => nrel_main_ru_idtf: [РјРѕСЂСЃРєРѕР№];; => nrel_main_en_idtf: [sea];; *);
+continental(* => nrel_main_ru_idtf: [РєРѕРЅС‚РёРЅРµРЅС‚Р°Р»СЊРЅС‹Р№];; => nrel_main_en_idtf: [continental];; *);
 };;
 
 nrel_partition_by_genetics => nrel_main_ru_idtf:
-[разбиение по признаку генетика*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ РіРµРЅРµС‚РёРєР°*];;
 
 nrel_partition_by_genetics<- quasybinary_relation;;
 
 conglomerate <= nrel_partition_by_genetics:
 {
-basal(* => nrel_main_ru_idtf: [базальный];; => nrel_main_en_idtf: [basal];; *);
-knutriformatsionny(* => nrel_main_ru_idtf: [кнутриформационный];; => nrel_main_en_idtf: [knutriformatsionny];; *);
-katun(* => nrel_main_ru_idtf: [катунный];; => nrel_main_en_idtf: [katun];; *);
-uraniferous(* => nrel_main_ru_idtf: [ураноносный];; => nrel_main_en_idtf: [uraniferous];; *);
-conglomerate-breccia(* => nrel_main_ru_idtf: [конгломерато-брекчия];; => nrel_main_en_idtf: [conglomerate-breccia];; *);
+basal(* => nrel_main_ru_idtf: [Р±Р°Р·Р°Р»СЊРЅС‹Р№];; => nrel_main_en_idtf: [basal];; *);
+knutriformatsionny(* => nrel_main_ru_idtf: [РєРЅСѓС‚СЂРёС„РѕСЂРјР°С†РёРѕРЅРЅС‹Р№];; => nrel_main_en_idtf: [knutriformatsionny];; *);
+katun(* => nrel_main_ru_idtf: [РєР°С‚СѓРЅРЅС‹Р№];; => nrel_main_en_idtf: [katun];; *);
+uraniferous(* => nrel_main_ru_idtf: [СѓСЂР°РЅРѕРЅРѕСЃРЅС‹Р№];; => nrel_main_en_idtf: [uraniferous];; *);
+conglomerate-breccia(* => nrel_main_ru_idtf: [РєРѕРЅРіР»РѕРјРµСЂР°С‚Рѕ-Р±СЂРµРєС‡РёСЏ];; => nrel_main_en_idtf: [conglomerate-breccia];; *);
 };;
 
-conglomerate  => nrel_defenition: [ сцементированная грубообломочная осадочная горная порода, сложенная преимущественно из гальки с примесью песка, гравия и валунов. ];;
+conglomerate  => nrel_defenition: [ СЃС†РµРјРµРЅС‚РёСЂРѕРІР°РЅРЅР°СЏ РіСЂСѓР±РѕРѕР±Р»РѕРјРѕС‡РЅР°СЏ РѕСЃР°РґРѕС‡РЅР°СЏ РіРѕСЂРЅР°СЏ РїРѕСЂРѕРґР°, СЃР»РѕР¶РµРЅРЅР°СЏ РїСЂРµРёРјСѓС‰РµСЃС‚РІРµРЅРЅРѕ РёР· РіР°Р»СЊРєРё СЃ РїСЂРёРјРµСЃСЊСЋ РїРµСЃРєР°, РіСЂР°РІРёСЏ Рё РІР°Р»СѓРЅРѕРІ. ];;

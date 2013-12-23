@@ -1,19 +1,19 @@
 conodonts => nrel_main_ru_idtf:
-[Конгломерат] ;;
+[РљРѕРЅРіР»РѕРјРµСЂР°С‚] ;;
 conodonts => nrel_main_en_idtf:
-[Сonodonts] ;;
+[РЎonodonts] ;;
 
 nrel_partition_by_appearance => nrel_main_ru_idtf:
-[разбиение по внешнему виду*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РІРЅРµС€РЅРµРјСѓ РІРёРґСѓ*];;
 
 nrel_partition_by_appearance<- quasybinary_relation;;
 
 conodonts <= nrel_partition_by_appearance:
 {
-simple(* => nrel_main_ru_idtf: [простые];; => nrel_main_en_idtf: [simple];; *);
-complex(* => nrel_main_ru_idtf: [сложные];; => nrel_main_en_idtf: [complex];; *);
-platform(* => nrel_main_ru_idtf: [платформенные];; => nrel_main_en_idtf: [platform];; *);
-flat(* => nrel_main_ru_idtf: [плоские];; => nrel_main_en_idtf: [flat];; *);
+simple(* => nrel_main_ru_idtf: [РїСЂРѕСЃС‚С‹Рµ];; => nrel_main_en_idtf: [simple];; *);
+complex(* => nrel_main_ru_idtf: [СЃР»РѕР¶РЅС‹Рµ];; => nrel_main_en_idtf: [complex];; *);
+platform(* => nrel_main_ru_idtf: [РїР»Р°С‚С„РѕСЂРјРµРЅРЅС‹Рµ];; => nrel_main_en_idtf: [platform];; *);
+flat(* => nrel_main_ru_idtf: [РїР»РѕСЃРєРёРµ];; => nrel_main_en_idtf: [flat];; *);
 };;
 
-conodonts  => nrel_defenition: [ ископаемые микроскопические разрозненные зубовидные образования вымерших животных организмов прошлых геол. эпох. ];;
+conodonts  => nrel_defenition: [ РёСЃРєРѕРїР°РµРјС‹Рµ РјРёРєСЂРѕСЃРєРѕРїРёС‡РµСЃРєРёРµ СЂР°Р·СЂРѕР·РЅРµРЅРЅС‹Рµ Р·СѓР±РѕРІРёРґРЅС‹Рµ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РІС‹РјРµСЂС€РёС… Р¶РёРІРѕС‚РЅС‹С… РѕСЂРіР°РЅРёР·РјРѕРІ РїСЂРѕС€Р»С‹С… РіРµРѕР». СЌРїРѕС…. ];;
