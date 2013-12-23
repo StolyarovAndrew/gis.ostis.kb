@@ -1,4 +1,4 @@
-weathering_crust => nrel_main_ru_idtf:
+﻿weathering_crust => nrel_main_ru_idtf:
 [Кора выветривания] ;;
 weathering_crust => nrel_main_en_idtf:
 [weathering crust] ;;

@@ -1,4 +1,4 @@
-basin => nrel_main_ru_idtf:
+﻿basin => nrel_main_ru_idtf:
 [Котловина] ;;
 basin => nrel_main_en_idtf:
 [Basin] ;;
