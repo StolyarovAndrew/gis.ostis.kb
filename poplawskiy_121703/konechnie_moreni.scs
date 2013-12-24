@@ -7,7 +7,7 @@ nrel_forming <- quasybinary_relation;;
 konechnie_moreni <= nrel_forming:
 {
 nasipanie (* => nrel_main_ru_idtf: [насыпные];; => nrel_main_en_idtf: [nasipanie];; *);
-naturnie (* => nrel_main_ru_idtf: [натюрные];; => nrel_main_en_idtf: [naturnie];; *);
+naturnie (* => nrel_main_ru_idtf: [натюрные];; => nrel_main_en_idtf: [naturnie];; *)
 };;
 
 konechnie_moreni => nrel_defenition: [фронтальные морены, конечно-моренные отложения, примущественно несортированные неслоистые грубообломочные морены, образующиеся у фронта (края) ледника при сравнительно слабом участии талых ледниковых вод в результате сваливания (демпинга), проталкивания (пушинга) и выжимания (сквизинга) водонасыщенного моренного материала и пластичных пород ледникового ложа.];;
