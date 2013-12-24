@@ -1,18 +1,18 @@
 plisa => nrel_main_ru_indtf:
-[ïëèñà];;
+[Ð¿Ð»Ð¸ÑÐ°];;
 plisa => nrel_main_en_indtf:
 [plisa];;
 
 nrel_type_sign <- quasybinary_relation;;
 plisa <= nrel_type_sign:
 {
-gravel-sand_material (* => nrel_main_ru_idtf: [ãðàâèéíî-ïåñ÷àíûé ìàòåðèàë];; => nrel_main_en_idtf: [ 
+gravel_sand_material (* => nrel_main_ru_idtf: [Ð³Ñ€Ð°Ð²Ð¸Ð¹Ð½Ð¾-Ð¿ÐµÑÑ‡Ð°Ð½Ñ‹Ð¹ Ð¼Ð°Ñ‚ÐµÑ€Ð¸Ð°Ð»];; => nrel_main_en_idtf: [ 
 gravel-sand material];; *)
 };;
 
 nrel_date_of_detection <-quasibinary_relation;;
 date of detection<=nrel_state:
 {
-year_1973(* =>nrel_main_ru_idtf: [ãîä 1973];; => nrel_main_en_idtf: [year 1973];; *)
+year_1973(* =>nrel_main_ru_idtf: [Ð³Ð¾Ð´ 1973];; => nrel_main_en_idtf: [year 1973];; *)
 };;
 
