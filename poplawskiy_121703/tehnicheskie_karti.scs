@@ -7,7 +7,7 @@ nrel_struct <- quasybinary_relation;;
 tehnicheskie_karti <= nrel_struct:
 {
 structurnie (* => nrel_main_ru_idtf: [структурные];; => nrel_main_en_idtf: [structurnie];; *);
-sobstvenno_tektonicheskie (* => nrel_main_ru_idtf: [собственно тектонические];; => nrel_main_en_idtf: [sobstvenno_tektonicheskie];; *);
+sobstvenno_tektonicheskie (* => nrel_main_ru_idtf: [собственно тектонические];; => nrel_main_en_idtf: [sobstvenno_tektonicheskie];; *)
 };;
 
 tehnicheskie_karti => nrel_defenition: [изображают тектоническое районирование, структуру литосферы и основные этапы её развития в отдельных регионах или Земли в целом.];;
