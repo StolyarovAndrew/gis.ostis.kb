@@ -8,7 +8,7 @@ tuffit <= nrel_agregatnoe_status_oblomcov:
 {
 litoclassic (* => nrel_main_ru_idtf: [литокластический];; => nrel_main_en_idtf: [litoclassic];; *);
 cristalclassic (* => nrel_main_ru_idtf: [кристаллокластический];; => nrel_main_en_idtf: [cristalclassic];; *);
-vitoclassic (* => nrel_main_ru_idtf: [витрокластический];; => nrel_main_en_idtf: [vitoclassic];; *);
+vitoclassic (* => nrel_main_ru_idtf: [витрокластический];; => nrel_main_en_idtf: [vitoclassic];; *)
 };;
 
 nrel_size_oblomcov <- quasybinary_relation;;
@@ -17,7 +17,7 @@ tuffit <= nrel_size_oblomcov:
 psephitoviy (* => nrel_main_ru_idtf: [псефитовый];; => nrel_main_en_idtf: [psephitoviy];; *);
 psammitoviy (* => nrel_main_ru_idtf: [псаммитовый];; => nrel_main_en_idtf: [psammitoviy];; *);
 alevritoviy (* => nrel_main_ru_idtf: [алевритовый];; => nrel_main_en_idtf: [alevritoviy];; *);
-pelitoviy (* => nrel_main_ru_idtf: [пелитовый];; => nrel_main_en_idtf: [pelitoviy];; *);
+pelitoviy (* => nrel_main_ru_idtf: [пелитовый];; => nrel_main_en_idtf: [pelitoviy];; *)
 };;
 
 tuffit => nrel_defenition: [осадочная горная порода из группы вулканогенных обломочных горных пород.];;
