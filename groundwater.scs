@@ -1,0 +1,32 @@
+groundwater => nrel_main_ru_idtf: [Подземные воды];;
+
+groundwater => nrel_main_en_idtf: [groundwater];;
+
+
+groundwater => nrel_definition: [воды, находящиеся в толщах горн. пород верхней части земной коры в жидком, твёрдом и парообразном состоянии];;
+
+
+nrel_partition_by_consistance => nrel_main_ru_idtf: [разбиение по состоянию*];;
+
+nrel_partition_by_consistance <- quasybinary_relation;;
+
+groundwater <= nrel_partition_by_consistance:
+
+{
+solid(* 
+=> nrel_main_ru_idtf: [твердый];; 
+=> nrel_main_en_idtf: [solid groundwater];; 
+*);
+
+continental(* 
+=> nrel_main_ru_idtf: [жидкий];; 
+=> nrel_main_en_idtf: [liquid groundwater];; 
+*);
+
+gaseous(*
+=> nrel_main_ru_idtf: [газообразный];; 
+=> nrel_main_en_idtf: [liquid groundwater];; 
+*)
+
+};;
+
