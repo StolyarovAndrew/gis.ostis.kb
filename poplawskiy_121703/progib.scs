@@ -9,7 +9,7 @@ konechnie_moreni <= nrel_forming:
 {
 okeanskiy_pogib (* => nrel_main_ru_idtf: [океанский прогиб];; => nrel_main_en_idtf: [okeanskiy_pogib];; *);
 meggorniy_pogib (* => nrel_main_ru_idtf: [межгорный прогиб];; => nrel_main_en_idtf: [meggorniy_pogib];; *);
-perekratonniy_pogib (* => nrel_main_ru_idtf: [перекратонный прогиб];; => nrel_main_en_idtf: [perekratonniy_pogib];; *);
+perekratonniy_pogib (* => nrel_main_ru_idtf: [перекратонный прогиб];; => nrel_main_en_idtf: [perekratonniy_pogib];; *)
 };;
 
 progib => nrel_defenition: [вытянутая отрицательная тектоническая структура, обычно ограниченная глубинными разломами и выполненная осадочными и вулканогенными образованиями.];;
