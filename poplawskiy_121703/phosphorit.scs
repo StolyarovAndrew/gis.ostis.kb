@@ -7,7 +7,7 @@ nrel_genetic <- quasybinary_relation;;
 phosphorit <= nrel_genetic:
 {
 morskiye (* => nrel_main_ru_idtf: [морские];; => nrel_main_en_idtf: [morskiye];; *);
-continentalnie (* => nrel_main_ru_idtf: [континентальные];; => nrel_main_en_idtf: [continentalnie];; *);
+continentalnie (* => nrel_main_ru_idtf: [континентальные];; => nrel_main_en_idtf: [continentalnie];; *)
 };;
 
 phosphorit => nrel_defenition: [осадочная горная порода, главным компонентом к-рой является аморфный, скрыто- или микрокристаллический фосфат кальция (более 50%) из группы апатита или мартинита).];;
