@@ -1,0 +1,6 @@
+artesium => nrel_main_ru_idtf:
+	[Артезианская скважина ] ;;
+artesium => nrel_main_en_idtf:
+	[artesium] ;;
+
+artesium => nrel_defenition: [ скважина, из которой вода поступает естественным путем под давлением. ] ;;
