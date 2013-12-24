@@ -1,0 +1,6 @@
+material_object => nrel_main_idtf: 
+  [материальный объект] (* <- lang_ru;; *);;
+material_object => nrel_main_idtf: 
+  [material_object] (* <- lang_en;; *);;
+material_object <- time;;
+material_object <- object;;

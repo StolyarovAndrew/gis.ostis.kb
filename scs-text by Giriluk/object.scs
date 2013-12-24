@@ -1,0 +1,8 @@
+object => nrel_main_idtf: 
+  [объект] (* <- lang_ru;; *);;
+object => nrel_main_idtf: 
+  [object] (* <- lang_en;; *);;
+object <- space;;
+object <- char;;
+object =>nrel_have: property;;
+object =>nrel_have: name;;

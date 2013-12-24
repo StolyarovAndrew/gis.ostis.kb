@@ -1,0 +1,6 @@
+coordinate => nrel_main_ru_idtf: 
+  [пространство];;
+coordinate => nrel_main_en_idtf: 
+  [coordinate];;
+coordinate <- property;;
+coordinate => nrel_belong: nrel_relocation;;
