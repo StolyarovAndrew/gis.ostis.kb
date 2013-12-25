@@ -4,7 +4,7 @@ steppe => nrel_main_en_idtf:
 [Steppe] ;;
 steppe => nrel_defenition: [в физической географии — равнина, поросшая травянистой растительностью, в умеренных и субтропических зонах северного и южного полушария. Характерной особенностью степей является практически полное отсутствие деревьев (не считая искусственных насаждений и лесополос вдоль водоёмов).];;
 nrel_kinds <- quasybinary_relation;;
-stok <= nrel_kinds:
+steppe <= nrel_kinds:
 {
 mountain (* => nrel_main_ru_idtf: [горная];; => nrel_main_en_idtf: [mountain];; *);
 meadow (* => nrel_main_ru_idtf: [луговая];; => nrel_main_en_idtf: [meadow];; *);
