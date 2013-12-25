@@ -1,0 +1,7 @@
+boundary_glacial_ridge => nrel_main_ru_idtf:
+[Краевые ледниковые гряды] ;;
+boundary_glacial_ridge => nrel_main_en_idtf:
+[Boundary glacial ridge] ;;
+
+
+boundary_glacial_ridge  => nrel_defenition: [ формы рельефа в виде крупных гряд, возвышенностей и холмов, сформировавшиеся в краевой части ледника во время его отступания или длительных остановок.  ];;
