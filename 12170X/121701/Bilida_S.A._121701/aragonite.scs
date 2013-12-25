@@ -3,6 +3,8 @@ aragonite => nrel_main_ru_idtf:
 aragonite => nrel_main_en_idtf:
 [aragonite];;
 
+nrel_color => nrel_main_ru_idtf:
+[color];;
 nrel_color <- quasybinary_relation;;
 aragonite <= nrel_color:
 {
@@ -14,6 +16,8 @@ pink (* => nrel_main_ru_idtf: [розовый];; => nrel_main_en_idtf: [pink];; 
 purple (* => nrel_main_ru_idtf: [фиолетовый];; => nrel_main_en_idtf: [purple];; *); 
 };;
 
+nrel_shine => nrel_main_ru_idtf:
+[shine];;
 nrel_shine <- quasybinary_relation;;
 aragonite <= nrel_shine:
 {
@@ -21,6 +25,8 @@ glass (* => nrel_main_ru_idtf: [стеклянный];; => nrel_main_en_idtf: [g
 vitreous (* => nrel_main_ru_idtf: [стекловидный];; => nrel_main_en_idtf: [vitreous];; *);
 };;
 
+nrel_species => nrel_main_ru_idtf:
+[species];;
 nrel_species <- quasybinary_relation;;
 aragonite <= nrel_species:
 {
@@ -29,6 +35,8 @@ iron_flowers (* => nrel_main_ru_idtf: [железные цветы];; => nrel_ma
 tranovigit (* => nrel_main_ru_idtf: [трановигит];; => nrel_main_en_idtf: [tranovigit];; *); 
 };;
 
+nrel_genesis => nrel_main_ru_idtf:
+[genesis];;
 nrel_genesis <- quasybinary_relation;;
 aragonite <= nrel_genesis:
 {
