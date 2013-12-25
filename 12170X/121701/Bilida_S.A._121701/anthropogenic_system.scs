@@ -3,6 +3,8 @@ anthropogenic_system => nrel_main_ru_idtf:
 anthropogenic_system => nrel_main_en_idtf:
 [Anthropogenic system (period)];;
 
+nrel_time => nrel_main_en_idtf:
+[time];;
 nrel_time <- quasybinary_relation;;
 anthropogenic_landscape <= nrel_time:
 {
