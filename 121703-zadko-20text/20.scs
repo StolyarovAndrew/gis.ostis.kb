@@ -1,0 +1,8 @@
+rasol => nrel_main_ru_idtf:
+[Металлоносные_рассолы] ;;
+rasol => nrel_main_en_idtf:
+[Металлоносные_рассолы] ;;
+
+rasol => nrel_defenition: [месторождение песков Припятский проги.];;
+
+rasol => nrel_textual_explanation: [Содержат многие микроэлементы.];;
