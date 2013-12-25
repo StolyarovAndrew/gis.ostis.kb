@@ -1,8 +1,8 @@
-chetverna => nrel_main_ru_idtf:
-[четверня] ;;
-chetverna => nrel_main_en_idtf:
-[chetverna] ;;
+jabin => nrel_main_ru_idtf:
+[жабин] ;;
+jabin => nrel_main_en_idtf:
+[жабин] ;;
 
-chetverna => nrel_defenition: [месторождение песков. Расположено в 3 км к З от д. Четверня Жлобинского р-на.];;
+jabin => nrel_defenition: [Брестская область];;
 
-chetverna => nrel_textual_explanation: [ЧЕТВЕРНЯ, месторождение песков.)];;
+jabin => nrel_textual_explanation: [)];;
