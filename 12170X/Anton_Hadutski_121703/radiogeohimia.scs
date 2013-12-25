@@ -1,0 +1,14 @@
+
+radiogeohimia => nrel_main_ru_idtf:
+[Радиогеохимия] ;;
+radiogeohimia  => nrel_main_en_idtf:
+[radiogeohimia] ;;
+
+nrel_learn <- quasybinary_relation;;
+radiogeohimia <= nrel_learn:
+{
+[горные породы];
+[закономерности распределения радиоактивных элементов]
+};;
+
+radiogeohimia => nrel_defenition: [ раздел геохимии, изучающий закономерности распространения, распределения и миграции, а также изотопный состав радиоактивных элементов ];;
