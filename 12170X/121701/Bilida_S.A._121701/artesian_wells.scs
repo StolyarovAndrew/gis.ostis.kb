@@ -3,6 +3,8 @@ artesian_wells => nrel_main_ru_idtf:
 artesian_wells => nrel_main_en_idtf:
 [artesian_wells];;
 
+nrel_location_in_belarus => nrel_main_en_idtf:
+[location_in_belarus];;
 nrel_location_in_belarus <- quasybinary_relation;;
 artesian_wells <= nrel_location_in_belarus:
 {
