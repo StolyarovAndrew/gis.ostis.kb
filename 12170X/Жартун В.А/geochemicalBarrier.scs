@@ -1,0 +1,28 @@
+geochemicalBarrier => nrel_main_ru_idtf:
+[Геохимический барьер] ;;
+geochemicalBarrier => nrel_main_en_idtf:
+[geochemical barrier] ;;
+
+geochemicalBarrier  => nrel_defenition: [  участок, где на коротком расстоянии происходит резкое уменьшение интенсивности миграции хим. элементов и , как следствие, их концентрация.  ];;
+
+nrel_partition_by_genesis  => nrel_main_ru_idtf:
+[разбиение по признаку генезиса*];;
+
+nrel_partition_by_genesis <- quasybinary_relation;;
+
+geochemicalBarrier  <= nrel_partition_by_genesis:
+{
+natural (* => nrel_main_ru_idtf: [природный];; => nrel_main_en_idtf: [natural];; *);
+manTriggered(* => nrel_main_ru_idtf: [техногенный];; => nrel_main_en_idtf: [man-triggered];; *);
+};;
+
+nrel_partition_by_manifestations => nrel_main_ru_idtf:
+[разбиение по признаку характера проявления*];;
+
+nrel_partition_by_manifestations<- quasybinary_relation;;
+
+geochemicalAnomaly  <= nrel_partition_by_manifestations:
+{
+radial (* => nrel_main_ru_idtf: [радиальный];; => nrel_main_en_idtf: [radial];; *);
+lateral(* => nrel_main_ru_idtf: [латеральный];; => nrel_main_en_idtf: [lateral];; *);
+};;

@@ -1,0 +1,32 @@
+geophysicalExpedition => nrel_main_ru_idtf:
+[Геофизическая экспедиция] ;;
+geophysicalExpedition => nrel_main_en_idtf:
+[Geophysical Expedition] ;;
+
+geophysicalExpedition  => nrel_defenition: [ специализированное подразделение геологоразведочного РУП "Белгеология". ];;
+
+nrel_partition_by_methods => nrel_main_ru_idtf:
+[разбиение по признаку методов*];;
+
+nrel_partition_by_methods<- quasybinary_relation;;
+
+geophysicalExpedition  <= nrel_partition_by_methods:
+{
+aeromagneticSurvey (* => nrel_main_ru_idtf: [аэромагнитная съёмка];; => nrel_main_en_idtf: [aeromagnetic survey];; *);
+magnitrazvedka(* => nrel_main_ru_idtf: [магнитразведка];; => nrel_main_en_idtf: [magnitrazvedka];; *);
+graviarazvedka(* => nrel_main_ru_idtf: [гравиаразведка];; => nrel_main_en_idtf: [graviarazvedka];; *);
+electricProspecting (* => nrel_main_ru_idtf: [электроразведка];; => nrel_main_en_idtf: [electric prospecting];; *);
+radonometriya(* => nrel_main_ru_idtf: [радонометрия];; => nrel_main_en_idtf: [radonometriya];; *);
+radiometry(* => nrel_main_ru_idtf: [радиометрия];; => nrel_main_en_idtf: [radiometry];; *);
+rtutometriya (* => nrel_main_ru_idtf: [ртутометрия];; => nrel_main_en_idtf: [rtutometriya];; *);
+geochemistry(* => nrel_main_ru_idtf: [геохимия];; => nrel_main_en_idtf: [geochemistry];; *);
+geothermal(* => nrel_main_ru_idtf: [геотермия];; => nrel_main_en_idtf: [geothermal];; *);
+loggingStudy (* => nrel_main_ru_idtf: [каротажное исследование];; => nrel_main_en_idtf: [logging study];; *);
+penetrationLogging(* => nrel_main_ru_idtf: [пенетрационный каротаж];; => nrel_main_en_idtf: [penetration logging];; *);
+
+engineeringAnalysis(* => nrel_main_ru_idtf: [инженерный анализ];; => nrel_main_en_idtf: [
+engineering analysis];; *);
+
+computerMonitoring(* => nrel_main_ru_idtf: [компьютерный мониторинг];; => nrel_main_en_idtf: [
+computer monitoring];; *);
+};;

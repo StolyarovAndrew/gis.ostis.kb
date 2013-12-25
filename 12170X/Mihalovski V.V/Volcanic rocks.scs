@@ -1,0 +1,40 @@
+volcanicRocks => nrel_main_ru_idtf:
+[Вулканогенные горные породы] ;;
+volcanicRocks => nrel_main_en_idtf:
+[Volcanic rocks] ;;
+
+nrel_partition_by_origin => nrel_main_en_idtf:
+[разбиение по происхождению*];;
+
+nrel_partition_by_origin<- quasybinary_relation;;
+
+volcanicRocks<= nrel_partition_by_origin:
+{
+effusive(* => nrel_main_ru_idtf: [эффузивные];; => nrel_main_en_idtf: [effusive];; *);
+volcaniclastic(* => nrel_main_ru_idtf: [вылканокластические];; => nrel_main_en_idtf: [volcaniclastic];; *);
+};;
+
+nrel_partition_by_composition => nrel_main_en_idtf:
+[разбиение по составу*];;
+
+nrel_partition_by_composition<- quasybinary_relation;;
+
+volcanicRocks<= nrel_partition_by_composition:
+{
+key(* => nrel_main_ru_idtf: [основные];; => nrel_main_en_idtf: [key];; *);
+averages(* => nrel_main_ru_idtf: [средние];; => nrel_main_en_idtf: [averages];; *);
+acidic(* => nrel_main_ru_idtf: [кислые];; => nrel_main_en_idtf: [acidic];; *);
+};;
+
+nrel_partition_by_alcalis => nrel_main_en_idtf:
+[разбиение по щелочному составу*];;
+
+nrel_partition_by_alcalis<- quasybinary_relation;;
+
+volcanicRocks<= nrel_partition_by_alcalis:
+{
+alkalineEarth(* => nrel_main_ru_idtf: [щелочноземельные];; => nrel_main_en_idtf: [alkaline earth];; *);
+alkaline(* => nrel_main_ru_idtf: [щелочные];; => nrel_main_en_idtf: [alkaline];; *);
+};;
+
+volcanicRocks  => nrel_defenition: [горные породы, образовавшиеся в результате вулканической деятельности.];;

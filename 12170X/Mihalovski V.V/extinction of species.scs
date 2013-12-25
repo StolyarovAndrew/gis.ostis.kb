@@ -1,0 +1,29 @@
+extinctionOfSpecies => nrel_main_ru_idtf:
+[Вымирание видов] ;;
+extinctionOfSpecies => nrel_main_en_idtf:
+[Extinction of species] ;;
+
+nrel_partition_by_origin => nrel_main_en_idtf:
+[разбиение по происхождению*];;
+
+nrel_partition_by_origin<- quasybinary_relation;;
+
+extinctionOfSpecies<= nrel_partition_by_origin:
+{
+evolution(* => nrel_main_ru_idtf: [эволюция];; => nrel_main_en_idtf: [evolution];; *);
+environmentalCauses(* => nrel_main_ru_idtf: [экологические причины];; => nrel_main_en_idtf: [environmental causes];; *);
+biologicalCauses(* => nrel_main_ru_idtf: [биологические причины];; => nrel_main_en_idtf: [biological causes];; *);
+};;
+
+nrel_partition_by_reasons => nrel_main_en_idtf:
+[разбиение по причинам*];;
+
+nrel_partition_by_reasons<- quasybinary_relation;;
+
+extinctionOfSpecies<= nrel_partition_by_reasons:
+{
+internal(* => nrel_main_ru_idtf: [внутренние];; => nrel_main_en_idtf: [internal];; *);
+external(* => nrel_main_ru_idtf: [внешние];; => nrel_main_en_idtf: [external];; *);
+};;
+
+extinctionOfSpecies  => nrel_defenition: [исчезновение систематических категорий (видов) растений и животных в результате природных процессов или неумышленного опосредованного воздействия человека.];;

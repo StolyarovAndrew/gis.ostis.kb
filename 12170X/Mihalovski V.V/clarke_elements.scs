@@ -1,0 +1,7 @@
+clarke_elements => nrel_main_ru_idtf:
+[Кларки элементов] ;;
+clarke_elements => nrel_main_en_idtf:
+[Clarke elements] ;;
+
+
+clarke_elements => nrel_defenition: [ числовые оценки средних содержаний хим. элементов в земной коре или др. ];;

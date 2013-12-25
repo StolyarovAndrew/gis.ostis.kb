@@ -1,0 +1,17 @@
+geochemicalZoning => nrel_main_ru_idtf:
+[Геохимическое районирование] ;;
+geochemicalZoning => nrel_main_en_idtf:
+[geochemical zoning] ;;
+
+geochemicalZoning  => nrel_defenition: [ выделение в пределах региона (геол., административного) зон (районов) в зависимости от закономерностей распределения хим. элементов или их ассоциаций и уровня их накопления (рассеяния). ];;
+
+nrel_partition_by_zones => nrel_main_ru_idtf:
+[разбиение по признаку объекта исследования*];;
+
+nrel_partition_by_zones<- quasybinary_relation;;
+
+geochemicalZoning  <= nrel_partition_by_zones:
+{
+environmental (* => nrel_main_ru_idtf: [экологическое];; => nrel_main_en_idtf: [environmental];; *);
+searcher(* => nrel_main_ru_idtf: [поисковое];; => nrel_main_en_idtf: [searcher];; *);
+};;

@@ -1,0 +1,18 @@
+geochemicalMaps => nrel_main_ru_idtf:
+[Геохимические карты] ;;
+geochemicalMaps => nrel_main_en_idtf:
+[geochemical maps] ;;
+
+geochemicalMaps  => nrel_defenition: [ графическое изображение основных геологических данных распространения, рассеивания и концентрации наиболее характерных хим. элементов или их ассоциаций в разных типах горных пород на определённой территории.  ];;
+
+nrel_partition_by_compilation => nrel_main_ru_idtf:
+[разбиение по признаку составления*];;
+
+nrel_partition_by_compilation<- quasybinary_relation;;
+
+geochemicalMaps  <= nrel_partition_by_compilation:
+{
+general (* => nrel_main_ru_idtf: [общие];; => nrel_main_en_idtf: [general];; *);
+lithological(* => nrel_main_ru_idtf: [литологические];; => nrel_main_en_idtf: [lithological];; *);
+private(* => nrel_main_ru_idtf: [частные];; => nrel_main_en_idtf: [private];; *);
+};;

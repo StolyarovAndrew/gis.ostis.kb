@@ -1,0 +1,19 @@
+geomorphology => nrel_main_ru_idtf:
+[Геоморфология] ;;
+geomorphology => nrel_main_en_idtf:
+[geomorphology] ;;
+
+geomorphology  => nrel_defenition: [ геолого-географическая наука о формах земной поверхности (рельефе) и Земли в целом, их происхождении, внешнем облике, эволюции и закономерностях геогр. распространения. ];;
+
+nrel_partition_by_section => nrel_main_ru_idtf:
+[разбиение по признаку разделов*];;
+
+nrel_partition_by_section<- quasybinary_relation;;
+
+geomorphology  <= nrel_partition_by_section:
+{
+general (* => nrel_main_ru_idtf: [общая];; => nrel_main_en_idtf: [general];; *);
+regional(* => nrel_main_ru_idtf: [региональная];; => nrel_main_en_idtf: [regional];; *);
+applied(* => nrel_main_ru_idtf: [прикладная];; => nrel_main_en_idtf: [applied];; *);
+planetary (* => nrel_main_ru_idtf: [планетарная];; => nrel_main_en_idtf: [planetary];; *);
+};;

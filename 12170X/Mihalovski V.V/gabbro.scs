@@ -1,0 +1,56 @@
+gabbro => nrel_main_ru_idtf:
+[Габбро] ;;
+gabbro => nrel_main_en_idtf:
+[Gabbro] ;;
+
+nrel_partition_by_structure => nrel_main_en_idtf:
+[разбиение по структуре*];;
+
+nrel_partition_by_structure<- quasybinary_relation;;
+
+gabbro<= nrel_partition_by_structure:
+{
+grainStructure(* => nrel_main_ru_idtf: [зернистая структура];; => nrel_main_en_idtf: [grain structure];; *);
+ophiticStructure(* => nrel_main_ru_idtf: [офитовая структура];; => nrel_main_en_idtf: [ophitic structure];; *);
+theCrownStructure(* => nrel_main_ru_idtf: [венцовая структура];; => nrel_main_en_idtf: [the crown structure];; *);
+};;
+
+nrel_partition_by_texture => nrel_main_en_idtf:
+[разбиение по текстурам*];;
+
+nrel_partition_by_texture<- quasybinary_relation;;
+
+gabbro<= nrel_partition_by_texture:
+{
+massiveSpotted(* => nrel_main_ru_idtf: [массивная пятнистая];; => nrel_main_en_idtf: [massive spotted];; *);
+massivePloschataya(* => nrel_main_ru_idtf: [массивная плосчатая];; => nrel_main_en_idtf: [massive ploschataya];; *);
+};;
+
+nrel_partition_by_color => nrel_main_en_idtf:
+[разбиение по цвету*];;
+
+nrel_partition_by_color<- quasybinary_relation;;
+
+gabbro<= nrel_partition_by_color:
+{
+grey(* => nrel_main_ru_idtf: [серый];; => nrel_main_en_idtf: [grey];; *);
+darkGray(* => nrel_main_ru_idtf: [тёмно-серый];; => nrel_main_en_idtf: [dark gray];; *);
+greenishGray(* => nrel_main_ru_idtf: [зеленовато-серый];; => nrel_main_en_idtf: [greenish gray];; *);
+};;
+
+nrel_partition_by_species => nrel_main_en_idtf:
+[разбиение по разновидностям*];;
+
+nrel_partition_by_species<- quasybinary_relation;;
+
+gabbro<= nrel_partition_by_species:
+{
+olivine(* => nrel_main_ru_idtf: [оливиновый];; => nrel_main_en_idtf: [olivine];; *);
+hornblende(* => nrel_main_ru_idtf: [роговообманковый];; => nrel_main_en_idtf: [hornblende];; *);
+uralitovy(* => nrel_main_ru_idtf: [уралитовый];; => nrel_main_en_idtf: [uralitovy];; *);
+norit(* => nrel_main_ru_idtf: [норит];; => nrel_main_en_idtf: [norit];; *);
+gabbro_norite(* => nrel_main_ru_idtf: [габбро-норит];; => nrel_main_en_idtf: [gabbro-norite];; *);
+labradorite(* => nrel_main_ru_idtf: [лабродорит];; => nrel_main_en_idtf: [labradorite];; *);
+};;
+
+gabbro  => nrel_defenition: [ интрузивная (плутоническая) кристаллическая порода основного состава (45-53% SiO2).];;
