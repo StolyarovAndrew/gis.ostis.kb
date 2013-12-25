@@ -1,0 +1,5 @@
+proluvial_deposits => nrel_main_ru_idtf:
+	[Пролювиальные отложения] ;;
+proluvial_deposits => nrel_main_en_idtf:
+	[proluvial deposits] ;;
+proluvial_deposits => nrel_defenition: [ рыхлые продукты разрушения горных пород, выносимые временными водными потоками к подножьям склонов. ] ;;
