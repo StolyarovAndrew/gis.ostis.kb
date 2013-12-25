@@ -3,6 +3,8 @@ anthropogenic_landscape => nrel_main_ru_idtf:
 anthropogenic_landscape => nrel_main_en_idtf:
 [anthropogenic_landscape];;
 
+nrel_change_rate => nrel_main_en_idtf:
+[change_rate];;
 nrel_change_rate <- quasybinary_relation;;
 anthropogenic_landscape <= nrel_change_rate:
 {
