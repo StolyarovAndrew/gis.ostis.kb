@@ -1,0 +1,42 @@
+aragonite => nrel_main_ru_idtf:
+[Арагонит];;
+aragonite => nrel_main_en_idtf:
+[aragonite];;
+
+nrel_color <- quasybinary_relation;;
+aragonite <= nrel_color:
+{
+white (* => nrel_main_ru_idtf: [белый];; => nrel_main_en_idtf: [white];; *);
+gray (* => nrel_main_ru_idtf: [серый];; => nrel_main_en_idtf: [gray];; *);
+blue (* => nrel_main_ru_idtf: [синий];; => nrel_main_en_idtf: [blue];; *); 
+green (* => nrel_main_ru_idtf: [зелёный];; => nrel_main_en_idtf: [green];; *);
+pink (* => nrel_main_ru_idtf: [розовый];; => nrel_main_en_idtf: [pink];; *);
+purple (* => nrel_main_ru_idtf: [фиолетовый];; => nrel_main_en_idtf: [purple];; *); 
+};;
+
+nrel_shine <- quasybinary_relation;;
+aragonite <= nrel_shine:
+{
+glass (* => nrel_main_ru_idtf: [стеклянный];; => nrel_main_en_idtf: [glass];; *);
+vitreous (* => nrel_main_ru_idtf: [стекловидный];; => nrel_main_en_idtf: [vitreous];; *);
+};;
+
+nrel_species <- quasybinary_relation;;
+aragonite <= nrel_species:
+{
+pisolite (* => nrel_main_ru_idtf: [гороховый камень];; => nrel_main_en_idtf: [pisolite];; *);
+iron_flowers (* => nrel_main_ru_idtf: [железные цветы];; => nrel_main_en_idtf: [iron flowers];; *);
+tranovigit (* => nrel_main_ru_idtf: [трановигит];; => nrel_main_en_idtf: [tranovigit];; *); 
+};;
+
+nrel_genesis <- quasybinary_relation;;
+aragonite <= nrel_genesis:
+{
+hydrothermal (* => nrel_main_ru_idtf: [гидротермальный];; => nrel_main_en_idtf: [hydrothermal];; *);
+supergene (* => nrel_main_ru_idtf: [гипергенный];; => nrel_main_en_idtf: [supergene];; *);
+biogenic (* => nrel_main_ru_idtf: [биогенный];; => nrel_main_en_idtf: [biogenic];; *); 
+};;
+
+aragonite => nrel_defenition:[минерал класса карбонатов, кристаллическая разновидность карбоната кальция.];;
+
+aragonite => nrel_textual_explanation:[АРГОНИТ (по названию испанской местности Арагон), минерал класса карбонатов, кристаллическая разновидность карбоната кальция, Ca(CO?). Содержит примеси свинца, стронция, бария, магний, марганца, цинка, железа, церия, итрия. Кристаллизуется в ромбической сингонии. Кристаллы удлинённые ,призматические, остропирамидальные, игольчатые, толстостолбчатые. Плотность 2,9-3,3 г/см3. Твердость 3,5-4. Цвет белый ,серый, синий, зеленый, розовый, фиолетовый до чёрного. Блеск стекловидный ,стеклянный, восковый на свет. Растворяется в солярной кислоте со вскипанием. Разновидности и аналоги: гороховый камень, железные цветы, оникс и шпруденштейн, тарновигит. Генезис гидротермальный , гипергенный, биогенный. На территории Беларуси как акцессорный минерал встречается в девонских и каменноугольных карбонатных породах. Часто представляет собой осколки раковин моллюсков и фораминифер в карбонатных конкрециях. Аутигенный А. встречается в известняках , гипсах, доломитах. В природных условиях , как мало устойчивый минерал (откладывается моллюсками в виде А.), легко превращается в кальцит ( на внешней части раковины),чему зачастую препятствует примесь стронция. Красиво окрашенные разновидности А.- поделочные камни.];;
