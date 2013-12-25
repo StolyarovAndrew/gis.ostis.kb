@@ -1,0 +1,28 @@
+geochemicalAnomaly => nrel_main_ru_idtf:
+[Геохимическая аномалия] ;;
+geochemicalAnomaly => nrel_main_en_idtf:
+[geochemical anomaly] ;;
+
+geochemicalAnomaly  => nrel_defenition: [  участок поверхности земли или земной коры, достоверно отличающийся содержанием каких-либо хим. элементов или их соединений по сравнению с фоновыми значениями. ];;
+
+nrel_partition_by_sites  => nrel_main_ru_idtf:
+[разбиение по признаку участков*];;
+
+nrel_partition_by_sites <- quasybinary_relation;;
+
+geochemicalAnomaly  <= nrel_partition_by_sites:
+{
+ore (* => nrel_main_ru_idtf: [рудная];; => nrel_main_en_idtf: [ore];; *);
+barren(* => nrel_main_ru_idtf: [безрудная];; => nrel_main_en_idtf: [barren];; *);
+};;
+
+nrel_partition_by_chemical_elements => nrel_main_ru_idtf:
+[разбиение по признаку содержания хим. элементов*];;
+
+nrel_partition_by_chemical_elements<- quasybinary_relation;;
+
+geochemicalAnomaly  <= nrel_partition_by_chemical_elements:
+{
+positive (* => nrel_main_ru_idtf: [положительная];; => nrel_main_en_idtf: [positive];; *);
+negative(* => nrel_main_ru_idtf: [отрицательная];; => nrel_main_en_idtf: [negative];; *);
+};;

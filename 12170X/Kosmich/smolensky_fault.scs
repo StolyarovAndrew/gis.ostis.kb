@@ -1,0 +1,6 @@
+smolensky_fault => nrel_main_ru_idtf:
+[Смоленский разлом] ;;
+smolensky_fault => nrel_main_en_idtf:
+[Smolensky fault] ;;
+
+smolensky_fault => nrel_defenition: [краевой региональный платформенный разлом, протяженностью в субширотном направлении около 240 км. ];;

@@ -1,0 +1,9 @@
+weathering_crust => nrel_main_ru_idtf:
+[Кора выветривания] ;;
+weathering_crust => nrel_main_en_idtf:
+[weathering crust] ;;
+
+
+weathering_crust  => nrel_defenition: [ комплекс горных пород, возникших в верхней части литосферы в результате преобразования магматических, метаморфических и осадочных пород в континентальных условиях под влиянием различных факторов выветривания. ];;
+
+weathering_crust  => nrel_defenition: [ раздел геологии. ];;

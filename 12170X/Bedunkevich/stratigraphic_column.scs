@@ -1,0 +1,7 @@
+stratigraphic_column => nrel_main_ru_idtf:
+[Колонка стратиграфическая] ;;
+stratigraphic_column => nrel_main_en_idtf:
+[Stratigraphic column] ;;
+
+
+stratigraphic_column  => nrel_defenition: [ графическое изображение в заданном масштабе последовательности залегания стратиграфических подразделений осадочного чехла в исследуемой местности. ];;

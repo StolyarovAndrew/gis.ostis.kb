@@ -1,0 +1,34 @@
+cavity => nrel_main_ru_idtf:
+[Впадина] ;;
+cavity => nrel_main_en_idtf:
+[Cavity] ;;
+
+nrel_partition_by_structure => nrel_main_en_idtf:
+[разбиение по структуре*];;
+
+nrel_partition_by_structure<- quasybinary_relation;;
+
+cavity<= nrel_partition_by_structure:
+{
+waste(* => nrel_main_ru_idtf: [сточные];; => nrel_main_en_idtf: [waste];; *);
+undrained (* => nrel_main_ru_idtf: [бессточные];; => nrel_main_en_idtf: [undrained];; *);
+dry(* => nrel_main_ru_idtf: [сухие];; => nrel_main_en_idtf: [dry];; *);
+underwater(* => nrel_main_ru_idtf: [подводные];; => nrel_main_en_idtf: [underwater];; *);
+};;
+
+nrel_partition_by_formation => nrel_main_en_idtf:
+[разбиение по формированию*];;
+
+nrel_partition_by_formation<- quasybinary_relation;;
+
+cavity<= nrel_partition_by_formation:
+{
+ice(* => nrel_main_ru_idtf: [ледниковый];; => nrel_main_en_idtf: [ice];; *);
+erosion (* => nrel_main_ru_idtf: [эрозионный];; => nrel_main_en_idtf: [erosion];; *);
+gravitational(* => nrel_main_ru_idtf: [гравитационный];; => nrel_main_en_idtf: [gravitational];; *);
+karst (* => nrel_main_ru_idtf: [карстовый];; => nrel_main_en_idtf: [karst];; *);
+};;
+
+
+cavity  => nrel_defenition: [1)в тектонике, опущенные или прогнутые участки поверхности, заполненные осадочными, осадочно-вулканогенными или вулкано-генными толщами.
+2)В геоморфологии, понижения разной формы, размера и различного генезиса.];;

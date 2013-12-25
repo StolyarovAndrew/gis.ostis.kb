@@ -1,0 +1,18 @@
+geomorphologicalZoning => nrel_main_ru_idtf:
+[Геоморфологическое районирование] ;;
+geomorphologicalZoning => nrel_main_en_idtf:
+[geomorphological zoning] ;;
+
+geomorphologicalZoning  => nrel_defenition: [ разделение земной поверхности по территориальным особенностям рельефа. Обусловлено климатом, растительностью, структуроой фундамента, платформенного чехла и др. ];;
+
+nrel_partition_by_scale => nrel_main_ru_idtf:
+[разбиение по признаку масштаба*];;
+
+nrel_partition_by_scale<- quasybinary_relation;;
+
+geomorphologicalZoning  <= nrel_partition_by_scale:
+{
+plan (* => nrel_main_ru_idtf: [план];; => nrel_main_en_idtf: [plan];; *);
+largeScale(* => nrel_main_ru_idtf: [крупномасштабное];; => nrel_main_en_idtf: [large-scale];; *);
+smallScale(* => nrel_main_ru_idtf: [мелкомасштабное];; => nrel_main_en_idtf: [small-scale];; *);
+};;

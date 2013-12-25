@@ -1,0 +1,33 @@
+slope => nrel_main_ru_idtf:
+[Склон] ;;
+slope => nrel_main_en_idtf:
+[Slope] ;;
+
+nrel_partition_by_view => nrel_main_en_idtf:
+[разбиение по виду*];;
+
+nrel_partition_by_view <- quasybinary_relation;;
+
+slope <= nrel_partition_by_view:
+{
+continental_slope(* => nrel_main_ru_idtf: [материковый склон];; => nrel_main_en_idtf: [continental_slope];; *);
+underwater_coastal_slope (* => nrel_main_ru_idtf: [подводный береговой склон];; => nrel_main_en_idtf: [underwater coastal slope];; *);
+valley_slope_of_the_watercoursec (* => nrel_main_ru_idtf: [склон долины водотока];; => nrel_main_en_idtf: [valley slope of the watercourse];; *);
+};;
+
+nrel_partition_by_form => nrel_main_en_idtf:
+[разбиение по виду*];;
+
+nrel_partition_by_form <- quasybinary_relation;;
+
+slope <= nrel_partition_by_form:
+{
+direct (* => nrel_main_ru_idtf: [прямые];; => nrel_main_en_idtf: [direct];; *);
+concave (* => nrel_main_ru_idtf: [вогнутые];; => nrel_main_en_idtf: [concave];; *);
+convex (* => nrel_main_ru_idtf: [выпуклые];; => nrel_main_en_idtf: [convex];; *);
+jog (* => nrel_main_ru_idtf: [ступенчатые];; => nrel_main_en_idtf: [jog];; *);
+complex (* => nrel_main_ru_idtf: [сложные];; => nrel_main_en_idtf: [complex];; *);
+};;
+
+
+slope  => nrel_defenition: [наклонный участок поверхности Земли, формирующийся в результате действия рельефообразующих процессов, протекающих на суше и на дне морей и океанов.];;

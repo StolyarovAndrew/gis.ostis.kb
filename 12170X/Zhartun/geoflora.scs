@@ -1,0 +1,19 @@
+geoflora => nrel_main_ru_idtf:
+[Геофлора] ;;
+geoflora => nrel_main_en_idtf:
+[Geoflora] ;;
+
+geoflora  => nrel_defenition: [ совокупность цветковых растений геол. прошлого кайнозоя, существовавшая в палеогене и неогене на суше внетропической области Сев. полушария.. ];;
+
+nrel_partition_by_elements_of_the_climate_demands => nrel_main_ru_idtf:
+[разбиение по признаку элементов климатической требовательности*];;
+
+nrel_partition_by_elements_of_the_climate_demands<- quasybinary_relation;;
+
+geoflora  <= nrel_partition_by_elements_of_the_climate_demands:
+{
+p1tropical (* => nrel_main_ru_idtf: [Р1- тропический];; => nrel_main_en_idtf: [P1-tropical];; *);
+p2subtropical(* => nrel_main_ru_idtf: [Р2- субтропический];; => nrel_main_en_idtf: [P2-subtropical];; *);
+a1warmTemperate(* => nrel_main_ru_idtf: [А1- теплоумеренный];; => nrel_main_en_idtf: [A1-warm temperate];; *);
+a2coldTemperate (* => nrel_main_ru_idtf: [А2- холодноумеренный];; => nrel_main_en_idtf: [A2-cold temperate];; *);
+};;
