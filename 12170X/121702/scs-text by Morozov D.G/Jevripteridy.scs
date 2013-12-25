@@ -1,0 +1,20 @@
+jevripteridy => nrel_main_ru_idtf:
+[Эвриптериды] ;;
+jevripteridy=> nrel_main_en_idtf:
+[jevripteridy] ;;
+
+nrel_reside <- quasybinary_relation;;
+jevripteridy <= nrel_reside:
+{
+sea (* => nrel_main_ru_idtf: [море];; => nrel_main_en_idtf: [sea	];; *);
+estuary (* => nrel_main_ru_idtf: [устье реки];; => nrel_main_en_idtf: [estuary];; *)
+};;
+
+nrel_style_of_life <- quasybinary_relation;;
+jevripteridy <= nrel_style_of_life;;
+{
+floating (* => nrel_main_ru_idtf: [плавающий];; => nrel_main_en_idtf: [floating];; *);
+creeping_bottom(* => nrel_main_ru_idtf: [ползающий донный];; => nrel_main_en_idtf: [creeping_bottom];; *)
+};;
+
+jevripteridy => nrel_defenition: [класс мечехвостовых членистоногих. Довольно крупные организмы с совершенной сегментацией тела, имеют сходные черты, с одной стороны, с раками, с другой — с паукообразными, к которым их иногда относят. Головогрудь полукруглой формы с острыми или угловатыми боковыми щечными выступами. Глаза иногда отсутствуют. На головогруди 6 пар коротких конечностей. Туловище состоит из 7—11 сегментов. Раздельнополые. Обитают в морях и устьях рек.];;
