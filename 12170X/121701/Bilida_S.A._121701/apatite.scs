@@ -3,6 +3,8 @@ apatite => nrel_main_ru_idtf:
 apatite => nrel_main_en_idtf:
 [apatite];;
 
+nrel_typology => nrel_main_en_idtf:
+[typology];;
 nrel_typology <- quasybinary_relation;;
 apatite <= nrel_typology:
 {
@@ -12,6 +14,8 @@ reniform (* => nrel_main_ru_idtf: [почковидные];; => nrel_main_en_idt
 concretion (* => nrel_main_ru_idtf: [конкреционные];; => nrel_main_en_idtf: [concretion];;
 };;
 
+nrel_color => nrel_main_en_idtf:
+[color];;
 nrel_color <- quasybinary_relation;;
 apatite <= nrel_color:
 {
@@ -24,6 +28,8 @@ purple (* => nrel_main_ru_idtf: [фиолетовый];; => nrel_main_en_idtf: [
 colorless (* => nrel_main_ru_idtf: [бесцветный];; => nrel_main_en_idtf: [colorless];; *);
 };;
 
+nrel_species => nrel_main_en_idtf:
+[species];;
 nrel_species <- quasybinary_relation;;
 apatite <= nrel_species:
 {
