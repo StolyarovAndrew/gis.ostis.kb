@@ -3,6 +3,8 @@ archaea => nrel_main_ru_idtf:
 archaea => nrel_main_en_idtf:
 [archaea];;
 
+nrel_units => nrel_main_en_idtf:
+[units];;
 nrel_units <- quasybinary_relation;;
 archaea <= nrel_units:
 {
@@ -12,6 +14,8 @@ mezoarhiya (* => nrel_main_ru_idtf: [мезоархия];; => nrel_main_en_idtf:
 neoarhiya (* => nrel_main_ru_idtf: [неоархия];; => nrel_main_en_idtf: [neoarhiya];; *);
 };;
 
+nrel_archean_rocks => nrel_main_en_idtf:
+[archean_rocks];;
 nrel_archean_rocks <- quasybinary_relation;;
 archaea <= nrel_archean_rocks:
 {
@@ -22,6 +26,8 @@ gold_deposits (* => nrel_main_ru_idtf: [золоторудные месторо�
 
 };;
 
+nrel_ultra_type_metamorphism => nrel_main_en_idtf:
+[ultra_type_metamorphism];;
 nrel_ultra_type_metamorphism <- quasybinary_relation;;
 archaea <= nrel_ultra_type_metamorphism:
 {
