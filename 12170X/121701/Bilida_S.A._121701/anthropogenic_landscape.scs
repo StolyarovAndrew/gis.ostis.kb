@@ -12,6 +12,8 @@ technogenic_landscape (* => nrel_main_ru_idtf: [техногенный ланд�
 natural_and_anthropogenic_landscape (* => nrel_main_ru_idtf: [природно-антропогенный ландшафт];; => nrel_main_en_idtf: [natural and anthropogenic landscape];; *);
 };;
 
+nrel_stage_of_development => nrel_main_en_idtf:
+[stage_of_development];;
 nrel_stage_of_development <- quasybinary_relation;;
 anthropogenic_landscape <= nrel_stage_of_development:
 {
