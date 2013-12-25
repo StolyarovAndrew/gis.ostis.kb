@@ -1,0 +1,5 @@
+road <- building;;
+road => nrel_main_ru_idtf:
+     [дорога];;
+road => nrel_main_en_idtf:
+     [road];;

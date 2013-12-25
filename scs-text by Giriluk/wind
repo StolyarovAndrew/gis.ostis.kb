@@ -1,0 +1,9 @@
+wind => nrel_main_ru_idtf:
+	[ветер] ;;
+
+wind => nrel_main_en_idtf:
+	[wind] ;;
+
+wind => nrel_defenition: [ поток воздуха, который движется преимущественно в горизонтальном направлении .];;
+
+wind <- flow;;

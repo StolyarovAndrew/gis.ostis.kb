@@ -1,0 +1,12 @@
+deflation => nrel_main_ru_idtf:
+	[ветровая эрозия] ;;
+
+deflation => nrel_main_en_idtf:
+	[deflation] ;;
+
+deflation => nrel_defenition: [ разрушение и траспортировка горных пород ветром (дефляция). ];;
+
+deflation <- destruction
+deflation <- transportation
+deflation <- wind
+deflation <- rock

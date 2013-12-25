@@ -1,0 +1,11 @@
+pinery => nrel_main_ru_idtf:
+	[сосновый бор] ;;
+
+pinery => nrel_main_en_idtf:
+	[pinery] ;;
+
+pinery => nrel_defenition: [ хвойный, обычно сосновый, лес.];;
+
+pinery <- fores;;
+pinery <- pine;;
+pinery <- coniferous;;

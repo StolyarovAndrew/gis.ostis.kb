@@ -1,0 +1,11 @@
+swamp => nrel_main_ru_idtf:
+	[болото] ;;
+
+swamp => nrel_main_en_idtf:
+	[swamp] ;;
+
+swamp => nrel_defenition: [участок суши с избыточным застойным увлажнением грунта, заросший влаголюбивой растительностью.  ];;
+
+swamp <- land;;
+swamp <- ground;;
+swamp <- vegetation;;

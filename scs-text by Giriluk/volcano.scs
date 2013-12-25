@@ -1,0 +1,14 @@
+volcano => nrel_main_ru_idtf:
+	[вулкан] ;;
+
+volcano => nrel_main_en_idtf:
+	[volcano] ;;
+
+volcano => nrel_defenition: [ геологические образования на поверхности земной коры или коры другой планеты, где магма выходит на поверхность, образуя лаву, вулканические газы, камни (вулканические бомбы) и пирокластические потоки.  ];;
+
+volcano <- crust;;
+volcano <- lava;;
+volcano <- magma;;
+volcano <- volcanic_gases;;
+volcano <- volcanic_bombs;;
+volcano <- pyroclastic_flows;;

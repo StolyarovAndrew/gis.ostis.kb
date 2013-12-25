@@ -1,0 +1,5 @@
+wilderness => nrel_main_ru_idtf:
+	[Пустыня] ;;	
+wilderness => nrel_main_en_idtf:
+	[wilderness] ;;
+wilderness => nrel_defenition: [природная зона, характеризующаяся равнинной поверхностью, разреженностью или отсутствием флоры и специфической фауной.];;

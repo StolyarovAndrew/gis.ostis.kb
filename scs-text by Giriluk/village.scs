@@ -1,0 +1,5 @@
+village <- place;;
+village => nrel_main_ru_idtf:
+     [деревня];;
+village => nrel_main_en_idtf:
+     [village];;
