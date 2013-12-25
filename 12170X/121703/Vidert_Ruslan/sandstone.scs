@@ -1,0 +1,15 @@
+sandstone => nrel_main_idtf:
+[Песчаник] (* <- lang_ru;; *) ;;
+
+sandstone => nrel_main_idtf:
+[Sandstone] (* <- lang_en;; *) ;;
+
+sandstone => color: 
+{
+white;
+white_gray;
+red;
+green
+} ;;
+
+sandstone => nrel_defenition: [ осадочная горная порода, состоящая из сцементированных глиной, известью и другими веществами зерен различных минералов и пород (т. е. сцементированный песок) ];;
