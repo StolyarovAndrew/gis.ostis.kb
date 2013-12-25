@@ -1,5 +1,5 @@
 stolin_farm => nrel_main_ru_idtf:
-  [Столинские хутора] ;;
+[Столинские хутора] ;;
 stolin_farm  => nrel_main_en_idtf:
-  [Stolin farm] ;;
+[Stolin farm] ;;
 stolin_farm => nrel_defenition: [Месторождение тугоплавких глин.];;

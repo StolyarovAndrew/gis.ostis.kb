@@ -1,0 +1,22 @@
+slope => nrel_main_ru_idtf:
+[Склон] ;;
+slope => nrel_main_en_idtf:
+[Slope] ;;
+slope => nrel_defenition: [наклонный участок поверхности Земли, формирующийся в результате действия рельефообразующих процессов, протекающих на суше и на дне морей и океанов.];;
+nrel_kinds <- quasybinary_relation;;
+slope <= nrel_kinds:
+{
+continental (* => nrel_main_ru_idtf: [материковый];; => nrel_main_en_idtf: [continental];; *);
+underwater_coastal (* => nrel_main_ru_idtf: [подводный береговой];; => nrel_main_en_idtf: [underwater coastal];; *);
+valley_slope_watercourse (* => nrel_main_ru_idtf: [склон долины водотока];; => nrel_main_en_idtf: [valley slope of the watercourse];; *);
+};;
+nrel_form <- quasybinary_relation;;
+slope <= nrel_form:
+{
+direct (* => nrel_main_ru_idtf: [прямой];; => nrel_main_en_idtf: [direct];; *);
+concave (* => nrel_main_ru_idtf: [вогнутый];; => nrel_main_en_idtf: [concave];; *);
+convex (* => nrel_main_ru_idtf: [выпуклый];; => nrel_main_en_idtf: [convex];; *);
+stage (* => nrel_main_ru_idtf: [ступенчатый];; => nrel_main_en_idtf: [stage];; *);
+complex (* => nrel_main_ru_idtf: [сложный];; => nrel_main_en_idtf: [complex];; *);
+};;
+slope => nrel_textual_explanation: [Рельефообразующие процессы разделяются на эндогенные (медленные или быстрые, вплоть до мгновенных при землетрясениях, перекосы земной поверхности, вулканизм) и экзогенные (речная и склоновая эрозия, абразия, карст и просадки, выветривание и др.). Характер склонов определяется составом и залеганием слагающих их пород, абсолютными и относительными высотами местности, интенсивностью склоновых процессов, в свою очередь зависящих от климата, количества и интенсивноста выпадения атмосферных осадков, особенностей растительности, наличия мерзлоты и других компонентов природной среды, экспозиции склонов (расположения относительно стран света) и господствующих ветров, деятельности человека.];;

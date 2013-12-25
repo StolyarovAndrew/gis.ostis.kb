@@ -1,7 +1,7 @@
 effuent => nrel_main_ru_idtf:
 [Сток] ;;
 effuent => nrel_main_en_idtf:
-[effluent] ;;
+[Effluent] ;;
 effuent => nrel_defenition: [Движение воды атмосферных осадков по склонам в понижения, впадины, реки, моря, как по поверхности, так и в почвогрунтах (подземный сток).];;
 nrel_kinds <- quasybinary_relation;;
 effuent <= nrel_kinds:
