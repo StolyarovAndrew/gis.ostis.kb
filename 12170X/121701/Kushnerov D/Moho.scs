@@ -1,0 +1,10 @@
+sc_node_not_relation->Moho;;
+Moho=>nrel_main_ru_idtf:[Граница Мохоровичича];;
+
+.Граница Мохоровичича<-rrel_defenition:Moho_def;;
+Moho_def<=nrel_translation:Moho_def_translation;;
+Moho_def_translation<-[полнокристаллическая интрузивная (плутоническая) горная порода промежуточного состава между гранитом и кварцем диоритом.](*<-lang_ru;;*);;
+Moho_def<=nrel_used_constants:
+{
+border
+};;
