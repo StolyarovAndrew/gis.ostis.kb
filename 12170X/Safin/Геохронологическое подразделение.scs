@@ -1,0 +1,15 @@
+geochronological_subdivision => nrel_main_ru_idtf:
+[Геохронологическое подразделение] ;;
+geochronological_subdivision => nrel_main_en_idtf:
+[geochronological_subdivision] ;;
+geochronological_subdivision <= nrel_time_periods:
+{
+akron (* => nrel_main_ru_idtf: [акрон];; => nrel_main_en_idtf: [akron];; *);
+eon (* => nrel_main_ru_idtf: [эон];; => nrel_main_en_idtf: [eon];; *);
+era (* => nrel_main_ru_idtf: [эра];; => nrel_main_en_idtf: [era];; *);
+period (* => nrel_main_ru_idtf: [период];; => nrel_main_en_idtf: [period];; *);
+epoha (* => nrel_main_ru_idtf: [эпоха];; => nrel_main_en_idtf: [epoha];; *);
+vek (* => nrel_main_ru_idtf: [век];; => nrel_main_en_idtf: [vek];; *);
+phaza (* => nrel_main_ru_idtf: [фаза];; => nrel_main_en_idtf: [phaza];; *);
+};;
+ geochronological_subdivision=> nrel_textual_explanation: [ГЕОХРОНОЛОГИЧЕСКОЕ ПОДРАЗДЕЛЕНИЕ, подразделение относительного геологического времени, отражающие временной этап развития Земли и её орг. мира. Г.п. объединены в геохронологическую шкалу, отражающую их объём и соподчинённость. Каждому Г.п. соответствует эквивалентное ему стратиграфическое подразделение общей стратеграфической шкалы: акрону - акротема, эону - эонатема, эре - эратема, периоду- система, эпохе- отдел, веку- ярус, фазе- хронозона (см. Геохронология).];;
