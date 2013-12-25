@@ -1,0 +1,14 @@
+magma => nrel_main_ru_idtf:
+[магма] ;;
+magma => nrel_main_en_idtf:
+[magma] ;;
+
+magma => nrel_defenition:
+[представляет собой природный, чаще всего силикатный, раскаленный, жидкий расплав, воз­никающий в земной коре или в верхней мантии, на больших глубинах, и при остывании формирующий магматические горные породы. Излившаяся магма — это лава];;
+
+nrel_kinds_on_the_basis_of_varieties <- quasybinary_relation;;
+magma <= nrel_kinds_on_the_basis_of_varieties:
+{
+basaltic_magma (* => nrel_main_ru_idtf: [Базальтовая магма];; => nrel_main_en_idtf: [Basaltic_magma];; *);
+granite_magma (* => nrel_main_ru_idtf: [Гранитная магма];; => nrel_main_en_idtf: [Granite_magma];; *)
+};;
