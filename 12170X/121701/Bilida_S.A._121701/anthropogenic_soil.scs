@@ -3,6 +3,8 @@ anthropogenic_soil => nrel_main_ru_idtf:
 anthropogenic_soil => nrel_main_en_idtf:
 [Anthropogenic soil];;
 
+nrel_features_conversion_profile_and_educational_conditions_in_the_main_diagnostic_horizons => nrel_main_en_idtf:
+[features_conversion_profile_and_educational_conditions_in_the_main_diagnostic_horizons];;
 nrel_features_conversion_profile_and_educational_conditions_in_the_main_diagnostic_horizons <- quasybinary_relation;;
 anthropogenic_soil <= nrel_features_conversion_profile_and_educational_conditions_in_the_main_diagnostic_horizons:
 {
