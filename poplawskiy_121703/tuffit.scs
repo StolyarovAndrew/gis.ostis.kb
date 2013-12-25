@@ -1,0 +1,25 @@
+tuffit => nrel_main_ru_idtf:
+[туффит] ;;
+tuffit => nrel_main_en_idtf:
+[tuffit] ;;
+
+nrel_agregatnoe_status_oblomcov <- quasybinary_relation;;
+tuffit <= nrel_agregatnoe_status_oblomcov:
+{
+litoclassic (* => nrel_main_ru_idtf: [литокластический];; => nrel_main_en_idtf: [litoclassic];; *);
+cristalclassic (* => nrel_main_ru_idtf: [кристаллокластический];; => nrel_main_en_idtf: [cristalclassic];; *);
+vitoclassic (* => nrel_main_ru_idtf: [витрокластический];; => nrel_main_en_idtf: [vitoclassic];; *)
+};;
+
+nrel_size_oblomcov <- quasybinary_relation;;
+tuffit <= nrel_size_oblomcov:
+{
+psephitoviy (* => nrel_main_ru_idtf: [псефитовый];; => nrel_main_en_idtf: [psephitoviy];; *);
+psammitoviy (* => nrel_main_ru_idtf: [псаммитовый];; => nrel_main_en_idtf: [psammitoviy];; *);
+alevritoviy (* => nrel_main_ru_idtf: [алевритовый];; => nrel_main_en_idtf: [alevritoviy];; *);
+pelitoviy (* => nrel_main_ru_idtf: [пелитовый];; => nrel_main_en_idtf: [pelitoviy];; *)
+};;
+
+tuffit => nrel_defenition: [осадочная горная порода из группы вулканогенных обломочных горных пород.];;
+
+tuffit => nrel_textual_explanation: [ТУФФИТ, осадочная горная порода из группы вулканогенных обломочных горных пород. Образуется из перемытых и переотложеных твёрдых продуктов вулканических извержений (пепла, кристаллокласт и др.) и 10-50% обломков различных по составу пород. Цементирующая масса содержит пирокластический (пепловый) и осадочный (глинистый, кремнистый, карбонатный) материал; могут присутствовать орган. остатки. Цвет пёстрый, серый, буроватый, зеленоватый. По агрегатному состоянию обломков различают Т.лито-, кристалло- и витрокластические; по размеру обломков - псефитовые, псаммитовые, алевритовые и пелитовые. Характерна слоистость. В Беларуси Т. распространены в отложениях платформенного чехла: в составе вендской (Подляско-Брестская впадина, Луковско-Ратновский горст, Полесская седловина) и девонских (Припятский прогиб) вулканогенных толщ.)];;

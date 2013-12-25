@@ -1,0 +1,18 @@
+plita_litosphernaia => nrel_main_ru_idtf:
+[плита литосферная] ;;
+plita_litosphernaia => nrel_main_en_idtf:
+[plita_litosphernaia] ;;
+
+nrel_location <- quasybinary_relation;;
+plita_litosphernaia <= nrel_location:
+{
+evrosiyskaia (* => nrel_main_ru_idtf: [Еврозийская];; => nrel_main_en_idtf: [Evrosiyskaia];; *);
+tihookeanskaia (* => nrel_main_ru_idtf: [Тихоокеанская];; => nrel_main_en_idtf: [Tihookeanskaia];; *);
+amerikanskaia (* => nrel_main_ru_idtf: [Американская];; => nrel_main_en_idtf: [Amerikanskaia];; *);
+antarkticheskaia (* => nrel_main_ru_idtf: [Антарктическая];; => nrel_main_en_idtf: [Antarkticheskaia];; *)
+};;
+
+plita_litosphernaia => nrel_defenition: [наиболее крупное подразделение литосферы Земли.];;
+
+plita_litosphernaia => nrel_textual_explanation: [ПЛИТА ЛИТОСФЕРНАЯ, наиболее крупное подразделение литосферы Земли. Выделяют 7 крупных П.л. (Евразиатская, Северо-Американская, Тихоокеанская, Африканская, Южно-Американская, Австралийская, Антарктическая) и более мелкие или микроплиты (Карибская, Наска, Аравийская, Китайская, Индокитайская, Охотская, Филиппинская). Они разделены границами: дивергентными, вдоль к-рых происходит раздвижение плит (спрединг), конвергентными, где идёт сближение плит и происходит субдукция или коллизия; трансформными, где одна плита скользит относительно другой. П.л. лежат в основе новой глобальной тектоники, или тектоники плит.)];;
+
