@@ -1,0 +1,19 @@
+svir_lake => nrel_main_idtf:
+[Свирь озеро] ;;
+svir_lake => nrel_main_idtf:
+[Svir lake] ;;
+
+svir_lake => nrel_altitude: [150];;
+svir_lake => nrel_watercourse_type: stable 
+(* 
+=> nrel_main_idtf: [постоянный] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [stable] (* <- lang_en;; *);; 
+*);;
+
+svir_lake => nrel_depth: [8,7];;
+svir_lake => nrel_qualitative_features_of_water: fresh_water
+(* 
+=> nrel_main_idtf: [пресная вода] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [fresh water] (* <- lang_en;; *);; 
+*);;
+svir_lake => nrel_square: [22,28];;
