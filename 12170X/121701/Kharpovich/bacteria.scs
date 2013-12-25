@@ -1,0 +1,48 @@
+bacteria => nrel_main_ru_idtf:
+[бастерия] ;;
+bacteria => nrel_main_en_idtf:
+[Bacteria] ;;
+
+nrel_partition_by_body_struct => nrel_main_ru_idtf:
+[разбиение по строению тела*];;
+
+nrel_partition_by_body_struct<- quasybinary_relation;;
+
+bacteria<= nrel_partition_by_body_struct:
+{
+multicellular(* => nrel_main_ru_idtf: [многоклеточные];; => nrel_main_en_idtf: [multicellular];; *);
+celled (* => nrel_main_ru_idtf: [одноклеточные];; => nrel_main_en_idtf: [celled];; *);
+};;
+
+
+nrel_partition_by_form => nrel_main_ru_idtf:
+[разбиение по форме тела*];;
+
+nrel_partition_by_form<- quasybinary_relation;;
+
+bacteria<=nrel_partition_by_form:
+{
+rod(* => nrel_main_ru_idtf: [палочковидные];; => nrel_main_en_idtf: [rod];; *);
+filamentous (* => nrel_main_ru_idtf: [нитевидные];; => nrel_main_en_idtf: [filamentous];; *);
+spherical(* => nrel_main_ru_idtf: [шаровидные];; => nrel_main_en_idtf: [spherical];; *);
+spiral (* => nrel_main_ru_idtf: [спиральные];; => nrel_main_en_idtf: [spiral];; *);
+starlike(* => nrel_main_ru_idtf: [звездообразные];; => nrel_main_en_idtf: [starlike];; *);
+umbellate (* => nrel_main_ru_idtf: [зонтиковидные];; => nrel_main_en_idtf: [umbellate];; *);
+autotrophic (* => nrel_main_ru_idtf: [автотрофные];; => nrel_main_en_idtf: [autotrophic];; *);
+heterotrophic (* => nrel_main_ru_idtf: [гетеротрофные];; => nrel_main_en_idtf: [heterotrophic];; *);;
+};;
+
+nrel_partition_thing_exchange => nrel_main_ru_idtf:
+[разбиение по обмену веществ*];;
+
+nrel_partition_thing_exchange<- quasybinary_relation;;
+
+bacteria<=nrel_partition_thing_exchange:
+{
+seroobrazuyuschie(* => nrel_main_ru_idtf: [серообразующие];; => nrel_main_en_idtf: [seroobrazuyuschie];; *);
+ferro_manganese (* => nrel_main_ru_idtf: [железисто_марганцевые];; => nrel_main_en_idtf: [ferro_manganese];; *);
+nitrogen(* => nrel_main_ru_idtf: [азотные];; => nrel_main_en_idtf: [nitrogen];; *);
+acetate (* => nrel_main_ru_idtf: [ацетатные];; => nrel_main_en_idtf: [acetate];; *);
+};;
+
+bacteria  => nrel_defenition: [царство микроскопических, преимущественно одноклеточных организмов, не имеющих оформленного ядра и размножающихся простым делением. ];;
