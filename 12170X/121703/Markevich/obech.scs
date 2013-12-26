@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+obech => nrel_main_ru_idtf:
 [Обеч] ;;
-chechersk => nrel_main_en_idtf:
+obech => nrel_main_en_idtf:
 [Obech] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [82];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Пружанский район];;
-chechersk=> nrel_locality: [деревня Обеч];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+obech=> nrel_population: [82];;
+obech=> nrel_region: [Брестская область];; 
+obech=> nrel_district: [Пружанский район];;
+obech=> nrel_locality: [деревня Обеч];;
+obech=> nrel_state: [жилой] ;;
+obech=> nrel_politic: [не имеет политико-административного значения] ;;
