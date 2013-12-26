@@ -4,7 +4,7 @@ soil_science => nrel_main_en_idtf:
 [soil science] ;;
 
 nrel_methods_of_study<- quasybinary_relation;;
-<= nrel_methods_of_study:
+soil_science <= nrel_methods_of_study:
 {
 cartography(* => nrel_main_ru_idtf: [картографирование];; => nrel_main_en_idtf: [cartography];; *);
 comparative_geographical_study_of_the_soil_profile (* => nrel_main_ru_idtf: [сравнительно-географическое изучение почвенного профиля];; => nrel_main_en_idtf: [comparative geographical study of the soil profile];; *);
