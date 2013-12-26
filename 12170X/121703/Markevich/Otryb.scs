@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+otryb => nrel_main_ru_idtf:
 [Отруб] ;;
-chechersk => nrel_main_en_idtf:
+otryb => nrel_main_en_idtf:
 [Otryb] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [0];;
-chechersk=> nrel_region: [Витебская область];; 
-chechersk=> nrel_district: [Докшицкий район];;
-chechersk=> nrel_locality: [деревня Отруб];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+otryb=> nrel_population: [0];;
+otryb=> nrel_region: [Витебская область];; 
+otryb=> nrel_district: [Докшицкий район];;
+otryb=> nrel_locality: [деревня Отруб];;
+otryb=> nrel_state: [жилой] ;;
+otryb=> nrel_politic: [не имеет политико-административного значения] ;;
