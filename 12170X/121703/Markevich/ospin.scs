@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+ospin => nrel_main_ru_idtf:
 [Оспин] ;;
-chechersk => nrel_main_en_idtf:
+ospin => nrel_main_en_idtf:
 [Ospin] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [6];;
-chechersk=> nrel_region: [Гомельская область];; 
-chechersk=> nrel_district: [Октябрьский район];;
-chechersk=> nrel_locality: [деревня Оспин];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+ospin=> nrel_population: [6];;
+ospin=> nrel_region: [Гомельская область];; 
+ospin=> nrel_district: [Октябрьский район];;
+ospin=> nrel_locality: [деревня Оспин];;
+ospin=> nrel_state: [жилой] ;;
+ospin=> nrel_politic: [не имеет политико-административного значения] ;;
