@@ -32,7 +32,7 @@ nrel_ultra_type_metamorphism <- quasybinary_relation;;
 archaea <= nrel_ultra_type_metamorphism:
 {
 grained_metamorphic_complexes (* => nrel_main_ru_idtf: [гранулированные метаморфические комплексы];; => nrel_main_en_idtf: [grained metamorphic complexes];; *);
-amphibolite-gneiss_metamorphic_complexes (* => nrel_main_ru_idtf: [амфибилит-гнейсовые метаморфические комплексы];; => nrel_main_en_idtf: [amphibolite-gneiss metamorphic complexes];; *)
+amphibolite_gneiss_metamorphic_complexes (* => nrel_main_ru_idtf: [амфибилит-гнейсовые метаморфические комплексы];; => nrel_main_en_idtf: [amphibolite-gneiss metamorphic complexes];; *)
 
 };;
 
