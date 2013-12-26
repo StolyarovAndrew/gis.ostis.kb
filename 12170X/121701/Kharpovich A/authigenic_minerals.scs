@@ -3,7 +3,7 @@ authigenic_minerals => nrel_main_ru_idtf:
 authigenic_minerals => nrel_main_en_idtf:
 [Authigenic minerals] ;;
 
-nrel_partition_by_time => nrel_main_ru_idtf:
+nrel_partition_by_time => nrel_main_en_idtf:
 [разбиение по времени*];;
 
 nrel_partition_by_time<- quasybinary_relation;;
@@ -13,11 +13,11 @@ authigenic_minerals <= nrel_partition_by_time:
 syngenetic(* => nrel_main_ru_idtf: [сингенетические];; => nrel_main_en_idtf: [syngenetic];; *);
 diagenetic (* => nrel_main_ru_idtf: [диагенетические];; => nrel_main_en_idtf: [diagenetic];; *);
 epigenetic (* => nrel_main_ru_idtf: [эпигенетические];; => nrel_main_en_idtf: [epigenetic];; *);
-metageneticheskie (* => nrel_main_ru_idtf: [метагенетические];; => nrel_main_en_idtf: [metageneticheskie];; *);
+metageneticheskie (* => nrel_main_ru_idtf: [метагенетические];; => nrel_main_en_idtf: [metageneticheskie];; *)
 };;
 
 
-nrel_partition_often_hit => nrel_main_ru_idtf:
+nrel_partition_often_hit => nrel_main_en_idtf:
 [разбиение часто встречающиеся*];;
 
 nrel_partition_often_hit<- quasybinary_relation;;
@@ -30,7 +30,7 @@ calcite (* => nrel_main_ru_idtf: [кальцит];; => nrel_main_en_idtf: [calci
 celestite (* => nrel_main_ru_idtf: [целестин];; => nrel_main_en_idtf: [celestite];; *);
 dolomite (* => nrel_main_ru_idtf: [доломит];; => nrel_main_en_idtf: [dolomite];; *);
 glauconite (* => nrel_main_ru_idtf: [глауконит];; => nrel_main_en_idtf: [glauconite];; *);
-hematite (* => nrel_main_ru_idtf: [гематит];; => nrel_main_en_idtf: [hematite];; *);
+hematite (* => nrel_main_ru_idtf: [гематит];; => nrel_main_en_idtf: [hematite];; *)
 };;
 
 
