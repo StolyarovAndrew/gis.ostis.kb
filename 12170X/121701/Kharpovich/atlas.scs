@@ -1,0 +1,17 @@
+atlas => nrel_main_ru_idtf:
+[атлас] ;;
+atlas => nrel_main_en_idtf:
+[Atlas] ;;
+
+nrel_partition => nrel_main_ru_idtf:
+[разбиение*];;
+
+nrel_partition<- quasybinary_relation;;
+
+astrobleme <= nrel_partition:
+{
+geographical(* => nrel_main_ru_idtf: [географический];; => nrel_main_en_idtf: geographical];; *);
+astronomical (* => nrel_main_ru_idtf: [астрономический];;=> nrel_main_en_idtf: [astronomical];; *);
+};;
+
+astenosphere => nrel_defenition: [систематическое собрание карт с пояснительным текстом, изданное в виде тома или набора отдельных листов.];;
