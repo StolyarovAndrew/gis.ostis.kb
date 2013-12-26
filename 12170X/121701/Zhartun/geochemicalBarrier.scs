@@ -1,28 +1,28 @@
 geochemicalBarrier => nrel_main_ru_idtf:
-[Геохимический барьер] ;;
+[Р“РµРѕС…РёРјРёС‡РµСЃРєРёР№ Р±Р°СЂСЊРµСЂ] ;;
 geochemicalBarrier => nrel_main_en_idtf:
 [geochemical barrier] ;;
 
-geochemicalBarrier  => nrel_defenition: [  участок, где на коротком расстоянии происходит резкое уменьшение интенсивности миграции хим. элементов и , как следствие, их концентрация.  ];;
+geochemicalBarrier  => nrel_defenition: [  СѓС‡Р°СЃС‚РѕРє, РіРґРµ РЅР° РєРѕСЂРѕС‚РєРѕРј СЂР°СЃСЃС‚РѕСЏРЅРёРё РїСЂРѕРёСЃС…РѕРґРёС‚ СЂРµР·РєРѕРµ СѓРјРµРЅСЊС€РµРЅРёРµ РёРЅС‚РµРЅСЃРёРІРЅРѕСЃС‚Рё РјРёРіСЂР°С†РёРё С…РёРј. СЌР»РµРјРµРЅС‚РѕРІ Рё , РєР°Рє СЃР»РµРґСЃС‚РІРёРµ, РёС… РєРѕРЅС†РµРЅС‚СЂР°С†РёСЏ.  ];;
 
 nrel_partition_by_genesis  => nrel_main_ru_idtf:
-[разбиение по признаку генезиса*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ РіРµРЅРµР·РёСЃР°*];;
 
 nrel_partition_by_genesis <- quasybinary_relation;;
 
 geochemicalBarrier  <= nrel_partition_by_genesis:
 {
-natural (* => nrel_main_ru_idtf: [природный];; => nrel_main_en_idtf: [natural];; *);
-manTriggered(* => nrel_main_ru_idtf: [техногенный];; => nrel_main_en_idtf: [man-triggered];; *);
+natural (* => nrel_main_ru_idtf: [РїСЂРёСЂРѕРґРЅС‹Р№];; => nrel_main_en_idtf: [natural];; *);
+manTriggered(* => nrel_main_ru_idtf: [С‚РµС…РЅРѕРіРµРЅРЅС‹Р№];; => nrel_main_en_idtf: [man-triggered];; *)
 };;
 
 nrel_partition_by_manifestations => nrel_main_ru_idtf:
-[разбиение по признаку характера проявления*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ С…Р°СЂР°РєС‚РµСЂР° РїСЂРѕСЏРІР»РµРЅРёСЏ*];;
 
 nrel_partition_by_manifestations<- quasybinary_relation;;
 
 geochemicalAnomaly  <= nrel_partition_by_manifestations:
 {
-radial (* => nrel_main_ru_idtf: [радиальный];; => nrel_main_en_idtf: [radial];; *);
-lateral(* => nrel_main_ru_idtf: [латеральный];; => nrel_main_en_idtf: [lateral];; *);
+radial (* => nrel_main_ru_idtf: [СЂР°РґРёР°Р»СЊРЅС‹Р№];; => nrel_main_en_idtf: [radial];; *);
+lateral(* => nrel_main_ru_idtf: [Р»Р°С‚РµСЂР°Р»СЊРЅС‹Р№];; => nrel_main_en_idtf: [lateral];; *)
 };;

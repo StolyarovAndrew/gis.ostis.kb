@@ -1,17 +1,17 @@
 geochemicalZoning => nrel_main_ru_idtf:
-[Геохимическое районирование] ;;
+[Р“РµРѕС…РёРјРёС‡РµСЃРєРѕРµ СЂР°Р№РѕРЅРёСЂРѕРІР°РЅРёРµ] ;;
 geochemicalZoning => nrel_main_en_idtf:
 [geochemical zoning] ;;
 
-geochemicalZoning  => nrel_defenition: [ выделение в пределах региона (геол., административного) зон (районов) в зависимости от закономерностей распределения хим. элементов или их ассоциаций и уровня их накопления (рассеяния). ];;
+geochemicalZoning  => nrel_defenition: [ РІС‹РґРµР»РµРЅРёРµ РІ РїСЂРµРґРµР»Р°С… СЂРµРіРёРѕРЅР° (РіРµРѕР»., Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕРіРѕ) Р·РѕРЅ (СЂР°Р№РѕРЅРѕРІ) РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ Р·Р°РєРѕРЅРѕРјРµСЂРЅРѕСЃС‚РµР№ СЂР°СЃРїСЂРµРґРµР»РµРЅРёСЏ С…РёРј. СЌР»РµРјРµРЅС‚РѕРІ РёР»Рё РёС… Р°СЃСЃРѕС†РёР°С†РёР№ Рё СѓСЂРѕРІРЅСЏ РёС… РЅР°РєРѕРїР»РµРЅРёСЏ (СЂР°СЃСЃРµСЏРЅРёСЏ). ];;
 
 nrel_partition_by_zones => nrel_main_ru_idtf:
-[разбиение по признаку объекта исследования*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ РѕР±СЉРµРєС‚Р° РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ*];;
 
 nrel_partition_by_zones<- quasybinary_relation;;
 
 geochemicalZoning  <= nrel_partition_by_zones:
 {
-environmental (* => nrel_main_ru_idtf: [экологическое];; => nrel_main_en_idtf: [environmental];; *);
-searcher(* => nrel_main_ru_idtf: [поисковое];; => nrel_main_en_idtf: [searcher];; *);
+environmental (* => nrel_main_ru_idtf: [СЌРєРѕР»РѕРіРёС‡РµСЃРєРѕРµ];; => nrel_main_en_idtf: [environmental];; *);
+searcher(* => nrel_main_ru_idtf: [РїРѕРёСЃРєРѕРІРѕРµ];; => nrel_main_en_idtf: [searcher];; *)
 };;

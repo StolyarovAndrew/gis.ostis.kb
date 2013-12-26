@@ -1,20 +1,20 @@
 geochemicalExploration => nrel_main_ru_idtf:
-[Геохимические поиски полезных ископаемых] ;;
+[Р“РµРѕС…РёРјРёС‡РµСЃРєРёРµ РїРѕРёСЃРєРё РїРѕР»РµР·РЅС‹С… РёСЃРєРѕРїР°РµРјС‹С…] ;;
 geochemicalExploration => nrel_main_en_idtf:
 [Geochemical exploration of minerals] ;;
 
-geochemicalExploration  => nrel_defenition: [ выявление полезных ископаемых геохимическими методами по закономерностям распределения (рассеяние и накопление) и миграции хим. элеаментов, их соединений или ассоциаций в горных породах, воде, атмосфере, растительных и животных организмах.  ];;
+geochemicalExploration  => nrel_defenition: [ РІС‹СЏРІР»РµРЅРёРµ РїРѕР»РµР·РЅС‹С… РёСЃРєРѕРїР°РµРјС‹С… РіРµРѕС…РёРјРёС‡РµСЃРєРёРјРё РјРµС‚РѕРґР°РјРё РїРѕ Р·Р°РєРѕРЅРѕРјРµСЂРЅРѕСЃС‚СЏРј СЂР°СЃРїСЂРµРґРµР»РµРЅРёСЏ (СЂР°СЃСЃРµСЏРЅРёРµ Рё РЅР°РєРѕРїР»РµРЅРёРµ) Рё РјРёРіСЂР°С†РёРё С…РёРј. СЌР»РµР°РјРµРЅС‚РѕРІ, РёС… СЃРѕРµРґРёРЅРµРЅРёР№ РёР»Рё Р°СЃСЃРѕС†РёР°С†РёР№ РІ РіРѕСЂРЅС‹С… РїРѕСЂРѕРґР°С…, РІРѕРґРµ, Р°С‚РјРѕСЃС„РµСЂРµ, СЂР°СЃС‚РёС‚РµР»СЊРЅС‹С… Рё Р¶РёРІРѕС‚РЅС‹С… РѕСЂРіР°РЅРёР·РјР°С….  ];;
 
 nrel_partition_by_object_of_study => nrel_main_ru_idtf:
-[разбиение по признаку объекта исследования*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ РѕР±СЉРµРєС‚Р° РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ*];;
 
 nrel_partition_by_object_of_study<- quasybinary_relation;;
 
 geochemicalExploration  <= nrel_partition_by_object_of_study:
 {
-lithogeochemical (* => nrel_main_ru_idtf: [литогеохимический];; => nrel_main_en_idtf: [lithogeochemical];; *);
-hydrogeochemical(* => nrel_main_ru_idtf: [гидрогеохимический];; => nrel_main_en_idtf: [hydrogeochemical];; *);
-atmogeochemical(* => nrel_main_ru_idtf: [атмогеохимический];; => nrel_main_en_idtf: [atmogeochemical];; *);
-biochemical(* => nrel_main_ru_idtf: [биохимический];; => nrel_main_en_idtf: [biochemical];; *);
-radiometric(* => nrel_main_ru_idtf: [радиометрический];; => nrel_main_en_idtf: [radiometric];; *);
+lithogeochemical (* => nrel_main_ru_idtf: [Р»РёС‚РѕРіРµРѕС…РёРјРёС‡РµСЃРєРёР№];; => nrel_main_en_idtf: [lithogeochemical];; *);
+hydrogeochemical(* => nrel_main_ru_idtf: [РіРёРґСЂРѕРіРµРѕС…РёРјРёС‡РµСЃРєРёР№];; => nrel_main_en_idtf: [hydrogeochemical];; *);
+atmogeochemical(* => nrel_main_ru_idtf: [Р°С‚РјРѕРіРµРѕС…РёРјРёС‡РµСЃРєРёР№];; => nrel_main_en_idtf: [atmogeochemical];; *);
+biochemical(* => nrel_main_ru_idtf: [Р±РёРѕС…РёРјРёС‡РµСЃРєРёР№];; => nrel_main_en_idtf: [biochemical];; *);
+radiometric(* => nrel_main_ru_idtf: [СЂР°РґРёРѕРјРµС‚СЂРёС‡РµСЃРєРёР№];; => nrel_main_en_idtf: [radiometric];; *)
 };;

@@ -1,30 +1,30 @@
 geosphere => nrel_main_ru_idtf:
-[Геосферы] ;;
+[Р“РµРѕСЃС„РµСЂС‹] ;;
 geosphere => nrel_main_en_idtf:
 [geosphere] ;;
 
-geosphere  => nrel_defenition: [ оболочки Земли, концентрические оболочки, образованные веществом Земли. ];;
+geosphere  => nrel_defenition: [ РѕР±РѕР»РѕС‡РєРё Р—РµРјР»Рё, РєРѕРЅС†РµРЅС‚СЂРёС‡РµСЃРєРёРµ РѕР±РѕР»РѕС‡РєРё, РѕР±СЂР°Р·РѕРІР°РЅРЅС‹Рµ РІРµС‰РµСЃС‚РІРѕРј Р—РµРјР»Рё. ];;
 
 nrel_partition_by_direction  => nrel_main_ru_idtf:
-[разбиение по признаку направления от переферии к центру*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ РЅР°РїСЂР°РІР»РµРЅРёСЏ РѕС‚ РїРµСЂРµС„РµСЂРёРё Рє С†РµРЅС‚СЂСѓ*];;
 
 nrel_partition_by_direction <- quasybinary_relation;;
 
 geosphere  <= nrel_partition_by_direction :
 {
-atmosphere (* => nrel_main_ru_idtf: [атмосфера];; => nrel_main_en_idtf: [atmosphere];; *);
-hydrosphere(* => nrel_main_ru_idtf: [гидросфера];; => nrel_main_en_idtf: [hydrosphere];; *);
-solidEarth(* => nrel_main_ru_idtf: [твердая Земля];; => nrel_main_en_idtf: [solid earth];; *);
+atmosphere (* => nrel_main_ru_idtf: [Р°С‚РјРѕСЃС„РµСЂР°];; => nrel_main_en_idtf: [atmosphere];; *);
+hydrosphere(* => nrel_main_ru_idtf: [РіРёРґСЂРѕСЃС„РµСЂР°];; => nrel_main_en_idtf: [hydrosphere];; *);
+solidEarth(* => nrel_main_ru_idtf: [С‚РІРµСЂРґР°СЏ Р—РµРјР»СЏ];; => nrel_main_en_idtf: [solid earth];; *)
 };;
 
 nrel_partition_by_distinction => nrel_main_ru_idtf:
-[разбиение по признаку отличий*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ РѕС‚Р»РёС‡РёР№*];;
 
 nrel_partition_by_distinction<- quasybinary_relation;;
 
 geosphere  <= nrel_partition_by_distinction:
 {
-chemicalComposition (* => nrel_main_ru_idtf: [химический состав];; => nrel_main_en_idtf: [chemical composition];; *);
-aggregateState(* => nrel_main_ru_idtf: [агрегатное состояние];; => nrel_main_en_idtf: [aggregate state];; *);
-physicalProperties(* => nrel_main_ru_idtf: [физические свойства];; => nrel_main_en_idtf: [physical properties];; *);
+chemicalComposition (* => nrel_main_ru_idtf: [С…РёРјРёС‡РµСЃРєРёР№ СЃРѕСЃС‚Р°РІ];; => nrel_main_en_idtf: [chemical composition];; *);
+aggregateState(* => nrel_main_ru_idtf: [Р°РіСЂРµРіР°С‚РЅРѕРµ СЃРѕСЃС‚РѕСЏРЅРёРµ];; => nrel_main_en_idtf: [aggregate state];; *);
+physicalProperties(* => nrel_main_ru_idtf: [С„РёР·РёС‡РµСЃРєРёРµ СЃРІРѕР№СЃС‚РІР°];; => nrel_main_en_idtf: [physical properties];; *)
 };;

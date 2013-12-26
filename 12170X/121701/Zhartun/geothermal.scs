@@ -1,6 +1,6 @@
 geothermal => nrel_main_ru_idtf:
-[Геотермия] ;;
+[Р“РµРѕС‚РµСЂРјРёСЏ] ;;
 geothermal => nrel_main_en_idtf:
 [Geothermal] ;;
 
-geothermal  => nrel_defenition: [ наука о тепловом состоянии земных недр. ];;
+geothermal  => nrel_defenition: [ РЅР°СѓРєР° Рѕ С‚РµРїР»РѕРІРѕРј СЃРѕСЃС‚РѕСЏРЅРёРё Р·РµРјРЅС‹С… РЅРµРґСЂ. ];;

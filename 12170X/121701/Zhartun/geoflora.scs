@@ -1,19 +1,19 @@
 geoflora => nrel_main_ru_idtf:
-[Геофлора] ;;
+[Р“РµРѕС„Р»РѕСЂР°] ;;
 geoflora => nrel_main_en_idtf:
 [Geoflora] ;;
 
-geoflora  => nrel_defenition: [ совокупность цветковых растений геол. прошлого кайнозоя, существовавшая в палеогене и неогене на суше внетропической области Сев. полушария.. ];;
+geoflora  => nrel_defenition: [ СЃРѕРІРѕРєСѓРїРЅРѕСЃС‚СЊ С†РІРµС‚РєРѕРІС‹С… СЂР°СЃС‚РµРЅРёР№ РіРµРѕР». РїСЂРѕС€Р»РѕРіРѕ РєР°Р№РЅРѕР·РѕСЏ, СЃСѓС‰РµСЃС‚РІРѕРІР°РІС€Р°СЏ РІ РїР°Р»РµРѕРіРµРЅРµ Рё РЅРµРѕРіРµРЅРµ РЅР° СЃСѓС€Рµ РІРЅРµС‚СЂРѕРїРёС‡РµСЃРєРѕР№ РѕР±Р»Р°СЃС‚Рё РЎРµРІ. РїРѕР»СѓС€Р°СЂРёСЏ.. ];;
 
 nrel_partition_by_elements_of_the_climate_demands => nrel_main_ru_idtf:
-[разбиение по признаку элементов климатической требовательности*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ СЌР»РµРјРµРЅС‚РѕРІ РєР»РёРјР°С‚РёС‡РµСЃРєРѕР№ С‚СЂРµР±РѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё*];;
 
 nrel_partition_by_elements_of_the_climate_demands<- quasybinary_relation;;
 
 geoflora  <= nrel_partition_by_elements_of_the_climate_demands:
 {
-p1tropical (* => nrel_main_ru_idtf: [Р1- тропический];; => nrel_main_en_idtf: [P1-tropical];; *);
-p2subtropical(* => nrel_main_ru_idtf: [Р2- субтропический];; => nrel_main_en_idtf: [P2-subtropical];; *);
-a1warmTemperate(* => nrel_main_ru_idtf: [А1- теплоумеренный];; => nrel_main_en_idtf: [A1-warm temperate];; *);
-a2coldTemperate (* => nrel_main_ru_idtf: [А2- холодноумеренный];; => nrel_main_en_idtf: [A2-cold temperate];; *);
+p1tropical (* => nrel_main_ru_idtf: [Р 1- С‚СЂРѕРїРёС‡РµСЃРєРёР№];; => nrel_main_en_idtf: [P1-tropical];; *);
+p2subtropical(* => nrel_main_ru_idtf: [Р 2- СЃСѓР±С‚СЂРѕРїРёС‡РµСЃРєРёР№];; => nrel_main_en_idtf: [P2-subtropical];; *);
+a1warmTemperate(* => nrel_main_ru_idtf: [Рђ1- С‚РµРїР»РѕСѓРјРµСЂРµРЅРЅС‹Р№];; => nrel_main_en_idtf: [A1-warm temperate];; *);
+a2coldTemperate (* => nrel_main_ru_idtf: [Рђ2- С…РѕР»РѕРґРЅРѕСѓРјРµСЂРµРЅРЅС‹Р№];; => nrel_main_en_idtf: [A2-cold temperate];; *)
 };;

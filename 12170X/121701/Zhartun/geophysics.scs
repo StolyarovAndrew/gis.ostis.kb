@@ -1,28 +1,28 @@
 geophysics => nrel_main_ru_idtf:
-[Геофизика] ;;
+[Р“РµРѕС„РёР·РёРєР°] ;;
 geophysics => nrel_main_en_idtf:
 [geophysics] ;;
 
-geophysics  => nrel_defenition: [ комплекс наук, исследующих физическими методами физ. свойства, строение Земли её физ. поля и процессы, происходящие во всех её оболочках. ];;
+geophysics  => nrel_defenition: [ РєРѕРјРїР»РµРєСЃ РЅР°СѓРє, РёСЃСЃР»РµРґСѓСЋС‰РёС… С„РёР·РёС‡РµСЃРєРёРјРё РјРµС‚РѕРґР°РјРё С„РёР·. СЃРІРѕР№СЃС‚РІР°, СЃС‚СЂРѕРµРЅРёРµ Р—РµРјР»Рё РµС‘ С„РёР·. РїРѕР»СЏ Рё РїСЂРѕС†РµСЃСЃС‹, РїСЂРѕРёСЃС…РѕРґСЏС‰РёРµ РІРѕ РІСЃРµС… РµС‘ РѕР±РѕР»РѕС‡РєР°С…. ];;
 
 nrel_partition_by_sections  => nrel_main_ru_idtf:
-[разбиение по признаку разделов*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ СЂР°Р·РґРµР»РѕРІ*];;
 
 nrel_partition_by_sections <- quasybinary_relation;;
 
 geophysics  <= nrel_partition_by_sections :
 {
-physicsEarth (* => nrel_main_ru_idtf: [физика земли];; => nrel_main_en_idtf: [physics of the earth];; *);
-explorationGeophysics(* => nrel_main_ru_idtf: [поисково-разведочная геофизика];; => nrel_main_en_idtf: [exploration geophysics];; *);
+physicsEarth (* => nrel_main_ru_idtf: [С„РёР·РёРєР° Р·РµРјР»Рё];; => nrel_main_en_idtf: [physics of the earth];; *);
+explorationGeophysics(* => nrel_main_ru_idtf: [РїРѕРёСЃРєРѕРІРѕ-СЂР°Р·РІРµРґРѕС‡РЅР°СЏ РіРµРѕС„РёР·РёРєР°];; => nrel_main_en_idtf: [exploration geophysics];; *)
 };;
 
 nrel_partition_by_laboratory_division => nrel_main_ru_idtf:
-[разбиение по признаку лабораторного разделения*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ Р»Р°Р±РѕСЂР°С‚РѕСЂРЅРѕРіРѕ СЂР°Р·РґРµР»РµРЅРёСЏ*];;
 
 nrel_partition_by_laboratory_division<- quasybinary_relation;;
 
 geophysics  <= nrel_partition_by_laboratory_division:
 {
-geophysicsSection (* => nrel_main_ru_idtf: [отдел геофизики];; => nrel_main_en_idtf: [Geophysics section];; *);
-sectorEarthPhysics(* => nrel_main_ru_idtf: [сектор физики Земли];; => nrel_main_en_idtf: [sector of the Earth Physics];; *);
+geophysicsSection (* => nrel_main_ru_idtf: [РѕС‚РґРµР» РіРµРѕС„РёР·РёРєРё];; => nrel_main_en_idtf: [Geophysics section];; *);
+sectorEarthPhysics(* => nrel_main_ru_idtf: [СЃРµРєС‚РѕСЂ С„РёР·РёРєРё Р—РµРјР»Рё];; => nrel_main_en_idtf: [sector of the Earth Physics];; *)
 };;

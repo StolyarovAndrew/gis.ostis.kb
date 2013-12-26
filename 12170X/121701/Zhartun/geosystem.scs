@@ -1,18 +1,18 @@
 geosystem => nrel_main_ru_idtf:
-[Геосистема] ;;
+[Р“РµРѕСЃРёСЃС‚РµРјР°] ;;
 geosystem => nrel_main_en_idtf:
 [Geosystem] ;;
 
-geosystem  => nrel_defenition: [ географическая система, географическое образование, состоящее из множества взаимосвязанных компонентов географической оболочки. ];;
+geosystem  => nrel_defenition: [ РіРµРѕРіСЂР°С„РёС‡РµСЃРєР°СЏ СЃРёСЃС‚РµРјР°, РіРµРѕРіСЂР°С„РёС‡РµСЃРєРѕРµ РѕР±СЂР°Р·РѕРІР°РЅРёРµ, СЃРѕСЃС‚РѕСЏС‰РµРµ РёР· РјРЅРѕР¶РµСЃС‚РІР° РІР·Р°РёРјРѕСЃРІСЏР·Р°РЅРЅС‹С… РєРѕРјРїРѕРЅРµРЅС‚РѕРІ РіРµРѕРіСЂР°С„РёС‡РµСЃРєРѕР№ РѕР±РѕР»РѕС‡РєРё. ];;
 
 nrel_partition_by_component => nrel_main_ru_idtf:
-[разбиение по признаку разделов*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ СЂР°Р·РґРµР»РѕРІ*];;
 
 nrel_partition_by_component<- quasybinary_relation;;
 
 geosystem  <= nrel_partition_by_component:
 {
-monosistemny (* => nrel_main_ru_idtf: [моносистемная];; => nrel_main_en_idtf: [monosistemny];; *);
-polysystem(* => nrel_main_ru_idtf: [полисистемная];; => nrel_main_en_idtf: [polysystem];; *);
-dynamic(* => nrel_main_ru_idtf: [динамическая];; => nrel_main_en_idtf: [dynamic];; *);
+monosistemny (* => nrel_main_ru_idtf: [РјРѕРЅРѕСЃРёСЃС‚РµРјРЅР°СЏ];; => nrel_main_en_idtf: [monosistemny];; *);
+polysystem(* => nrel_main_ru_idtf: [РїРѕР»РёСЃРёСЃС‚РµРјРЅР°СЏ];; => nrel_main_en_idtf: [polysystem];; *);
+dynamic(* => nrel_main_ru_idtf: [РґРёРЅР°РјРёС‡РµСЃРєР°СЏ];; => nrel_main_en_idtf: [dynamic];; *)
 };;

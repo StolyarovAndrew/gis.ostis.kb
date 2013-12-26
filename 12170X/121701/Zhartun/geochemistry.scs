@@ -1,21 +1,21 @@
 geochemistry => nrel_main_ru_idtf:
-[Геохимия] ;;
+[Р“РµРѕС…РёРјРёСЏ] ;;
 geochemistry => nrel_main_en_idtf:
 [geochemistry] ;;
 
-geochemistry  => nrel_defenition: [ наука о химическом составе Земли и законах пространственного и хронологического распределения, сочетания, миграции хим. элементов в земной коре и нижележащих геосферах при различных природных процессах. ];;
+geochemistry  => nrel_defenition: [ РЅР°СѓРєР° Рѕ С…РёРјРёС‡РµСЃРєРѕРј СЃРѕСЃС‚Р°РІРµ Р—РµРјР»Рё Рё Р·Р°РєРѕРЅР°С… РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІРµРЅРЅРѕРіРѕ Рё С…СЂРѕРЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ СЂР°СЃРїСЂРµРґРµР»РµРЅРёСЏ, СЃРѕС‡РµС‚Р°РЅРёСЏ, РјРёРіСЂР°С†РёРё С…РёРј. СЌР»РµРјРµРЅС‚РѕРІ РІ Р·РµРјРЅРѕР№ РєРѕСЂРµ Рё РЅРёР¶РµР»РµР¶Р°С‰РёС… РіРµРѕСЃС„РµСЂР°С… РїСЂРё СЂР°Р·Р»РёС‡РЅС‹С… РїСЂРёСЂРѕРґРЅС‹С… РїСЂРѕС†РµСЃСЃР°С…. ];;
 
 nrel_partition_by_scientific_areas => nrel_main_ru_idtf:
-[разбиение по признаку научных направлений*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ РЅР°СѓС‡РЅС‹С… РЅР°РїСЂР°РІР»РµРЅРёР№*];;
 
 nrel_partition_by_scientific_areas<- quasybinary_relation;;
 
 geochemistry  <= nrel_partition_by_scientific_areas:
 {
-calculationAndAnalysis(* => nrel_main_ru_idtf: [подсчёт и анализ кларков];; => nrel_main_en_idtf: [calculation and analysis of Clarks];; *);
-geochemicalMapping(* => nrel_main_ru_idtf: [геохимическое картирование];; => nrel_main_en_idtf: [geochemical mapping];; *);
-ecologicalAndGeochemicalMapping (* => nrel_main_ru_idtf: [эколого-геохимическое картирование];; => nrel_main_en_idtf: [ecological and geochemical mapping];; *);
-developmentMethodsOfSearch(* => nrel_main_ru_idtf: [разработка новых геохимических методов поиска];; => nrel_main_en_idtf: [development of new geochemical methods of search];; *);
-technogenesisAndBiosphereResearch(* => nrel_main_ru_idtf: [исследование техногенеза и биосферы];; => nrel_main_en_idtf: [technogenesis research and biosphere];; *);
-esperimentalGeochemistry(* => nrel_main_ru_idtf: [эксперементальная геохимия];; => nrel_main_en_idtf: [Esperimental geochemistry];; *);
+calculationAndAnalysis(* => nrel_main_ru_idtf: [РїРѕРґСЃС‡С‘С‚ Рё Р°РЅР°Р»РёР· РєР»Р°СЂРєРѕРІ];; => nrel_main_en_idtf: [calculation and analysis of Clarks];; *);
+geochemicalMapping(* => nrel_main_ru_idtf: [РіРµРѕС…РёРјРёС‡РµСЃРєРѕРµ РєР°СЂС‚РёСЂРѕРІР°РЅРёРµ];; => nrel_main_en_idtf: [geochemical mapping];; *);
+ecologicalAndGeochemicalMapping (* => nrel_main_ru_idtf: [СЌРєРѕР»РѕРіРѕ-РіРµРѕС…РёРјРёС‡РµСЃРєРѕРµ РєР°СЂС‚РёСЂРѕРІР°РЅРёРµ];; => nrel_main_en_idtf: [ecological and geochemical mapping];; *);
+developmentMethodsOfSearch(* => nrel_main_ru_idtf: [СЂР°Р·СЂР°Р±РѕС‚РєР° РЅРѕРІС‹С… РіРµРѕС…РёРјРёС‡РµСЃРєРёС… РјРµС‚РѕРґРѕРІ РїРѕРёСЃРєР°];; => nrel_main_en_idtf: [development of new geochemical methods of search];; *);
+technogenesisAndBiosphereResearch(* => nrel_main_ru_idtf: [РёСЃСЃР»РµРґРѕРІР°РЅРёРµ С‚РµС…РЅРѕРіРµРЅРµР·Р° Рё Р±РёРѕСЃС„РµСЂС‹];; => nrel_main_en_idtf: [technogenesis research and biosphere];; *);
+esperimentalGeochemistry(* => nrel_main_ru_idtf: [СЌРєСЃРїРµСЂРµРјРµРЅС‚Р°Р»СЊРЅР°СЏ РіРµРѕС…РёРјРёСЏ];; => nrel_main_en_idtf: [Esperimental geochemistry];; *)
 };;

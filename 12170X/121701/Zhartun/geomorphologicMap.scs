@@ -1,18 +1,18 @@
 geomorphologicMap => nrel_main_ru_idtf:
-[Геоморфологические карты] ;;
+[Р“РµРѕРјРѕСЂС„РѕР»РѕРіРёС‡РµСЃРєРёРµ РєР°СЂС‚С‹] ;;
 geomorphologicMap => nrel_main_en_idtf:
 [geomorphologic map] ;;
 
-geomorphologicMap  => nrel_defenition: [ карты, отображающие в определённом масштабе строение рельефа земной поверхности, его морфография, генезис и возраст. ];;
+geomorphologicMap  => nrel_defenition: [ РєР°СЂС‚С‹, РѕС‚РѕР±СЂР°Р¶Р°СЋС‰РёРµ РІ РѕРїСЂРµРґРµР»С‘РЅРЅРѕРј РјР°СЃС€С‚Р°Р±Рµ СЃС‚СЂРѕРµРЅРёРµ СЂРµР»СЊРµС„Р° Р·РµРјРЅРѕР№ РїРѕРІРµСЂС…РЅРѕСЃС‚Рё, РµРіРѕ РјРѕСЂС„РѕРіСЂР°С„РёСЏ, РіРµРЅРµР·РёСЃ Рё РІРѕР·СЂР°СЃС‚. ];;
 
 nrel_partition_by_describe_the_relief => nrel_main_ru_idtf:
-[разбиение по признаку описания рельефа*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ РѕРїРёСЃР°РЅРёСЏ СЂРµР»СЊРµС„Р°*];;
 
 nrel_partition_by_describe_the_relief<- quasybinary_relation;;
 
 geomorphologicMap  <= nrel_partition_by_describe_the_relief:
 {
-general (* => nrel_main_ru_idtf: [общие];; => nrel_main_en_idtf: [general];; *);
-private(* => nrel_main_ru_idtf: [частные];; => nrel_main_en_idtf: [private];; *);
-special(* => nrel_main_ru_idtf: [специальные];; => nrel_main_en_idtf: [special];; *);
+general (* => nrel_main_ru_idtf: [РѕР±С‰РёРµ];; => nrel_main_en_idtf: [general];; *);
+private(* => nrel_main_ru_idtf: [С‡Р°СЃС‚РЅС‹Рµ];; => nrel_main_en_idtf: [private];; *);
+special(* => nrel_main_ru_idtf: [СЃРїРµС†РёР°Р»СЊРЅС‹Рµ];; => nrel_main_en_idtf: [special];; *)
 };;

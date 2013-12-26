@@ -1,32 +1,32 @@
 geophysicalExpedition => nrel_main_ru_idtf:
-[Геофизическая экспедиция] ;;
+[Р“РµРѕС„РёР·РёС‡РµСЃРєР°СЏ СЌРєСЃРїРµРґРёС†РёСЏ] ;;
 geophysicalExpedition => nrel_main_en_idtf:
 [Geophysical Expedition] ;;
 
-geophysicalExpedition  => nrel_defenition: [ специализированное подразделение геологоразведочного РУП "Белгеология". ];;
+geophysicalExpedition  => nrel_defenition: [ СЃРїРµС†РёР°Р»РёР·РёСЂРѕРІР°РЅРЅРѕРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ РіРµРѕР»РѕРіРѕСЂР°Р·РІРµРґРѕС‡РЅРѕРіРѕ Р РЈРџ "Р‘РµР»РіРµРѕР»РѕРіРёСЏ". ];;
 
 nrel_partition_by_methods => nrel_main_ru_idtf:
-[разбиение по признаку методов*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РїСЂРёР·РЅР°РєСѓ РјРµС‚РѕРґРѕРІ*];;
 
 nrel_partition_by_methods<- quasybinary_relation;;
 
 geophysicalExpedition  <= nrel_partition_by_methods:
 {
-aeromagneticSurvey (* => nrel_main_ru_idtf: [аэромагнитная съёмка];; => nrel_main_en_idtf: [aeromagnetic survey];; *);
-magnitrazvedka(* => nrel_main_ru_idtf: [магнитразведка];; => nrel_main_en_idtf: [magnitrazvedka];; *);
-graviarazvedka(* => nrel_main_ru_idtf: [гравиаразведка];; => nrel_main_en_idtf: [graviarazvedka];; *);
-electricProspecting (* => nrel_main_ru_idtf: [электроразведка];; => nrel_main_en_idtf: [electric prospecting];; *);
-radonometriya(* => nrel_main_ru_idtf: [радонометрия];; => nrel_main_en_idtf: [radonometriya];; *);
-radiometry(* => nrel_main_ru_idtf: [радиометрия];; => nrel_main_en_idtf: [radiometry];; *);
-rtutometriya (* => nrel_main_ru_idtf: [ртутометрия];; => nrel_main_en_idtf: [rtutometriya];; *);
-geochemistry(* => nrel_main_ru_idtf: [геохимия];; => nrel_main_en_idtf: [geochemistry];; *);
-geothermal(* => nrel_main_ru_idtf: [геотермия];; => nrel_main_en_idtf: [geothermal];; *);
-loggingStudy (* => nrel_main_ru_idtf: [каротажное исследование];; => nrel_main_en_idtf: [logging study];; *);
-penetrationLogging(* => nrel_main_ru_idtf: [пенетрационный каротаж];; => nrel_main_en_idtf: [penetration logging];; *);
+aeromagneticSurvey (* => nrel_main_ru_idtf: [Р°СЌСЂРѕРјР°РіРЅРёС‚РЅР°СЏ СЃСЉС‘РјРєР°];; => nrel_main_en_idtf: [aeromagnetic survey];; *);
+magnitrazvedka(* => nrel_main_ru_idtf: [РјР°РіРЅРёС‚СЂР°Р·РІРµРґРєР°];; => nrel_main_en_idtf: [magnitrazvedka];; *);
+graviarazvedka(* => nrel_main_ru_idtf: [РіСЂР°РІРёР°СЂР°Р·РІРµРґРєР°];; => nrel_main_en_idtf: [graviarazvedka];; *);
+electricProspecting (* => nrel_main_ru_idtf: [СЌР»РµРєС‚СЂРѕСЂР°Р·РІРµРґРєР°];; => nrel_main_en_idtf: [electric prospecting];; *);
+radonometriya(* => nrel_main_ru_idtf: [СЂР°РґРѕРЅРѕРјРµС‚СЂРёСЏ];; => nrel_main_en_idtf: [radonometriya];; *);
+radiometry(* => nrel_main_ru_idtf: [СЂР°РґРёРѕРјРµС‚СЂРёСЏ];; => nrel_main_en_idtf: [radiometry];; *);
+rtutometriya (* => nrel_main_ru_idtf: [СЂС‚СѓС‚РѕРјРµС‚СЂРёСЏ];; => nrel_main_en_idtf: [rtutometriya];; *);
+geochemistry(* => nrel_main_ru_idtf: [РіРµРѕС…РёРјРёСЏ];; => nrel_main_en_idtf: [geochemistry];; *);
+geothermal(* => nrel_main_ru_idtf: [РіРµРѕС‚РµСЂРјРёСЏ];; => nrel_main_en_idtf: [geothermal];; *);
+loggingStudy (* => nrel_main_ru_idtf: [РєР°СЂРѕС‚Р°Р¶РЅРѕРµ РёСЃСЃР»РµРґРѕРІР°РЅРёРµ];; => nrel_main_en_idtf: [logging study];; *);
+penetrationLogging(* => nrel_main_ru_idtf: [РїРµРЅРµС‚СЂР°С†РёРѕРЅРЅС‹Р№ РєР°СЂРѕС‚Р°Р¶];; => nrel_main_en_idtf: [penetration logging];; *);
 
-engineeringAnalysis(* => nrel_main_ru_idtf: [инженерный анализ];; => nrel_main_en_idtf: [
+engineeringAnalysis(* => nrel_main_ru_idtf: [РёРЅР¶РµРЅРµСЂРЅС‹Р№ Р°РЅР°Р»РёР·];; => nrel_main_en_idtf: [
 engineering analysis];; *);
 
-computerMonitoring(* => nrel_main_ru_idtf: [компьютерный мониторинг];; => nrel_main_en_idtf: [
-computer monitoring];; *);
+computerMonitoring(* => nrel_main_ru_idtf: [РєРѕРјРїСЊСЋС‚РµСЂРЅС‹Р№ РјРѕРЅРёС‚РѕСЂРёРЅРі];; => nrel_main_en_idtf: [
+computer monitoring];; *)
 };;
