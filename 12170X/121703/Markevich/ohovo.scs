@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+ohovo=> nrel_main_ru_idtf:
 [Охово] ;;
-chechersk => nrel_main_en_idtf:
+ohovo=> nrel_main_en_idtf:
 [Ohovo] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [82];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Пинский район];;
-chechersk=> nrel_locality: [деревня Охово];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+ohovo=> nrel_population: [82];;
+ohovo=> nrel_region: [Брестская область];; 
+ohovo=> nrel_district: [Пинский район];;
+ohovo=> nrel_locality: [деревня Охово];;
+ohovo=> nrel_state: [жилой] ;;
+ohovo=> nrel_politic: [не имеет политико-административного значения] ;;
