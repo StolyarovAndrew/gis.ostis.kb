@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+osniki => nrel_main_ru_idtf:
 [Осники] ;;
-chechersk => nrel_main_en_idtf:
+osniki => nrel_main_en_idtf:
 [Osniki] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [100];;
-chechersk=> nrel_region: [Гродненская область];; 
-chechersk=> nrel_district: [Гродненский район];;
-chechersk=> nrel_locality: [деревня Осники];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+osniki=> nrel_population: [100];;
+osniki=> nrel_region: [Гродненская область];; 
+osniki=> nrel_district: [Гродненский район];;
+osniki=> nrel_locality: [деревня Осники];;
+osniki=> nrel_state: [жилой] ;;
+osniki=> nrel_politic: [не имеет политико-административного значения] ;;
