@@ -2,7 +2,7 @@ sc_node_not_relation->granite;;
 granite=>nrel_main_ru_idtf:[Гранит];;
 
 granite<-rrel_defenition:granite_def;;
-granite_def<=nrel_translation:.0_translation;;
+granite_def<=nrel_translation:granite_def_translation;;
 granite_def_translation<-[группа монокристаллический равномернозернистых или порфировидных пород (SiO_2 от 68 до 78).](*<-lang_ru;;*);;
 granite_def<=nrel_used_constants:
 {
