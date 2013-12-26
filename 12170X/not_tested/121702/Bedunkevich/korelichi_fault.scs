@@ -1,0 +1,7 @@
+korelichi_fault => nrel_main_ru_idtf:
+[Кореличский разлом] ;;
+korelichi_fault => nrel_main_en_idtf:
+[Korelichi fault] ;;
+
+
+korelichi_fault  => nrel_defenition: [ суперрегиональный разлом, ограничивающий с востока Белорусско-Прибалтийский гранулитовый пояс. ];;

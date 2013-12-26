@@ -1,0 +1,7 @@
+corrosion => nrel_main_ru_idtf:
+[Коррозия] ;;
+corrosion => nrel_main_en_idtf:
+[Corrosion] ;;
+
+
+corrosion  => nrel_defenition: [ разрушение вещества (горной породы, металла и др.) в результате окисления и химического растворения. ];;

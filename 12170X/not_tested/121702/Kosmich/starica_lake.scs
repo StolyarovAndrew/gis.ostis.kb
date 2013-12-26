@@ -1,0 +1,7 @@
+starica_lake => nrel_main_ru_idtf:
+[Старица(озеро)] ;;
+starica_lake => nrel_main_en_idtf:
+[starica_lake] ;;
+
+
+starica_lake => nrel_defenition: [ замкнутый водоем, обычно располагающийся в пойме реки. ];;
