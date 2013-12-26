@@ -1,6 +1,6 @@
-sc_node_not_relation->ground;;
+﻿sc_node_not_relation->ground;;
 ground=>nrel_main_ru_idtf:[Грунт];;
-ground=>nrel_en_idtf:[Grund];;
+ground=>nrel_en_idtf:[ground];;
 
 ground<=set_nrel_subdividing:
 {
@@ -12,7 +12,7 @@ soft_ottoms
 ground<=set_nrel_subdividing:
 {
 cohesive_soils;
-non-cohesive_soils;
+non_cohesive_soils;
 loose_soils
 }(*<=set_comment:[Разбиение по признаку связности](*<-lang_ru;;*);;*);;
 

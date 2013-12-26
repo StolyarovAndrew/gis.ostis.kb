@@ -1,4 +1,4 @@
-sc_node_not_relation->gravel;;
+﻿sc_node_not_relation->gravel;;
 gravel=>nrel_main_ru_idtf:[Гравий];;
 
 gravel<-rrel_defenition:gravel_def;;

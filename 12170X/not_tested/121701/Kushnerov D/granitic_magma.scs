@@ -1,4 +1,4 @@
-sc_node_not_relation->granitic_magma;;
+﻿sc_node_not_relation->granitic_magma;;
 granitic_magma=>nrel_main_ru_idtf:[Гранитная магма];;
 
 granitic_magma<-rrel_defenition:granitic_magma_def;;
@@ -7,7 +7,7 @@ granitic_magma_def_translation<-[Гранитная магма содержит 
 {
 silica;
 density;
-molten alloy;
+molten_alloy;
 gases
 };;
 
