@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+osmolovichi => nrel_main_ru_idtf:
 [Осмоловичи] ;;
-chechersk => nrel_main_en_idtf:
+osmolovichi => nrel_main_en_idtf:
 [Osmolovichi] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [110];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Кобринский район];;
-chechersk=> nrel_locality: [деревня Осмоловичи];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+osmolovichi=> nrel_population: [110];;
+osmolovichi=> nrel_region: [Брестская область];; 
+osmolovichi=> nrel_district: [Кобринский район];;
+osmolovichi=> nrel_locality: [деревня Осмоловичи];;
+osmolovichi=> nrel_state: [жилой] ;;
+osmolovichi=> nrel_politic: [не имеет политико-административного значения] ;;
