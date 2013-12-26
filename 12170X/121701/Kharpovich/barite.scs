@@ -1,36 +1,37 @@
 barite => nrel_main_ru_idtf:
-[¡‡Á‡Î¸ÚÓ‚‡ˇ Ï‡„Ï‡] ;;
+[–±–∞—Ä–∏—Ç] ;;
 barite => nrel_main_en_idtf:
 [Barite] ;;
 
-nrel_partition_by_color => nrel_main_en_idtf:
-[‡Á·ËÂÌËÂ ÔÓ ˆ‚ÂÚÛ*];;
+nrel_partition_by_color => nrel_main_ru_idtf:
+[—Ä–∞–∑–±–∏–µ–Ω–∏–µ –ø–æ —Ü–≤–µ—Ç—É*];;
 
 nrel_partition_by_color<- quasybinary_relation;;
 
 barite<= nrel_partition_by_color:
 {
-white_barite(* => nrel_main_ru_idtf: [·ÂÎ˚È ·‡ËÚ];; => nrel_main_en_idtf: [white barite];; *);
-blue_barite(* => nrel_main_ru_idtf: [„ÓÎÛ·ÓÈ ·‡ËÚ];; => nrel_main_en_idtf: [blue barite];; *);
-darkblue_barite(* => nrel_main_ru_idtf: [ÒËÌËÈ ·‡ËÚ];; => nrel_main_en_idtf: [darkblue barite];; *);
-yellow_barite(* => nrel_main_ru_idtf: [ÊÂÎÚ˚È ·‡ËÚ];; => nrel_main_en_idtf: [yellow barite];; *);
-gray_barite(* => nrel_main_ru_idtf: [ÒÂ˚È ·‡ËÚ];; => nrel_main_en_idtf: [gray barite];; *);
-brown_barite(* => nrel_main_ru_idtf: [·Û˚È ·‡ËÚ];; => nrel_main_en_idtf: [brown barite];; *);
-red_barite(* => nrel_main_ru_idtf: [Í‡ÒÌ˚È ·‡ËÚ];; => nrel_main_en_idtf: [red barite];; *);black_barite(* => nrel_main_ru_idtf: [˜ÂÌ˚È ·‡ËÚ];; => nrel_main_en_idtf: [black barite];; *);
+white_barite(* => nrel_main_ru_idtf: [–±–µ–ª—ã–π –±–∞—Ä–∏—Ç];; => nrel_main_en_idtf: [white barite];; *);
+blue_barite(* => nrel_main_ru_idtf: [–≥–æ–ª—É–±–æ–π –±–∞—Ä–∏—Ç];; => nrel_main_en_idtf: [blue barite];; *);
+darkblue_barite(* => nrel_main_ru_idtf: [—Å–∏–Ω–∏–π –±–∞—Ä–∏—Ç];; => nrel_main_en_idtf: [darkblue barite];; *);
+yellow_barite(* => nrel_main_ru_idtf: [–∂–µ–ª—Ç—ã–π –±–∞—Ä–∏—Ç];; => nrel_main_en_idtf: [yellow barite];; *);
+gray_barite(* => nrel_main_ru_idtf: [—Å–µ—Ä—ã–π –±–∞—Ä–∏—Ç];; => nrel_main_en_idtf: [gray barite];; *);
+brown_barite(* => nrel_main_ru_idtf: [–±—É—Ä—ã–π –±–∞—Ä–∏—Ç];; => nrel_main_en_idtf: [brown barite];; *);
+red_barite(* => nrel_main_ru_idtf: [–∫—Ä–∞—Å–Ω—ã–π –±–∞—Ä–∏—Ç];; => nrel_main_en_idtf: [red barite];; *);
+black_barite(* => nrel_main_ru_idtf: [—á–µ—Ä–Ω—ã–π –±–∞—Ä–∏—Ç];; => nrel_main_en_idtf: [black barite];; *);
 };;
 
 
-nrel_partition_by_gloss => nrel_main_en_idtf:
-[‡Á·ËÂÌËÂ ÔÓ ·ÎÂÒÍÛ*];;
+nrel_partition_by_gloss => nrel_main_ru_idtf:
+[—Ä–∞–∑–±–∏–µ–Ω–∏–µ –ø–æ –±–ª–µ—Å–∫—É*];;
 
 nrel_partition_by_gloss<- quasybinary_relation;;
 
 barite<=nrel_partition_by_gloss:
 {
-glass_gloss(* => nrel_main_ru_idtf: [Ò ÒÚÂÍÎˇÌÌ˚Ï ·ÎÂÒÍÓÏ];; => nrel_main_en_idtf: [glass_gloss];; *);
-pearl_gloss (* => nrel_main_ru_idtf: [Ò ÔÂÎ‡ÏÛÚÓ‚˚Ï ·ÎÂÒÍÓÏ];; => nrel_main_en_idtf: [pearl_gloss];; *);
-mat_gloss(* => nrel_main_ru_idtf: [Ò Ï‡ÚÓ‚˚Ï ·ÎÂÒÍÓÏ];; => nrel_main_en_idtf: [mat_gloss];; *);
-};
+glass_gloss(* => nrel_main_ru_idtf: [—Å —Å—Ç–µ–∫–ª—è–Ω–Ω—ã–º –±–ª–µ—Å–∫–æ–º];; => nrel_main_en_idtf: [glass_gloss];; *);
+pearl_gloss (* => nrel_main_ru_idtf: [—Å –ø–µ—Ä–ª–∞–º—É—Ç—Ä–æ–≤—ã–º –±–ª–µ—Å–∫–æ–º];; => nrel_main_en_idtf: [pearl_gloss];; *);
+mat_gloss(* => nrel_main_ru_idtf: [—Å –º–∞—Ç–æ–≤—ã–º –±–ª–µ—Å–∫–æ–º];; => nrel_main_en_idtf: [mat_gloss];; *);
+};;
 
 
-barite  => nrel_defenition: [ÚˇÊÂÎ˚È ¯Ô‡Ú, ÏËÌÂ‡Î, ÒÛÎ¸Ù‡Ú ·‡Ëˇ, BaSO?. ];;
+barite  => nrel_defenition: [—Ç—è–∂–µ–ª—ã–π —à–ø–∞—Ç, –º–∏–Ω–µ—Ä–∞–ª, —Å—É–ª—å—Ñ–∞—Ç –±–∞—Ä–∏—è];;
