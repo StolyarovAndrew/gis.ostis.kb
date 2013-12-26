@@ -9,7 +9,7 @@ geochemistry <= nrel_scientific_directions:
 calculation_and_analysis_klarkov (* => nrel_main_ru_idtf: [подсчёт и анализ кларков];; => nrel_main_en_idtf: [calculation and analysis klarkov];; *);
 geochemical_mapping (* => nrel_main_ru_idtf: [ 
 геохимическое картирование];; => nrel_main_en_idtf: [geochemical mapping];; *)
-ecological_geochemical_mapping (* => nrel_main_ru_idtf: [эколого-геохимическое картирование];; => nrel_main_en_idtf: [ecological-geochemical mapping];; *);
+ecological_geochemical_mapping (* => nrel_main_ru_idtf: [эколого-геохимическое картирование];; => nrel_main_en_idtf: [ecological-geochemical mapping];; *);
 development_of_new_geochemical_methods_for_search (* => nrel_main_ru_idtf: [разработка новых геохимических методов поиска];; => nrel_main_en_idtf: [development of new geochemical methods for search];; *);
 study_of_technogenesis_and_the_biosphere (* => nrel_main_ru_idtf: [исследование техногенеза и биосферы];; => nrel_main_en_idtf: [study of technogenesis and the biosphere];; *);
 experimental_Geochemistry (* => nrel_main_ru_idtf: [эксперементальная геохимия];; => nrel_main_en_idtf: [experimental Geochemistry];; *)
