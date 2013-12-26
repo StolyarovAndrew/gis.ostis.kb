@@ -1,0 +1,13 @@
+sc_node_not_relation->graphy;;
+graphy=>nrel_main_ru_idtf:[Графия];;
+
+graphy<-rrel_defenition:graphy_def;;
+graphy_def<=nrel_translation:graphy_def_translation;;
+graphy_def_translation<-[часть сложных слов, означающая запись, описание, чертёж, рисунок и др.](*<-lang_ru;;*);;
+graphy_def<=nrel_used_constants:
+{
+	part;
+	word
+};;
+
+graphy<-rrel_waterRemark:[..graphy (от греческого grapho пишу), часть сложных слов, означающая запись, описание, чертёж, рисунок и др. Употребляется как составная часть терминов - названий наук, способов воспроизведения, изображения чего-нибудь, а также предприятий, где применяются такие способы (например география, литография, типография).](*<-lang_ru;;*);;
