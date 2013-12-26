@@ -1,20 +1,20 @@
 geographical_shell => nrel_main_ru_idtf:
-[Р‘Р°РіСЂСЏРЅС‹Рµ РІРѕРґРѕСЂРѕСЃР»Рё] ;;
+[Багряные водоросли] ;;
 geographical_shell => nrel_main_en_idtf:
 [Geographical shell] ;;
 
 nrel_partition_by_state => nrel_main_en_idtf:
-[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ СЃРѕСЃС‚РѕСЏРЅРёСЋ*];;
+[разбиение по состоянию*];;
 
 nrel_partition_by_color<- quasybinary_relation;;
 
 geographical_shell<= nrel_partition_by_state:
 {
-solid (* => nrel_main_ru_idtf: [С‚РІРµСЂРґРѕРµ];; => nrel_main_en_idtf: [solid];; *);
-liquid (* => nrel_main_ru_idtf: [Р¶РёРґРєРѕРµ];; => nrel_main_en_idtf: [liquid];; *);
-gaseous (* => nrel_main_ru_idtf: [РіР°Р·РѕРѕР±СЂР°Р·РЅРѕРµ];; => nrel_main_en_idtf: [gaseous];; *);
+solid (* => nrel_main_ru_idtf: [твердое];; => nrel_main_en_idtf: [solid];; *);
+liquid (* => nrel_main_ru_idtf: [жидкое];; => nrel_main_en_idtf: [liquid];; *);
+gaseous (* => nrel_main_ru_idtf: [газообразное];; => nrel_main_en_idtf: [gaseous];; *);
 
 };;
 
 
-geographical_shell  => nrel_defenition: [Р»Р°РЅРґС€Р°С„С‚РЅР°СЏ РѕР±РѕР»РѕС‡РєР°, С†РµР»РѕСЃС‚РЅР°СЏ РЅРµРїСЂРµСЂС‹РІРЅР°СЏ РѕР±РѕР»РѕС‡РєР° Р—РµРјР»Рё, РІРєР»СЋС‡Р°СЋС‰Р°СЏ РІРµСЂС…РЅСЋСЋ С‡Р°СЃС‚СЊ Р»РёС‚РѕСЃС„РµСЂС‹, РЅРёР¶РЅРёРµ СЃР»РѕРё Р°С‚РјРѕСЃС„РµСЂС‹, Р±РёРѕСЃС„РµСЂСѓ Рё РіРёРґСЂРѕСЃС„РµСЂСѓ.];;
+geographical_shell  => nrel_defenition: [ландшафтная оболочка, целостная непрерывная оболочка Земли, включающая верхнюю часть литосферы, нижние слои атмосферы, биосферу и гидросферу.];;
