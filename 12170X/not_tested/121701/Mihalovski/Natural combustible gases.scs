@@ -13,7 +13,7 @@ naturalCombustibleGases<= nrel_partition_by_states:
 free(* => nrel_main_ru_idtf: [свободное];; => nrel_main_en_idtf: [free];; *);
 dissolved(* => nrel_main_ru_idtf: [растворённое];; => nrel_main_en_idtf: [dissolved];; *);
 solid(* => nrel_main_ru_idtf: [твёрдое];; => nrel_main_en_idtf: [solid];; *);
-sorbed(* => nrel_main_ru_idtf: [сорбированное];; => nrel_main_en_idtf: [sorbed];; *);
+sorbed(* => nrel_main_ru_idtf: [сорбированное];; => nrel_main_en_idtf: [sorbed];; *)
 };;
 
 nrel_partition_by_deposits => nrel_main_en_idtf:
@@ -29,7 +29,7 @@ sudovitskoe(* => nrel_main_ru_idtf: [Судовицкое];; => nrel_main_en_idt
 geological(* => nrel_main_ru_idtf: [Геологическое];; => nrel_main_en_idtf: [Geological];; *);
 svetlogorck(* => nrel_main_ru_idtf: [Светлогорское];; => nrel_main_en_idtf: [Svetlogorck];; *);
 krasnoselskoe(* => nrel_main_ru_idtf: [Красносельское];; => nrel_main_en_idtf: [Krasnoselskoe];; *);
-rechickoe(* => nrel_main_ru_idtf: [Речицкое];; => nrel_main_en_idtf: [Rechickoe];; *);
+rechickoe(* => nrel_main_ru_idtf: [Речицкое];; => nrel_main_en_idtf: [Rechickoe];; *)
 };;
 
 naturalCombustibleGases  => nrel_defenition: [ совокупность газовых компонентов, встречающихся в горных породах в различных состояниях.];;

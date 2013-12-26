@@ -13,7 +13,7 @@ volcaniclasticRocksAre<= nrel_partition_by_origin:
 lavoklasticheskie(* => nrel_main_ru_idtf: [лавокластические];; => nrel_main_en_idtf: [lavoklasticheskie];; *);
 pyroclastic(* => nrel_main_ru_idtf: [пирокластические];; => nrel_main_en_idtf: [pyroclastic];; *);
 psevdopiroklasticheskie(* => nrel_main_ru_idtf: [псевдопирокластические];; => nrel_main_en_idtf: [psevdopiroklasticheskie];; *);
-mixed(* => nrel_main_ru_idtf: [смешанные];; => nrel_main_en_idtf: [mixed];; *);
+mixed(* => nrel_main_ru_idtf: [смешанные];; => nrel_main_en_idtf: [mixed];; *)
 };;
 
 volcaniclasticRocksAre  => nrel_defenition: [ 1)обломочные вулканогенные породы (вулканические брякчии, туфы, игнимбриты идр.), выброшенные при эксплозициях (вулканических взрывах) и в результате мех. разрушения вулканического материала, остывших лавовых потоков.

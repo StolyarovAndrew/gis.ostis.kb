@@ -11,7 +11,7 @@ nrel_partition_by_origin<- quasybinary_relation;;
 volcanicAndSedimentaryRocks<= nrel_partition_by_origin:
 {
 conglomerates(* => nrel_main_ru_idtf: [конгломераты];; => nrel_main_en_idtf: [conglomerates];; *);
-sandstones(* => nrel_main_ru_idtf: [песчаники];; => nrel_main_en_idtf: [sandstones];; *);
+sandstones(* => nrel_main_ru_idtf: [песчаники];; => nrel_main_en_idtf: [sandstones];; *)
 };;
 
 volcanicAndSedimentaryRocks  => nrel_defenition: [горные породы, состоящие из продуктов мех. разрушения и переотложения различных вулканогенных пород, сцементированных материалом осадочного происхождения (конгломераты, песчаники и др.).];;
