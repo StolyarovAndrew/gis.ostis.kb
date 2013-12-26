@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+osipovka => nrel_main_ru_idtf:
 [Осиповка] ;;
-chechersk => nrel_main_en_idtf:
+osipovka => nrel_main_en_idtf:
 [Osipovka] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [0];;
-chechersk=> nrel_region: [Гомельская область];; 
-chechersk=> nrel_district: [Наровлянский район];;
-chechersk=> nrel_locality: [деревня Осиповка];;
-chechersk=> nrel_state: [нежилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+osipovka=> nrel_population: [0];;
+osipovka=> nrel_region: [Гомельская область];; 
+osipovka=> nrel_district: [Наровлянский район];;
+osipovka=> nrel_locality: [деревня Осиповка];;
+osipovka=> nrel_state: [нежилой] ;;
+osipovka=> nrel_politic: [не имеет политико-административного значения] ;;
