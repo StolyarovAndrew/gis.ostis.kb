@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+or => nrel_main_ru_idtf:
 [Ор] ;;
-chechersk => nrel_main_en_idtf:
+or => nrel_main_en_idtf:
 [Or] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [180];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Кобринский район];;
-chechersk=> nrel_locality: [деревня Ор];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+or=> nrel_population: [180];;
+or=> nrel_region: [Брестская область];; 
+or=> nrel_district: [Кобринский район];;
+or=> nrel_locality: [деревня Ор];;
+or=> nrel_state: [жилой] ;;
+or=> nrel_politic: [не имеет политико-административного значения] ;;
