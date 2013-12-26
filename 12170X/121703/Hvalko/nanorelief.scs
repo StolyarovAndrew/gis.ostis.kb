@@ -11,7 +11,7 @@ phytogenous (* => nrel_main_ru_idtf: [фитогенный];; => nrel_main_en_idtf: [phyto
 erosional (* => nrel_main_ru_idtf: [эрозионный];; => nrel_main_en_idtf: [erosional];; *);
 agrotechnical (* => nrel_main_ru_idtf: [агротехнический];; => nrel_main_en_idtf: [agrotechnical];; *);
 eolian (* => nrel_main_ru_idtf: [эоловый];; => nrel_main_en_idtf: [eolian];; *);
-anthropogenic (* => nrel_main_ru_idtf: антропогенный];; => nrel_main_en_idtf: [anthropogenic];; *);
+anthropogenic (* => nrel_main_ru_idtf: [антропогенный];; => nrel_main_en_idtf: [anthropogenic];; *);
 };;
 
 nanorelief => nrel_defenition: [наиболее мелкие формы рельефа, образованные в результате суффозионно-карстовых, термокарстовых, мерзлотных, эрозионных, эоловых процессов, а также в результате жизнедеятельности животных и человека.];;
