@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+otryadnoe => nrel_main_ru_idtf:
 [Отрядное] ;;
-chechersk => nrel_main_en_idtf:
+otryadnoe => nrel_main_en_idtf:
 [Otryadnoe] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [8];;
-chechersk=> nrel_region: [Могилевская область];; 
-chechersk=> nrel_district: [Белыничский район];;
-chechersk=> nrel_locality: [поселок Отрядное];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+otryadnoe=> nrel_population: [8];;
+otryadnoe=> nrel_region: [Могилевская область];; 
+otryadnoe=> nrel_district: [Белыничский район];;
+otryadnoe=> nrel_locality: [поселок Отрядное];;
+otryadnoe=> nrel_state: [жилой] ;;
+otryadnoe=> nrel_politic: [не имеет политико-административного значения] ;;
