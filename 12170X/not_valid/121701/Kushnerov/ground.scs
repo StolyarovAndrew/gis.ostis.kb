@@ -25,7 +25,7 @@ exposing_poorly_permeable_soils
 
 ground<-rrel_defenition:ground_def;;
 ground_def<=nrel_translation:ground_def_translation;;
-.ground_def_translation<-[1)ассоциация минеральных компонентов, подземных вод и поровых газов, находящихся в естественных условиях.
+ground_def_translation<-[1)ассоциация минеральных компонентов, подземных вод и поровых газов, находящихся в естественных условиях.
 2) условное прикладное наименование любой горной породы, рассматриваемой с инженерно-строительной точки зрения.](*<-lang_ru;;*);;
 ground_def<=nrel_used_constants:
 {
