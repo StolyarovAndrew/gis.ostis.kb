@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+opechki => nrel_main_ru_idtf:
 [Опечки] ;;
-chechersk => nrel_main_en_idtf:
+opechki => nrel_main_en_idtf:
 [Opechki] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [24];;
-chechersk=> nrel_region: [Минская область];; 
-chechersk=> nrel_district: [Столбцовский район];;
-chechersk=> nrel_locality: [деревня Опечки];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+opechki=> nrel_population: [24];;
+opechki=> nrel_region: [Минская область];; 
+opechki=> nrel_district: [Столбцовский район];;
+opechki=> nrel_locality: [деревня Опечки];;
+opechki=> nrel_state: [жилой] ;;
+opechki=> nrel_politic: [не имеет политико-административного значения] ;;
