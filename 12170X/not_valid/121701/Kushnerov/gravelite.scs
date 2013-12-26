@@ -1,10 +1,10 @@
 sc_node_not_relation->gravelite;;
-.gravelite=>nrel_main_ru_idtf:[Гравелит];;
+gravelite=>nrel_main_ru_idtf:[Гравелит];;
 
 gravelite<-rrel_defenition:gravelite_def;;
 gravelite_def<=nrel_translation:gravelite_def_translation;;
 gravelite_def_translation<-[сцементированный гравий, обладающий строением, свойственным песчаным породам.](*<-lang_ru;;*);;
-.Опр.(гравелит)<=nrel_used_constants:
+gravelite_def<=nrel_used_constants:
 {
 structure;
 property;
