@@ -1,0 +1,36 @@
+sc_node_not_relation->ground;;
+ground=>nrel_main_ru_idtf:[Грунт];;
+ground=>nrel_en_idtf:[Grund];;
+
+ground<=set_nrel_subdividing:
+{
+rocky_soils;
+poluskalnyh_soils;
+soft_ottoms
+}(*<=set_comment:[Разбиение по признаку прочности](*<-lang_ru;;*);;*);;
+
+ground<=set_nrel_subdividing:
+{
+cohesive_soils;
+non-cohesive_soils;
+loose_soils
+}(*<=set_comment:[Разбиение по признаку связности](*<-lang_ru;;*);;*);;
+
+ground<=set_nrel_subdividing:
+{
+silnopronitsaemye_soils;
+srednepronitsaemye_soils;
+exposing_poorly_permeable_soils
+}(*<=set_comment:[Разбиение по признаку проницаемости](*<-lang_ru;;*);;*);;
+
+ground<-rrel_defenition:ground_def;;
+ground_def<=nrel_translation:ground_def_translation;;
+.ground_def_translation<-[1)ассоциация минеральных компонентов, подземных вод и поровых газов, находящихся в естественных условиях.
+2) условное прикладное наименование любой горной породы, рассматриваемой с инженерно-строительной точки зрения.](*<-lang_ru;;*);;
+ground_def<=nrel_used_constants:
+{
+mineral_components;
+groundwater;
+interstitial_gases;
+rock
+};;
