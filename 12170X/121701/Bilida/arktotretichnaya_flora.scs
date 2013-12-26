@@ -1,0 +1,23 @@
+arktotretichnaya_flora => nrel_main_ru_idtf:
+[Арктотретичная флора];;
+arktotretichnaya_flora => nrel_main_en_idtf:
+[arktotretichnaya_flora];;
+
+nrel_composition => nrel_main_en_idtf:
+[composition*];;
+nrel_composition <- quasybinary_relation;;
+arktotretichnaya_flora <= nrel_composition:
+{
+pine (* => nrel_main_ru_idtf: [сосны];; => nrel_main_en_idtf: [pine];; *);
+walnut (* => nrel_main_ru_idtf: [ореховые];; => nrel_main_en_idtf: [walnut];; *);
+palms (* => nrel_main_ru_idtf: [пальмы];; => nrel_main_en_idtf: [palms];; *);
+gale (* => nrel_main_ru_idtf: [восковник];; => nrel_main_en_idtf: [gale];; *);
+ginkgo (* => nrel_main_ru_idtf: [гинкго];; => nrel_main_en_idtf: [ginkgo];; *);
+gliptostrobus (* => nrel_main_ru_idtf: [глиптостробус];; => nrel_main_en_idtf: [gliptostrobus];; *);
+chestnut (* => nrel_main_ru_idtf: [каштан];; => nrel_main_en_idtf: [chestnut];; *)
+
+};;
+
+arktotretichnaya_flora => nrel_defenition:[];;
+
+arktotretichnaya_flora => nrel_textual_explanation:[];;

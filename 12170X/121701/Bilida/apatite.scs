@@ -1,0 +1,48 @@
+apatite => nrel_main_ru_idtf:
+[Апатит];;
+apatite => nrel_main_en_idtf:
+[apatite];;
+
+nrel_typology => nrel_main_en_idtf:
+[typology*];;
+nrel_typology <- quasybinary_relation;;
+apatite <= nrel_typology:
+{
+cryptocrystalline (* => nrel_main_ru_idtf: [скрытокристаллические];; => nrel_main_en_idtf: [cryptocrystalline];; *);
+earthy (* => nrel_main_ru_idtf: [землистые];; => nrel_main_en_idtf: [earthy];; *);
+reniform (* => nrel_main_ru_idtf: [почковидные];; => nrel_main_en_idtf: [reniform];;*);
+concretion (* => nrel_main_ru_idtf: [конкреционные];; => nrel_main_en_idtf: [concretion];;*)
+};;
+
+nrel_color => nrel_main_en_idtf:
+[color*];;
+nrel_color <- quasybinary_relation;;
+apatite <= nrel_color:
+{
+green (* => nrel_main_ru_idtf: [зелёный];; => nrel_main_en_idtf: [green];; *);
+yellow (* => nrel_main_ru_idtf: [желтый];; => nrel_main_en_idtf: [yellow];; *);
+white (* => nrel_main_ru_idtf: [белый];; => nrel_main_en_idtf: [white];; *);
+blue (* => nrel_main_ru_idtf: [голубой];; => nrel_main_en_idtf: [blue];; *);
+brown (* => nrel_main_ru_idtf: [бурый];; => nrel_main_en_idtf: [brown];; *);
+purple (* => nrel_main_ru_idtf: [фиолетовый];; => nrel_main_en_idtf: [purple];; *);
+colorless (* => nrel_main_ru_idtf: [бесцветный];; => nrel_main_en_idtf: [colorless];; *)
+};;
+
+nrel_species => nrel_main_en_idtf:
+[species*];;
+nrel_species <- quasybinary_relation;;
+apatite <= nrel_species:
+{
+fluorapatite (* => nrel_main_ru_idtf: [фторапатит];; => nrel_main_en_idtf: [fluorapatite];; *);
+hlorapatit (* => nrel_main_ru_idtf: [хлорапатит];; => nrel_main_en_idtf: [hlorapatit];; *);
+silicon (* => nrel_main_ru_idtf: [кремний];; => nrel_main_en_idtf: [silicon];; *);
+chlorine (* => nrel_main_ru_idtf: [хлор];; => nrel_main_en_idtf: [chlorine];; *);
+hydroxyapatite (* => nrel_main_ru_idtf: [гидроксиапатит];; => nrel_main_en_idtf: [hydroxyapatite];; *);
+karbonatapatit (* => nrel_main_ru_idtf: [карбонатапатит];; => nrel_main_en_idtf: [karbonatapatit];; *);
+strontiumapatite (* => nrel_main_ru_idtf: [стромцийапатит];; => nrel_main_en_idtf: [strontiumapatite];; *)
+  
+};;
+
+apatite => nrel_defenition:[минерал класса фосфатов, фосфат кальция.];;
+
+apatite => nrel_textual_explanation:[АПАТИТ (от греческого apate обман;А. часто принимался за другие минералы , минерал класса фосфатов, фосфат кальция, Ca?(PO4)?.( F, Cr , OH, CO?). Содержит 54-55,5% оксида кальция, 41-42% оксида фосфора. Примеси натрия , тория, магния ,марганца, стронция , железа, алюминия, серы. Кристаллизуется в гексагональной сингонии. Кристаллы призматические, бочонковидные , игольчатые и тонковолокнистые. Распространены скрытокристаллические землистые, почковидные, конкреционные выделения А – фосфориты. Плотность 3,1-3,55 г/см3. Твердость 5. Цвет зеленый, желтый, белый , голубой, бурый, фиолетовый, бесцветный. Блеск стекловатый до полувосковидного. Разновидности и аналоги : фторапатит, хлорапатит, кремний, хлор, гидроксилапатит , карбонатапатит, манганапатит, стронцийапатит. На территории Беларуси как акцессорный минерал А. выявлен во всех отложениях от кристаллического фундамента до антропогеновых; как породообразующий – обычен в фосфоритах отложений мела (месторождения Мстиславское и Лобковическое). Новообразованный А. в нижнексибрийских отложениях Брестской впадины и рифеских отложениях Оршанской: его цериевая разновидность бритолит – в щелочных породах кристаллического фундамента Микашевичско-Житковического выступа. В осадочной толще встречается редко и имеет преимущественно округленную форму , многие зерна содержат бурые продукты выветривания. В связи с существенно различным распределением содержания по латерали А. может нести определенную корреляционную нагрузку. Используется для производства фосфорных удобрений.];;

@@ -1,0 +1,5 @@
+clay_rocks => nrel_main_ru_idtf:
+[Глинистые породы] ;;
+clay_rocks  => nrel_main_en_idtf:
+[clay_rocks] ;;
+clay_rocks => nrel_textual_explanation: [порода];;

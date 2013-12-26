@@ -1,0 +1,19 @@
+sc_node_not_relation->ridge;;
+ridge=>nrel_main_ru_idtf:[Гряда];;
+
+ridge<=set_nrel_subdividing:
+{
+pressure_ridge;
+accumulative_ridge
+}(*<=set_comment:[Разбиение по признаку образования](*<-lang_ru;;*);;*);;
+
+ridge<-rrel_defenition:ridge_def;;
+ridge_def<=nrel_translation:ridge_def_translation;;
+ridge_def_translation<-[общее название вытянутых, относительно невысоких положительных форм рельефа различного размера и происхождения (моренные, озовые, песчаные и др).](*<-lang_ru;;*);;
+ridge_def<=nrel_used_constants:
+{
+mineral_components;
+groundwater;
+interstitial_gases;
+rock
+};;

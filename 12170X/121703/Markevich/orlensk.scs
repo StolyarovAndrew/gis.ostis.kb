@@ -1,0 +1,48 @@
+orlensk => nrel_main_ru_idtf:
+[Орленск] ;;
+orlensk => nrel_main_en_idtf:
+[Orlensk] ;;
+
+
+nrel_population <- sc_node_norole_relation;;
+nrel_population => nrel_main_ru_idtf:
+[население*] ;;
+nrel_population => nrel_main_en_idtf:
+[population*] ;;
+
+nrel_region <- sc_node_norole_relation;;
+nrel_region => nrel_main_ru_idtf:
+[область*] ;;
+nrel_region => nrel_main_en_idtf:
+[region*] ;;
+
+nrel_district <- sc_node_norole_relation;;
+nrel_district => nrel_main_ru_idtf:
+[район*] ;;
+nrel_district => nrel_main_en_idtf:
+[district*] ;;
+
+nrel_locality <- sc_node_norole_relation;;
+nrel_locality => nrel_main_ru_idtf:
+[населенный пункт*] ;;
+nrel_locality => nrel_main_en_idtf:
+[locality*] ;;
+
+nrel_state <- sc_node_norole_relation;;
+nrel_state => nrel_main_ru_idtf:
+[состояние*] ;;
+nrel_state => nrel_main_en_idtf:
+[state*] ;;
+
+nrel_politic <- sc_node_norole_relation;;
+nrel_politic => nrel_main_ru_idtf:
+[политико-административное значение*] ;;
+nrel_politic => nrel_main_en_idtf:
+[political-administrative value*] ;;
+
+orlensk=> nrel_population: [270];;
+orlensk=> nrel_region: [Гомельская область];; 
+orlensk=> nrel_district: [Гомельский район];;
+orlensk=> nrel_locality: [поселок Орленск];;
+orlensk=> nrel_state: [жилой] ;;
+orlensk=> nrel_politic: [не имеет политико-административного значения] ;;

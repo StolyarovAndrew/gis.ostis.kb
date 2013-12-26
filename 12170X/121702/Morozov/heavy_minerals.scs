@@ -1,6 +1,6 @@
 heavy_minerals => nrel_main_ru_idtf:
 [Тяжелые минералы];;
-heavy minerals => nrel_main_en_idtf:
+heavy_minerals => nrel_main_en_idtf:
 [heavy_minerals];;
 
 heavy_minerals => nrel_defenition: [геоморфологический район в юго-восточной части области Равнин и низин Предполесъя; расположен в междуречье рек Сож, Беседь, Ипуть.];;

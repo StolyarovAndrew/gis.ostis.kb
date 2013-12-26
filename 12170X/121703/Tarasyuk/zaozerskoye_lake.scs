@@ -1,0 +1,20 @@
+zaozerskoye_lake => nrel_main_idtf:
+[Заозерское озеро] ;;
+zaozerskoye_lake => nrel_main_idtf:
+[Zaozerskoye lake] ;;
+
+zaozerskoye_lake => nrel_altitude: [152];;
+zaozerskoye_lake => nrel_watercourse_type: stable 
+(* 
+
+=> nrel_main_idtf: [постоянный] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [stable] (* <- lang_en;; *);; 
+*);;
+
+zaozerskoye_lake => nrel_depth: [2,5];;
+zaozerskoye_lake => nrel_qualitative_features_of_water: fresh_water
+(* 
+=> nrel_main_idtf: [пресная вода] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [fresh water] (* <- lang_en;; *);; 
+*);;
+zaozerskoye_lake => nrel_square: [0,73];;

@@ -1,0 +1,10 @@
+
+floodplain_landscape => nrel_main_idtf:
+[Пойменный ландшафт] (* <- lang_ru;; *) ;;
+
+palygorskite => nrel_main_idtf:
+[Floodplain landscape] (* <- lang_en;; *) ;;
+
+floodplain_landscape <- landscape ;;
+
+floodplain_landscape => nrel_defenition: [ландшафт разной степени дренированности с лугами и болотами, сформированный русловай деятельностью рек в границах речной поймы.];;

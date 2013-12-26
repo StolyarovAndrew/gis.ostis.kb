@@ -1,0 +1,16 @@
+platinoid => nrel_main_idtf:
+[Платиноиды] (* <- lang_ru;; *) ;;
+
+platinoid => nrel_main_idtf:
+[Platinoid] (* <- lang_en;; *) ;;
+
+platinoid <- platinum_group ;;
+
+platinoid => color:
+{
+grey_blue;
+grey_pink;
+grey_yellow
+} ;;
+
+platinoid => nrel_defenition: [химические элементы второй и третьей триад 8 группы периодической системы Менделеева.];;
