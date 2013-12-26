@@ -1,0 +1,17 @@
+pelite => nrel_main_idtf:
+[Пелиты] (* <- lang_ru;; *) ;;
+
+pelite => nrel_main_idtf:
+[Pelite] (* <- lang_en;; *) ;;
+
+nrel_kinds <- quasybinary_relation;;
+pegmatite <= nrel_kinds:
+{
+[глинистые];
+[обломочные зёрна];
+[сингенетические и эпигенетические неглинистые]
+};;
+
+pelite => color: white;
+
+pelite => nrel_defenition: [тонкозернистые, преимущественно глинистые, осадочные горные породы, сложенные более чем на 50% из частиц размером менее 0,005 мм];;

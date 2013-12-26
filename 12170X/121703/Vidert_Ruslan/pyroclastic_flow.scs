@@ -1,0 +1,7 @@
+pyroclastic_flow => nrel_main_idtf:
+[Пирокластический поток ] (* <- lang_ru;; *) ;;
+
+pyroclastic_flow => nrel_main_idtf:
+[Pyroclastic flow] (* <- lang_en;; *) ;;
+
+pyroclastic_flow => nrel_defenition: [смесь высокотемпературных вулканических газов, пепла и камней, образующаяся при извержении вулкана. Скорость потока достигает иногда 700 км/ч, а температура газа — 100—800 C.];;

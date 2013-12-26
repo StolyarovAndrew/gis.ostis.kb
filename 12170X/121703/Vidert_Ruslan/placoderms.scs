@@ -1,0 +1,9 @@
+placodems => nrel_main_idtf:
+[Плакодермы] (* <- lang_ru;; *) ;;
+
+placodems => nrel_main_idtf:
+[Placodems] (* <- lang_en;; *) ;;
+
+placodems <- fish ;;
+
+placodems => nrel_defenition: [класс вымерших рыб.];;
