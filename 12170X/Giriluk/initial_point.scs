@@ -1,0 +1,5 @@
+initial_point => nrel_main_ru_idtf: 
+  [начальная точка];;
+initial_point => nrel_main_en_idtf: 
+  [initial_point];;
+initial_point <- reason;;

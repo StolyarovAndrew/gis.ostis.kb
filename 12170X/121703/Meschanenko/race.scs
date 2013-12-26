@@ -1,0 +1,29 @@
+﻿race => nrel_main_ru_idtf:
+[раса] ;;
+race  => nrel_main_en_idtf:
+[race] ;;
+
+nrel_group_species <- quasybinary_relation;;
+race <= nrel_group_species
+{
+caucasians (* => nrel_main_ru_idtf: [европеоиды];; => nrel_main_en_idtf: [caucasians];; *);
+negroid (* => nrel_main_ru_idtf: [негроиды];; => nrel_main_en_idtf: [negroid];; *);
+pygmies (* => nrel_main_ru_idtf: [пигмеи];; => nrel_main_en_idtf: [pygmies];; *);
+kapoidy (* => nrel_main_ru_idtf: [капоиды];; => nrel_main_en_idtf: [kapoidy];; *);
+bushmen (* => nrel_main_ru_idtf: [бушмены];; => nrel_main_en_idtf: [bushmen];; *);
+mongoloids (* => nrel_main_ru_idtf: [монголоиды];; => nrel_main_en_idtf: [mongoloids];; *);
+australoids (* => nrel_main_ru_idtf: [австалоиды];; => nrel_main_en_idtf: [australoids];; *) 
+};;
+
+nrel_group_origin <- quasybinary_relation;;
+race <= nrel_group_origin
+{
+neanderthal (* => nrel_main_ru_idtf: [неандерталец];; => nrel_main_en_idtf: [neanderthal];; *);
+denisovets (* => nrel_main_ru_idtf: [денисовец];; => nrel_main_en_idtf: [denisovets];; *);
+cro-magnon (* => nrel_main_ru_idtf: [кроманьонец];; => nrel_main_en_idtf: [cro-magnon];; *);
+idaltu (* => nrel_main_ru_idtf: [идалту];; => nrel_main_en_idtf: [idaltu];; *)
+};;
+
+race => nrel_defenition: [система популяций человека, характеризующаяся сходством по комплексу определённых наследственных биологических признаков, имеющим внешнее фенотипическое проявление и сформировавшимся в определенном географическом регионе.];;
+
+race => nrel_textual_explanation: [черты, характеризующие разные расы, зачастую появляются как результат адаптации к различным условиям среды, происходившей в течение многих поколений. Критерием отличия расы от вида является отсутствие существенных препятствий для создания плодовитого потомства, что приводит к образованию множества переходных форм в области смешения рас. Содержание понятия «раса» более или менее однозначно воспринимается разными исследователями , однако в деталях имеются существенные расхождения; разные школы антропологов выделяли от четырёх до семи основных рас и десятки малых антропологических типов. Единая классификация рас до сих пор отсутствует.];;

@@ -1,0 +1,7 @@
+climate => nrel_main_ru_idtf:
+[Климат] ;;
+climate => nrel_main_en_idtf:
+[Climate] ;;
+
+
+climate => nrel_defenition: [ многолетний режим погоды, характерный для данной местности в силу её географического положения. ];;

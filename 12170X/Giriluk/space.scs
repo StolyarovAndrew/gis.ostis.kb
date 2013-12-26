@@ -1,0 +1,5 @@
+space => nrel_main_idtf: 
+  [пространство] (* <- lang_ru;; *);;
+space => nrel_main_idtf: 
+  [space] (* <- lang_en;; *);;
+space <- universe;;

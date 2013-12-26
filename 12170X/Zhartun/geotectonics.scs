@@ -1,0 +1,6 @@
+geotectonics => nrel_main_ru_idtf:
+[Геотектоника] ;;
+geotectonics => nrel_main_en_idtf:
+[geotectonics] ;;
+
+geotectonics  => nrel_defenition: [ отрасль геологии, изучающая структуру, движение и деформация литосферы во взаимосвязи с глубинными процессами и развитием Земли в целом. ];;

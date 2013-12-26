@@ -1,0 +1,19 @@
+conodonts => nrel_main_ru_idtf:
+[Конгломерат] ;;
+conodonts => nrel_main_en_idtf:
+[Сonodonts] ;;
+
+nrel_partition_by_appearance => nrel_main_ru_idtf:
+[разбиение по внешнему виду*];;
+
+nrel_partition_by_appearance<- quasybinary_relation;;
+
+conodonts <= nrel_partition_by_appearance:
+{
+simple(* => nrel_main_ru_idtf: [простые];; => nrel_main_en_idtf: [simple];; *);
+complex(* => nrel_main_ru_idtf: [сложные];; => nrel_main_en_idtf: [complex];; *);
+platform(* => nrel_main_ru_idtf: [платформенные];; => nrel_main_en_idtf: [platform];; *);
+flat(* => nrel_main_ru_idtf: [плоские];; => nrel_main_en_idtf: [flat];; *);
+};;
+
+conodonts  => nrel_defenition: [ ископаемые микроскопические разрозненные зубовидные образования вымерших животных организмов прошлых геол. эпох. ];;

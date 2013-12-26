@@ -1,0 +1,5 @@
+point <- flat;;
+point => nrel_main_ru_idtf:
+     [точка];;
+point => nrel_main_en_idtf:
+     [point];;

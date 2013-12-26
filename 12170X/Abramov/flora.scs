@@ -1,0 +1,63 @@
+flora => nrel_main_ru_idtf: [флора];;
+
+flora => nrel_main_en_idtf: [flora];;
+
+
+flora => nrel_definition: [исторически сложившаяся совокупность видов растений, распространённых на конкретной территории или на территории с определёнными условиями в настоящее время или в прошедшие геологические эпохи];;
+
+flora => nrel_text_clarification: [На практике под выражением «Флора территории» нередко понимают не все растения данной территории, а только сосудистые растения (Tracheophyta); растения других групп, как правило, рассматриваются отдельно в силу особенностей методики сбора и определения. Комнатные растения, растения в оранжереях и других сооружениях с искусственным климатом не входят в состав флоры. Раздел ботаники, занимающийся изучением флоры, называется флористикой. Список флоры с указанием кратких сведений о каждом виде растений, известных с указанной территории, называется конспектом флоры];;
+
+
+nrel_partition_by_type => nrel_main_ru_idtf: [разбиение по типу*];;
+
+flora <= nrel_partition_by_type:
+
+{
+Algae(* 
+=> nrel_main_ru_idtf: [Альгофлора];; 
+=> nrel_main_en_idtf: [aviflora];; 
+*);
+
+Bioflor(* 
+=> nrel_main_ru_idtf: [Биофлора];; 
+=> nrel_main_en_idtf: [Bioflor];; 
+*);
+
+Dendroflora (*
+=> nrel_main_ru_idtf: [Дендрофлора];;
+=> nrel_main_en_idtf: [Dendroflora];;
+*);
+Lichenoflora (*
+=> nrel_main_ru_idtf: [Лихенофлора];;
+=> nrel_main_en_idtf: [Lichenoflora];;
+*);
+
+microflora(*
+=> nrel_main_ru_idtf: [Микофлора];;
+=> nrel_main_en_idtf: [microflora];;
+*)
+};;
+
+nrel_partition_by_territory => nrel_main_ru_idtf: [разбиение по территории*];;
+
+flora <= nrel_partition_by_territory:
+earth_flora(* 
+=> nrel_main_ru_idtf: [флора Земли];; 
+=> nrel_main_en_idtf: [earth_flora];; 
+*);
+
+continents_flora(* 
+=> nrel_main_ru_idtf: [флора континентов];; 
+=> nrel_main_en_idtf: [continents_flora];; 
+*);
+
+individ_formation_flora (*
+=> nrel_main_ru_idtf: [флора индивидуальных ествественных образований];;
+=> nrel_main_en_idtf: [individ_formation_creations_flora];;
+*);
+countries_flora (*
+=> nrel_main_ru_idtf: [флора стран];;
+=> nrel_main_en_idtf: [contries's flora];;
+*);
+};;
+

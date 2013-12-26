@@ -1,0 +1,17 @@
+soil => nrel_main_ru_idtf:
+[почва];;
+soil => nrel_main_en_idtf:
+[soil] ;;
+
+nrel_type<-quasybinary_relation;;
+soil<= nrel_type:
+{
+sod_corbonate(* => nrel_main_ru_idtf[дерново-карбонатные];;=> nrel_main_en_idtf[sod-corbonate];; *);
+sod_podzol(* => nrel_main_ru_idtf[дерново-подзолистые];;=> nrel_main_en_idtf[sod-podzol];; *);
+sod_podzol wetlands(* => nrel_main_ru_idtf[дерново-подзолистые заболоченные];;=> nrel_main_en_idtf[sod-podzol wetlands];; *);
+podzol(* => nrel_main_ru_idtf[подзолистые];;=> nrel_main_en_idtf[podzol];; *);
+floodplain(* => nrel_main_ru_idtf[пойменные];;=> nrel_main_en_idtf[floodplain];; *);
+peat_bog(* => nrel_main_ru_idtf[торфяно-болотные];;=> nrel_main_en_idtf[peat-bog];; *)
+};;
+
+soil => nrel_defenition: [преимущественно крупнозернистая магматическая горная порода; обычно содержит минералы, в состав которых входят F, Br, Cl, H2O и другие легколетучие компоненты, часто редкие и рассеянные элементы. Залегает в виде жил, линз, гнёзд. Различают пегматиты, генетически связанные с кислыми (гранитами, гранодиоритами), щелочными (сиенитами, нефелиновыми сиенитами), основными (габбро) и другими магматическими породами. Используются как керамическое и стекольное сырьё. Нередко пегматиты содержат пьезооптические минералы, слюды, самоцветы; с наиболее распространёнными гранитными пегматитами связаны месторождения руд редких и редкоземельных металлов.];;

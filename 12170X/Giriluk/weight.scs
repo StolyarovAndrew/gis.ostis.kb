@@ -1,0 +1,5 @@
+weight <- property;;
+weight => nrel_main_ru_idtf:
+     [масса];;
+weight => nrel_main_en_idtf:
+     [weight];;

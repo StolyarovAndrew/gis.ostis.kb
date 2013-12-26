@@ -1,0 +1,17 @@
+runoff => nrel_main_ru_idtf:
+[Сток] ;;
+runoff => nrel_main_en_idtf:
+[Runoff] ;;
+
+nrel_partition_by_view => nrel_main_en_idtf:
+[разбиение по виду*];;
+
+nrel_partition_by_view <- quasybinary_relation;;
+
+runoff <= nrel_partition_by_view:
+{
+surface_runoff (* => nrel_main_ru_idtf: [поверхностный сток];; => nrel_main_en_idtf: [surface runoff];; *);
+underground_runoff (* => nrel_main_ru_idtf: [подземный сток];; => nrel_main_en_idtf: [underground_runoff];; *);
+};;
+
+runoff  => nrel_defenition: [Движение воды атмосферных осадков по склонам в понижения, впадины, реки, моря, как по поверхности, так и в почвогрунтах (подземный сток)  ];;
