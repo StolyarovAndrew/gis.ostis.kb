@@ -1,0 +1,31 @@
+conglomerate => nrel_main_ru_idtf:
+[Конгломерат] ;;
+conglomerate => nrel_main_en_idtf:
+[Сonglomerate] ;;
+
+nrel_partition_by_formation_condition => nrel_main_ru_idtf:
+[разбиение по условию образования*];;
+
+nrel_partition_by_formation_condition<- quasybinary_relation;;
+
+conglomerate <= nrel_partition_by_formation_condition:
+{
+sea(* => nrel_main_ru_idtf: [морской];; => nrel_main_en_idtf: [sea];; *);
+continental(* => nrel_main_ru_idtf: [континентальный];; => nrel_main_en_idtf: [continental];; *);
+};;
+
+nrel_partition_by_genetics => nrel_main_ru_idtf:
+[разбиение по признаку генетика*];;
+
+nrel_partition_by_genetics<- quasybinary_relation;;
+
+conglomerate <= nrel_partition_by_genetics:
+{
+basal(* => nrel_main_ru_idtf: [базальный];; => nrel_main_en_idtf: [basal];; *);
+knutriformatsionny(* => nrel_main_ru_idtf: [кнутриформационный];; => nrel_main_en_idtf: [knutriformatsionny];; *);
+katun(* => nrel_main_ru_idtf: [катунный];; => nrel_main_en_idtf: [katun];; *);
+uraniferous(* => nrel_main_ru_idtf: [ураноносный];; => nrel_main_en_idtf: [uraniferous];; *);
+conglomerate_breccia(* => nrel_main_ru_idtf: [конгломерато брекчия];; => nrel_main_en_idtf: [conglomerate breccia];; *);
+};;
+
+conglomerate  => nrel_defenition: [ сцементированная грубообломочная осадочная горная порода, сложенная преимущественно из гальки с примесью песка, гравия и валунов. ];;

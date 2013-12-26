@@ -1,0 +1,17 @@
+coral_polyps => nrel_main_ru_idtf:
+[Коралловые полипы] ;;
+coral_polyps => nrel_main_en_idtf:
+[coral polyps] ;;
+
+nrel_partition_by_reef_form_ability => nrel_main_ru_idtf:
+[разбиение по способности формировать рифы*];;
+
+nrel_partition_by_reef_form_ability<- quasybinary_relation;;
+
+coral_polyps <= nrel_partition_by_reef_form_ability:
+{
+hermatypic(* => nrel_main_ru_idtf: [герматипные];; => nrel_main_en_idtf: [hermatypic];; *);
+ahermatypic(* => nrel_main_ru_idtf: [агерматипные];; => nrel_main_en_idtf: [ahermatypic];; *);
+};;
+
+coral_polyps  => nrel_defenition: [ морские одиночные и колониальные животные типа кишечнополостных, или стрекающих. ];;

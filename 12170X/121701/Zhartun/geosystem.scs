@@ -1,0 +1,18 @@
+geosystem => nrel_main_ru_idtf:
+[√еосистема] ;;
+geosystem => nrel_main_en_idtf:
+[Geosystem] ;;
+
+geosystem  => nrel_defenition: [ географическа€ система, географическое образование, состо€щее из множества взаимосв€занных компонентов географической оболочки. ];;
+
+nrel_partition_by_component => nrel_main_ru_idtf:
+[разбиение по признаку разделов*];;
+
+nrel_partition_by_component<- quasybinary_relation;;
+
+geosystem  <= nrel_partition_by_component:
+{
+monosistemny (* => nrel_main_ru_idtf: [моносистемна€];; => nrel_main_en_idtf: [monosistemny];; *);
+polysystem(* => nrel_main_ru_idtf: [полисистемна€];; => nrel_main_en_idtf: [polysystem];; *);
+dynamic(* => nrel_main_ru_idtf: [динамическа€];; => nrel_main_en_idtf: [dynamic];; *);
+};;

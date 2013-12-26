@@ -1,0 +1,18 @@
+plisa => nrel_main_ru_indtf:
+[плиса];;
+plisa => nrel_main_en_indtf:
+[plisa];;
+
+nrel_type_sign <- quasybinary_relation;;
+plisa <= nrel_type_sign:
+{
+gravel_sand_material (* => nrel_main_ru_idtf: [гравийно-песчаный материал];; => nrel_main_en_idtf: [ 
+gravel-sand material];; *)
+};;
+
+nrel_date_of_detection <-quasibinary_relation;;
+date of detection<=nrel_state:
+{
+year_1973(* =>nrel_main_ru_idtf: [год 1973];; => nrel_main_en_idtf: [year 1973];; *)
+};;
+

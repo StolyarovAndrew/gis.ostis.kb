@@ -1,0 +1,19 @@
+geographical_shell => nrel_main_ru_idtf:
+[Багряные водоросли] ;;
+geographical_shell => nrel_main_en_idtf:
+[Geographical shell] ;;
+
+nrel_partition_by_state => nrel_main_en_idtf:
+[разбиение по состоянию*];;
+
+
+geographical_shell<= nrel_partition_by_state:
+{
+solid (* => nrel_main_ru_idtf: [твердое];; => nrel_main_en_idtf: [solid];; *);
+liquid (* => nrel_main_ru_idtf: [жидкое];; => nrel_main_en_idtf: [liquid];; *);
+gaseous (* => nrel_main_ru_idtf: [газообразное];; => nrel_main_en_idtf: [gaseous];; *);
+
+};;
+
+
+geographical_shell  => nrel_defenition: [ландшафтная оболочка, целостная непрерывная оболочка Земли, включающая верхнюю часть литосферы, нижние слои атмосферы, биосферу и гидросферу.];;

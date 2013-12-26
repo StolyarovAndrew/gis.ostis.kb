@@ -1,0 +1,46 @@
+soil => nrel_main_ru_idtf: [Почва];;
+
+soil => nrel_main_en_idtf: [soil];;
+
+
+soil => nrel_definition: [природное образование, возникшее в результате воздействия воды, воздуха и живых организмов на поверхностные горизонты горных пород Земли];;
+
+
+nrel_partition_by_type => nrel_main_ru_idtf: [разбиение по типу*];;
+
+nrel_partition_by_type <- quasybinary_relation;;
+
+soil <= nrel_partition_by_type:
+
+{
+sod_calcareous(* 
+=> nrel_main_ru_idtf: [дерново-карбонатные];; 
+=> nrel_main_en_idtf: [solid soil];; 
+*);
+
+sod_podzolic(* 
+=> nrel_main_ru_idtf: [дерново-подзолистые];; 
+=> nrel_main_en_idtf: [sod-podzolic];; 
+*);
+
+sod_podzol_marsh(*
+=> nrel_main_ru_idtf: [дерново-подзолистые заболоченные];; 
+=> nrel_main_en_idtf: [sod-podzol marsh];; 
+*);
+
+podzolic(* 
+=> nrel_main_ru_idtf: [подзолистые];; 
+=> nrel_main_en_idtf: [podzolic];; 
+*);
+
+floodplain(* 
+=> nrel_main_ru_idtf: [пойменные];; 
+=> nrel_main_en_idtf: [floodplain];; 
+*);
+
+peat(* 
+=> nrel_main_ru_idtf: [торфяно-болотные];; 
+=> nrel_main_en_idtf: [peat];; 
+*)
+};;
+

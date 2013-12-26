@@ -1,0 +1,6 @@
+geological_maps => nrel_main_ru_idtf:
+[Геологические карты] ;;
+geological_maps => nrel_main_en_idtf:
+[Geological maps] ;;
+
+geological_maps => nrel_defenition: [графическое отображение на топографической или геогр. основе геол. строения терр. или специфических геол. черт земной коры. ];;

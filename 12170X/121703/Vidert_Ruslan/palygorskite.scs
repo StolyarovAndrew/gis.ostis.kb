@@ -1,0 +1,13 @@
+palygorskite => nrel_main_idtf:
+[Палыгорскит] (* <- lang_ru;; *) ;;
+
+palygorskite => nrel_main_idtf:
+[Palygorskite] (* <- lang_en;; *) ;;
+
+palygorskite <- clay_minerals ;;
+
+palygorskite <- chain_phyllosilicates ;;
+
+palygorskite => color: white_and_yellow ;;
+
+palygorskite => nrel_defenition: [глинистый минерал, цепочечно-слоистый силикат];;

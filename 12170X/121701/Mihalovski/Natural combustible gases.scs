@@ -1,0 +1,35 @@
+naturalCombustibleGases => nrel_main_ru_idtf:
+[Габбро] ;;
+naturalCombustibleGases => nrel_main_en_idtf:
+[Natural combustible gases] ;;
+
+nrel_partition_by_states => nrel_main_en_idtf:
+[разбиение по признаку состояний*];;
+
+nrel_partition_by_states<- quasybinary_relation;;
+
+naturalCombustibleGases<= nrel_partition_by_states:
+{
+free(* => nrel_main_ru_idtf: [свободное];; => nrel_main_en_idtf: [free];; *);
+dissolved(* => nrel_main_ru_idtf: [растворённое];; => nrel_main_en_idtf: [dissolved];; *);
+solid(* => nrel_main_ru_idtf: [твёрдое];; => nrel_main_en_idtf: [solid];; *);
+sorbed(* => nrel_main_ru_idtf: [сорбированное];; => nrel_main_en_idtf: [sorbed];; *);
+};;
+
+nrel_partition_by_deposits => nrel_main_en_idtf:
+[разбиение по прризнаку месторождения*];;
+
+nrel_partition_by_deposits<- quasybinary_relation;;
+
+naturalCombustibleGases<= nrel_partition_by_deposits:
+{
+novokorenevskoe(* => nrel_main_ru_idtf: [Новокоренёвское];; => nrel_main_en_idtf: [Novokorenevskoe];; *);
+sosnovskoye(* => nrel_main_ru_idtf: [Сосновское];; => nrel_main_en_idtf: [Sosnovskoye];; *);
+sudovitskoe(* => nrel_main_ru_idtf: [Судовицкое];; => nrel_main_en_idtf: [Sudovitskoe];; *);
+geological(* => nrel_main_ru_idtf: [Геологическое];; => nrel_main_en_idtf: [Geological];; *);
+svetlogorck(* => nrel_main_ru_idtf: [Светлогорское];; => nrel_main_en_idtf: [Svetlogorck];; *);
+krasnoselskoe(* => nrel_main_ru_idtf: [Красносельское];; => nrel_main_en_idtf: [Krasnoselskoe];; *);
+rechickoe(* => nrel_main_ru_idtf: [Речицкое];; => nrel_main_en_idtf: [Rechickoe];; *);
+};;
+
+naturalCombustibleGases  => nrel_defenition: [ совокупность газовых компонентов, встречающихся в горных породах в различных состояниях.];;

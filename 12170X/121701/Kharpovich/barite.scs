@@ -1,0 +1,37 @@
+barite => nrel_main_ru_idtf:
+[барит] ;;
+barite => nrel_main_en_idtf:
+[Barite] ;;
+
+nrel_partition_by_color => nrel_main_ru_idtf:
+[разбиение по цвету*];;
+
+nrel_partition_by_color<- quasybinary_relation;;
+
+barite<= nrel_partition_by_color:
+{
+white_barite(* => nrel_main_ru_idtf: [белый барит];; => nrel_main_en_idtf: [white barite];; *);
+blue_barite(* => nrel_main_ru_idtf: [голубой барит];; => nrel_main_en_idtf: [blue barite];; *);
+darkblue_barite(* => nrel_main_ru_idtf: [синий барит];; => nrel_main_en_idtf: [darkblue barite];; *);
+yellow_barite(* => nrel_main_ru_idtf: [желтый барит];; => nrel_main_en_idtf: [yellow barite];; *);
+gray_barite(* => nrel_main_ru_idtf: [серый барит];; => nrel_main_en_idtf: [gray barite];; *);
+brown_barite(* => nrel_main_ru_idtf: [бурый барит];; => nrel_main_en_idtf: [brown barite];; *);
+red_barite(* => nrel_main_ru_idtf: [красный барит];; => nrel_main_en_idtf: [red barite];; *);
+black_barite(* => nrel_main_ru_idtf: [черный барит];; => nrel_main_en_idtf: [black barite];; *);
+};;
+
+
+nrel_partition_by_gloss => nrel_main_ru_idtf:
+[разбиение по блеску*];;
+
+nrel_partition_by_gloss<- quasybinary_relation;;
+
+barite<=nrel_partition_by_gloss:
+{
+glass_gloss(* => nrel_main_ru_idtf: [с стеклянным блеском];; => nrel_main_en_idtf: [glass_gloss];; *);
+pearl_gloss (* => nrel_main_ru_idtf: [с перламутровым блеском];; => nrel_main_en_idtf: [pearl_gloss];; *);
+mat_gloss(* => nrel_main_ru_idtf: [с матовым блеском];; => nrel_main_en_idtf: [mat_gloss];; *);
+};;
+
+
+barite  => nrel_defenition: [тяжелый шпат, минерал, сульфат бария];;

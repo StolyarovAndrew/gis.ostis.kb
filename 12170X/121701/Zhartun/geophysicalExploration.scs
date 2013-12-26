@@ -1,0 +1,43 @@
+geophysicalExploration => nrel_main_ru_idtf:
+[Геофизическая разведка] ;;
+geophysicalExploration => nrel_main_en_idtf:
+[geophysical exploration] ;;
+
+geophysicalExploration  => nrel_defenition: [  геофизические методы поисков и разведки полезных ископаемых, поисково-разведочная геофизика, разведочная геофизика, прикладная наука, изучающая физическими методами строение и вещественный состав верхнего слоя земной коры, в к-ром размещены месторождения полезных ископаемых, доступные для их извлечения совр. методами. ];;
+
+nrel_partition_by_methods  => nrel_main_ru_idtf:
+[разбиение по признаку методов*];;
+
+nrel_partition_by_methods <- quasybinary_relation;;
+
+geophysicalExploration  <= nrel_partition_by_methods:
+{
+gravitational (* => nrel_main_ru_idtf: [гравитационный];; => nrel_main_en_idtf: [gravitational];; *);
+magnetic(* => nrel_main_ru_idtf: [магнитный];; => nrel_main_en_idtf: [magnetic];; *);
+electric (* => nrel_main_ru_idtf: [электрический];; => nrel_main_en_idtf: [electric];; *);
+seismic(* => nrel_main_ru_idtf: [сейсмический];; => nrel_main_en_idtf: [seismic];; *);
+radiometric(* => nrel_main_ru_idtf: [радиометрический];; => nrel_main_en_idtf: [radiometric];; *);
+};;
+
+nrel_partition_by_types_of_research => nrel_main_ru_idtf:
+[разбиение по признаку видов исследований*];;
+
+nrel_partition_by_types_of_research<- quasybinary_relation;;
+
+geophysicalExploration  <= nrel_partition_by_types_of_research:
+{
+structural (* => nrel_main_ru_idtf: [структурный];; => nrel_main_en_idtf: [structural];; *);
+ore(* => nrel_main_ru_idtf: [рудный];; => nrel_main_en_idtf: [ore];; *);
+trade(* => nrel_main_ru_idtf: [промысловый];; => nrel_main_en_idtf: [trade];; *);
+};;
+
+nrel_partition_by_fields => nrel_main_ru_idtf:
+[разбиение по признаку  вида полей*];;
+
+nrel_partition_by_laboratory_fields<- quasybinary_relation;;
+
+geophysicalExploration  <= nrel_partition_by_laboratory_fields:
+{
+DC (* => nrel_main_ru_idtf: [электроразведка на постоянном электрическом токе];; => nrel_main_en_idtf: [electromagnetics at a constant electric current];; *);
+AC(* => nrel_main_ru_idtf: [электроразведка на переменном электрическом токе];; => nrel_main_en_idtf: [electromagnetics alternating electric current];; *);
+};;

@@ -1,0 +1,17 @@
+end_moraines => nrel_main_ru_idtf:
+[Конечные морены] ;;
+end_moraines => nrel_main_en_idtf:
+[Еnd moraines] ;;
+
+nrel_partition_by_formation => nrel_main_ru_idtf:
+[разбиение по признаку формирования*];;
+
+nrel_partition_by_formation<- quasybinary_relation;;
+
+end_moraines <= nrel_partition_by_formation:
+{
+bulk (* => nrel_main_ru_idtf: [насыпные];; => nrel_main_en_idtf: [bulk];; *);
+natyurnye(* => nrel_main_ru_idtf: [натюрные];; => nrel_main_en_idtf: [natyurnye];; *);
+};;
+
+end_moraines  => nrel_defenition: [ фронтальные морены, конечно-моренные отложения, примущественно несортированные неслоистые грубообломочные морены, образующиеся у фронта (края) ледника при сравнительно слабом участии талых ледниковых вод в результате сваливания (демпинга), проталкивания (пушинга) и выжимания (сквизинга) водонасыщенного моренного материала и пластичных пород ледникового ложа. ];;

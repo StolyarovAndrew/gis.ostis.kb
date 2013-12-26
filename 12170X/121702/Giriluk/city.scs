@@ -1,0 +1,16 @@
+city <- place;;
+city => nrel_main_idtf:
+     [город] (* <- lang_ru;; *);;
+city => nrel_main_idtf:
+     [city] (* <- lang_en;; *);;
+
+city => nrel_defenition: [  крупный (по сложившимся стереотипам) населённый пункт, жители которого заняты, как правило, вне сельского хозяйства. ];;
+
+city<= nrel_partition_by_type:
+{
+cities_of_the_ancient_world (* => nrel_main_ru_idtf: [Города Древнего Мира]; => nrel_main_en_idtf: [Cities of the Ancient World];; *);
+
+cities_of_the_middle_ages (* => nrel_main_ru_idtf: [Города Средневековья]; => nrel_main_en_idtf: [Cities of the Middle Ages];; *);
+
+modern_cities (* => nrel_main_ru_idtf: [Современные города]; => nrel_main_en_idtf: [modern cities];; *);
+};;

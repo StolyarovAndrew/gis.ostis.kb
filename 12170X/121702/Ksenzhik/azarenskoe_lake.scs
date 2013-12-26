@@ -1,0 +1,20 @@
+azarenskoe_lake => nrel_main_idtf:
+[Азаренское озеро] ;;
+azarenskoe_lake => nrel_main_idtf:
+[Azarenskoe lake] ;;
+
+azarenskoe_lake => nrel_altitude: [161];;
+
+azarenskoe_lake => nrel_watercourse_type: stable 
+(* 
+=> nrel_main_idtf: [постоянный] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [stable] (* <- lang_en;; *);; 
+*);;
+
+azarenskoe_lake => nrel_depth: [1,9];;
+azarenskoe_lake => nrel_qualitative_features_of_water: fresh_water
+(* 
+=> nrel_main_idtf: [пресная вода] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [fresh water] (* <- lang_en;; *);; 
+*);;
+azarenskoe_lake => nrel_square: [0,48];;

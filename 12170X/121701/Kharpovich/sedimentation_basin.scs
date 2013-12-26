@@ -1,0 +1,32 @@
+sedimentation_basin => nrel_main_ru_idtf:
+[Отстойник] ;;
+sedimentation_basin => nrel_main_en_idtf:
+[Sedimentation basin] ;;
+
+nrel_partition_by_physic_geo => nrel_main_ru_idtf:
+[разбиение по физико_географическому признаку*];;
+
+nrel_partition_by_physic_geo <- quasybinary_relation;;
+
+sedimentation_basin <= nrel_partition_by_physic_geo:
+{
+ocian(* => nrel_main_ru_idtf: [океанический];; => nrel_main_en_idtf: ocian];; *);
+sea (* => nrel_main_ru_idtf: [морской];; => nrel_main_en_idtf: [sea];; *);
+lake(* => nrel_main_ru_idtf: [озерный];; => nrel_main_en_idtf: [lake];; *);
+};;
+
+nrel_partition_by_water_composition=> nrel_main_ru_idtf:
+[разбиение по физико_географическому признаку*];;
+
+nrel_partition_by_water_composition <- quasybinary_relation;;
+
+sedimentation_basin <= nrel_partition_by_water_composition:
+{
+normal_salinity(* => nrel_main_ru_idtf: [нормальной солёности];; => nrel_main_en_idtf: [normal salinity];; *);
+brackish_water (* => nrel_main_ru_idtf: [солоновато_водные];; => nrel_main_en_idtf: [brackish water];; *);
+osolennye(* => nrel_main_ru_idtf: [осолённые];; => nrel_main_en_idtf: [osolennye];; *);
+fresh(* => nrel_main_ru_idtf: [пресные];; => nrel_main_en_idtf: [fresh];; *);
+};;
+
+
+sedimentation_basin => nrel_defenition: [систематическое собрание карт с пояснительным текстом, изданное в виде тома или набора отдельных листов.];;

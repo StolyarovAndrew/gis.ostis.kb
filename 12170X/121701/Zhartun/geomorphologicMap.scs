@@ -1,0 +1,18 @@
+geomorphologicMap => nrel_main_ru_idtf:
+[Геоморфологические карты] ;;
+geomorphologicMap => nrel_main_en_idtf:
+[geomorphologic map] ;;
+
+geomorphologicMap  => nrel_defenition: [ карты, отображающие в определённом масштабе строение рельефа земной поверхности, его морфография, генезис и возраст. ];;
+
+nrel_partition_by_describe_the_relief => nrel_main_ru_idtf:
+[разбиение по признаку описания рельефа*];;
+
+nrel_partition_by_describe_the_relief<- quasybinary_relation;;
+
+geomorphologicMap  <= nrel_partition_by_describe_the_relief:
+{
+general (* => nrel_main_ru_idtf: [общие];; => nrel_main_en_idtf: [general];; *);
+private(* => nrel_main_ru_idtf: [частные];; => nrel_main_en_idtf: [private];; *);
+special(* => nrel_main_ru_idtf: [специальные];; => nrel_main_en_idtf: [special];; *);
+};;

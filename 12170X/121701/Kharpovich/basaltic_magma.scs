@@ -1,0 +1,17 @@
+basaltic_magma => nrel_main_ru_idtf:
+[Базальтовая магма] ;;
+basaltic_magma => nrel_main_en_idtf:
+[Basaltic magma] ;;
+
+nrel_partition_by_composition => nrel_main_en_idtf:
+[разбиение по составу*];;
+
+nrel_partition_by_composition<- quasybinary_relation;;
+
+basaltic_magma<= nrel_partition_by_composition:
+{
+tholeiitic(* => nrel_main_ru_idtf: [толеитовая];; => nrel_main_en_idtf: [tholeiitic];; *);
+alkaline_basaltic(* => nrel_main_ru_idtf: [щёлочно_базальтовая];; => nrel_main_en_idtf: [alkaline_basaltic];; *);
+};;
+
+basaltic_magma  => nrel_defenition: [Базальтовая (основная) магма, по-видимому, имеет большее распространение. В ней содержится около 50 % кремнезёма, в значительном количестве присутствуют алюминий, кальций, железо и магний, в меньшем — натрий, калий, титан и фосфор. По химическому составу базальтовые магмы подразделяются на толеитовую (перенасыщенна кремнезёмом) и щёлочно-базальтовую (оливин-базальтовую) магму, (недонасыщенную кремнезёмом, но обогащённую щелочами).];;

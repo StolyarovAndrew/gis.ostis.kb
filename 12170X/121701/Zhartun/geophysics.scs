@@ -1,0 +1,28 @@
+geophysics => nrel_main_ru_idtf:
+[Геофизика] ;;
+geophysics => nrel_main_en_idtf:
+[geophysics] ;;
+
+geophysics  => nrel_defenition: [ комплекс наук, исследующих физическими методами физ. свойства, строение Земли её физ. поля и процессы, происходящие во всех её оболочках. ];;
+
+nrel_partition_by_sections  => nrel_main_ru_idtf:
+[разбиение по признаку разделов*];;
+
+nrel_partition_by_sections <- quasybinary_relation;;
+
+geophysics  <= nrel_partition_by_sections :
+{
+physicsEarth (* => nrel_main_ru_idtf: [физика земли];; => nrel_main_en_idtf: [physics of the earth];; *);
+explorationGeophysics(* => nrel_main_ru_idtf: [поисково-разведочная геофизика];; => nrel_main_en_idtf: [exploration geophysics];; *);
+};;
+
+nrel_partition_by_laboratory_division => nrel_main_ru_idtf:
+[разбиение по признаку лабораторного разделения*];;
+
+nrel_partition_by_laboratory_division<- quasybinary_relation;;
+
+geophysics  <= nrel_partition_by_laboratory_division:
+{
+geophysicsSection (* => nrel_main_ru_idtf: [отдел геофизики];; => nrel_main_en_idtf: [Geophysics section];; *);
+sectorEarthPhysics(* => nrel_main_ru_idtf: [сектор физики Земли];; => nrel_main_en_idtf: [sector of the Earth Physics];; *);
+};;

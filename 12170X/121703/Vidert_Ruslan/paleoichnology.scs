@@ -1,0 +1,11 @@
+paleoichnology => nrel_main_idtf:
+[Палеоихнология] (* <- lang_ru;; *) ;;
+
+paleoichnology => nrel_main_idtf:
+[Paleoichnology] (* <- lang_en;; *) ;;
+
+paleoichnology <- geology ;;
+
+paleoichnology <- paleontology ;;
+
+paleoichnology => nrel_defenition: [наука, раздел геологии и палеонтологии, изучающий знаки, следы на поверхности напластования осадочных пород неорган, (механоглифы) и орган, (биоглифы) происхождения.];;

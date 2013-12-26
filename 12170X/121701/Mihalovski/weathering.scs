@@ -1,0 +1,28 @@
+weathering => nrel_main_ru_idtf:
+[Выветривание] ;;
+weathering => nrel_main_en_idtf:
+[Weathering] ;;
+
+nrel_partition_by_origin => nrel_main_en_idtf:
+[разбиение по происхождению*];;
+
+nrel_partition_by_origin<- quasybinary_relation;;
+
+weathering<= nrel_partition_by_origin:
+{
+physical(* => nrel_main_ru_idtf: [физическое];; => nrel_main_en_idtf: [physical];; *);
+chemical(* => nrel_main_ru_idtf: [химическое];; => nrel_main_en_idtf: [chemical];; *);
+};;
+
+nrel_partition_by_weathering_crusts => nrel_main_en_idtf:
+[разбиение по кор выветривания*];;
+
+nrel_partition_by_weathering_crusts<- quasybinary_relation;;
+
+weathering<= nrel_partition_by_weathering_crusts:
+{
+modern(* => nrel_main_ru_idtf: [современные];; => nrel_main_en_idtf: [modern];; *);
+ancient(* => nrel_main_ru_idtf: [древние];; => nrel_main_en_idtf: [ancient];; *);
+};;
+
+weathering  => nrel_defenition: [процесс разрушения и преобразования минералов и горных пород под воздействием физ., хим. и орган. агентов.];;

@@ -1,0 +1,18 @@
+octocoral => nrel_main_ru_idtf:
+[Восьмилучевые кораллы] ;;
+octocoral => nrel_main_en_idtf:
+[Octocoral] ;;
+
+nrel_partition_by_structure => nrel_main_en_idtf:
+[разбиение по структуре*];;
+
+nrel_partition_by_structure<- quasybinary_relation;;
+
+octocoral<= nrel_partition_by_structure:
+{
+alcyonarians(* => nrel_main_ru_idtf: [альционарии];; => nrel_main_en_idtf: [alcyonarians];; *);
+hornCorals(* => nrel_main_ru_idtf: [роговые караллы];; => nrel_main_en_idtf: [horn corals];; *);
+seaPens(* => nrel_main_ru_idtf: [морские перья];; => nrel_main_en_idtf: [sea ??pens];; *);
+};;
+
+octocoral  => nrel_defenition: [подкласс беспозвоночных животных типа кишечнополостных; коралловые полипы, полость тела к-рых разделена 8 мягкими мезентериальными перегородками на 8 камер.];;

@@ -1,0 +1,9 @@
+velveteen => nrel_main_idtf:
+[Плиса] (* <- lang_ru;; *) ;;
+
+velveteen => nrel_main_idtf:
+[Velveteen] (* <- lang_en;; *) ;;
+
+velveteen <- mineral_deposit ;;
+
+velveteen => type_of_sign: gravel_and_sand_material ;;

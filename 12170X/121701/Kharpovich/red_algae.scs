@@ -1,0 +1,31 @@
+red_algae => nrel_main_ru_idtf:
+[Багряные водоросли] ;;
+red_algae => nrel_main_en_idtf:
+[Red algae] ;;
+
+nrel_partition_by_class => nrel_main_en_idtf:
+[разбиение по классу*];;
+
+nrel_partition_by_class<- quasybinary_relation;;
+
+red_algae<= nrel_partition_by_class:
+{
+multicellular(* => nrel_main_ru_idtf: [многоклеточные];; => nrel_main_en_idtf: [multicellular];; *);
+celled (* => nrel_main_ru_idtf: [одноклеточные];; => nrel_main_en_idtf: [celled];; *);
+};;
+
+nrel_partition_by_color => nrel_main_en_idtf:
+[разбиение по цвету*];;
+
+nrel_partition_by_color<- quasybinary_relation;;
+
+red_algae<= nrel_partition_by_color:
+{
+red(* => nrel_main_ru_idtf: [красный];; => nrel_main_en_idtf: [red];; *);
+purple (* => nrel_main_ru_idtf: [пурпурные];; => nrel_main_en_idtf: [purple];; *);
+violet(* => nrel_main_ru_idtf: [фиолетовые];; => nrel_main_en_idtf: [violet];; *);
+bluish-green (* => nrel_main_ru_idtf: [голубовато-зелёные];; => nrel_main_en_idtf: [bluish-green];; *);
+};;
+
+
+red_algae  => nrel_defenition: [отдел низших водных растений.];;

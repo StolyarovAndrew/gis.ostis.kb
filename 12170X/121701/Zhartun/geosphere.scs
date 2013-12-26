@@ -1,0 +1,30 @@
+geosphere => nrel_main_ru_idtf:
+[Геосферы] ;;
+geosphere => nrel_main_en_idtf:
+[geosphere] ;;
+
+geosphere  => nrel_defenition: [ оболочки Земли, концентрические оболочки, образованные веществом Земли. ];;
+
+nrel_partition_by_direction  => nrel_main_ru_idtf:
+[разбиение по признаку направления от переферии к центру*];;
+
+nrel_partition_by_direction <- quasybinary_relation;;
+
+geosphere  <= nrel_partition_by_direction :
+{
+atmosphere (* => nrel_main_ru_idtf: [атмосфера];; => nrel_main_en_idtf: [atmosphere];; *);
+hydrosphere(* => nrel_main_ru_idtf: [гидросфера];; => nrel_main_en_idtf: [hydrosphere];; *);
+solidEarth(* => nrel_main_ru_idtf: [твердая Земля];; => nrel_main_en_idtf: [solid earth];; *);
+};;
+
+nrel_partition_by_distinction => nrel_main_ru_idtf:
+[разбиение по признаку отличий*];;
+
+nrel_partition_by_distinction<- quasybinary_relation;;
+
+geosphere  <= nrel_partition_by_distinction:
+{
+chemicalComposition (* => nrel_main_ru_idtf: [химический состав];; => nrel_main_en_idtf: [chemical composition];; *);
+aggregateState(* => nrel_main_ru_idtf: [агрегатное состояние];; => nrel_main_en_idtf: [aggregate state];; *);
+physicalProperties(* => nrel_main_ru_idtf: [физические свойства];; => nrel_main_en_idtf: [physical properties];; *);
+};;

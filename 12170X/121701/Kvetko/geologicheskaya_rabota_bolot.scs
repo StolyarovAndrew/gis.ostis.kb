@@ -1,0 +1,6 @@
+geological_work_swamp => nrel_main_ru_idtf:
+[Геологическая работа болот] ;;
+geological_work_swamp => nrel_main_en_idtf:
+[Geological work swamp] ;;
+
+geological_work_swamp => nrel_defenition: [геологическая работа болот сводится, в основном, к накоплению торфа. ];;

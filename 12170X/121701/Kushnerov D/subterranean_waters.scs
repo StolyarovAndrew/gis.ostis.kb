@@ -1,0 +1,12 @@
+sc_node_not_relation->subterranean_waters;;
+subterranean_waters=>nrel_main_ru_idtf:[Грунтовые воды];;
+
+subterranean_waters<-rrel_defenition:subterranean_waters_def;;
+subterranean_waters_def<=nrel_translation:subterranean_waters_def_translation;;
+subterranean_waters_def_translation<-[подземные воды 1-ого от поверхности постоянно водонасыщенного пласта (слоя) рыхлых отложений, или зоны трещиноватости кристаллических (скальных) пород, залегающих на 1-ом от поверхности слое.](*<-lang_ru;;*);;
+subterranean_waters_def<=nrel_used_constants:
+{
+groundwater;
+loose_deposits;
+crystalline_rocks
+};;
