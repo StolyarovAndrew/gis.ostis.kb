@@ -4,12 +4,12 @@ artesian_wells => nrel_main_en_idtf:
 [artesian_wells];;
 
 nrel_location_in_belarus => nrel_main_en_idtf:
-[location_in_belarus];;
+[location_in_belarus*];;
 nrel_location_in_belarus <- quasybinary_relation;;
 artesian_wells <= nrel_location_in_belarus:
 {
 health_resorts_and_hospitals (* => nrel_main_ru_idtf: [санитарно-курортные и лечебные учреждения];; => nrel_main_en_idtf: [health resorts and hospitals];; *);
-company_bottling_water (* => nrel_main_ru_idtf: [предприятия по бутилированию воды];; => nrel_main_en_idtf: [company bottling water];; *);
+company_bottling_water (* => nrel_main_ru_idtf: [предприятия по бутилированию воды];; => nrel_main_en_idtf: [company bottling water];; *)
 };;
 
 artesian_wells => nrel_defenition:[буровые скважены, вскрывающие артезианские воды.];;

@@ -4,21 +4,21 @@ anthropogenic_landscape => nrel_main_en_idtf:
 [anthropogenic_landscape];;
 
 nrel_change_rate => nrel_main_en_idtf:
-[change_rate];;
+[change_rate*];;
 nrel_change_rate <- quasybinary_relation;;
 anthropogenic_landscape <= nrel_change_rate:
 {
 technogenic_landscape (* => nrel_main_ru_idtf: [техногенный ландшафт];; => nrel_main_en_idtf: [technogenic landscape];; *);
-natural_and_anthropogenic_landscape (* => nrel_main_ru_idtf: [природно-антропогенный ландшафт];; => nrel_main_en_idtf: [natural and anthropogenic landscape];; *);
+natural_and_anthropogenic_landscape (* => nrel_main_ru_idtf: [природно-антропогенный ландшафт];; => nrel_main_en_idtf: [natural and anthropogenic landscape];; *)
 };;
 
 nrel_stage_of_development => nrel_main_en_idtf:
-[stage_of_development];;
+[stage_of_development*];;
 nrel_stage_of_development <- quasybinary_relation;;
 anthropogenic_landscape <= nrel_stage_of_development:
 {
 early (* => nrel_main_ru_idtf: [ранний];; => nrel_main_en_idtf: [early];; *);
-mature (* => nrel_main_ru_idtf: [зрелый];; => nrel_main_en_idtf: [mature];; *);
+mature (* => nrel_main_ru_idtf: [зрелый];; => nrel_main_en_idtf: [mature];; *)
 };;
 
 anthropogenic_landscape => nrel_defenition:[ландшафт, сформировавшийся на основе природного комплекса под влиянием хозяйственной деятельности человека и развивающийся по природным и социально-экономическим законам.];;

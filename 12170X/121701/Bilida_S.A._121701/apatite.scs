@@ -4,18 +4,18 @@ apatite => nrel_main_en_idtf:
 [apatite];;
 
 nrel_typology => nrel_main_en_idtf:
-[typology];;
+[typology*];;
 nrel_typology <- quasybinary_relation;;
 apatite <= nrel_typology:
 {
 cryptocrystalline (* => nrel_main_ru_idtf: [скрытокристаллические];; => nrel_main_en_idtf: [cryptocrystalline];; *);
 earthy (* => nrel_main_ru_idtf: [землистые];; => nrel_main_en_idtf: [earthy];; *);
-reniform (* => nrel_main_ru_idtf: [почковидные];; => nrel_main_en_idtf: [reniform];;
-concretion (* => nrel_main_ru_idtf: [конкреционные];; => nrel_main_en_idtf: [concretion];;
+reniform (* => nrel_main_ru_idtf: [почковидные];; => nrel_main_en_idtf: [reniform];;*);
+concretion (* => nrel_main_ru_idtf: [конкреционные];; => nrel_main_en_idtf: [concretion];;*)
 };;
 
 nrel_color => nrel_main_en_idtf:
-[color];;
+[color*];;
 nrel_color <- quasybinary_relation;;
 apatite <= nrel_color:
 {
@@ -25,11 +25,11 @@ white (* => nrel_main_ru_idtf: [белый];; => nrel_main_en_idtf: [white];; *)
 blue (* => nrel_main_ru_idtf: [голубой];; => nrel_main_en_idtf: [blue];; *);
 brown (* => nrel_main_ru_idtf: [бурый];; => nrel_main_en_idtf: [brown];; *);
 purple (* => nrel_main_ru_idtf: [фиолетовый];; => nrel_main_en_idtf: [purple];; *);
-colorless (* => nrel_main_ru_idtf: [бесцветный];; => nrel_main_en_idtf: [colorless];; *);
+colorless (* => nrel_main_ru_idtf: [бесцветный];; => nrel_main_en_idtf: [colorless];; *)
 };;
 
 nrel_species => nrel_main_en_idtf:
-[species];;
+[species*];;
 nrel_species <- quasybinary_relation;;
 apatite <= nrel_species:
 {
@@ -39,7 +39,7 @@ silicon (* => nrel_main_ru_idtf: [кремний];; => nrel_main_en_idtf: [silic
 chlorine (* => nrel_main_ru_idtf: [хлор];; => nrel_main_en_idtf: [chlorine];; *);
 hydroxyapatite (* => nrel_main_ru_idtf: [гидроксиапатит];; => nrel_main_en_idtf: [hydroxyapatite];; *);
 karbonatapatit (* => nrel_main_ru_idtf: [карбонатапатит];; => nrel_main_en_idtf: [karbonatapatit];; *);
-strontiumapatite (* => nrel_main_ru_idtf: [стромцийапатит];; => nrel_main_en_idtf: [strontiumapatite];; *);
+strontiumapatite (* => nrel_main_ru_idtf: [стромцийапатит];; => nrel_main_en_idtf: [strontiumapatite];; *)
   
 };;
 

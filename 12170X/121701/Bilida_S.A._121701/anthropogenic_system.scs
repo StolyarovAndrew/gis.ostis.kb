@@ -4,12 +4,12 @@ anthropogenic_system => nrel_main_en_idtf:
 [Anthropogenic system (period)];;
 
 nrel_time => nrel_main_en_idtf:
-[time];;
+[time*];;
 nrel_time <- quasybinary_relation;;
 anthropogenic_landscape <= nrel_time:
 {
 pleistocene_section (* => nrel_main_ru_idtf: [плейстоценовый раздел];; => nrel_main_en_idtf: [pleistocene section];; *);
-holocene_section (* => nrel_main_ru_idtf: [голоценовый раздел];; => nrel_main_en_idtf: [holocene section];; *);
+holocene_section (* => nrel_main_ru_idtf: [голоценовый раздел];; => nrel_main_en_idtf: [holocene section];; *)
 };;
 
 anthropogenic_system => nrel_defenition:[gоследняя (верхняя) система кайнозойской эратемы (эры), соответствующая последнему четвертичному периоду в геологической истории Земли.];;

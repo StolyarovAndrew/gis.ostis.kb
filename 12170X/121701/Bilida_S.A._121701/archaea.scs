@@ -4,35 +4,35 @@ archaea => nrel_main_en_idtf:
 [archaea];;
 
 nrel_units => nrel_main_en_idtf:
-[units];;
+[units*];;
 nrel_units <- quasybinary_relation;;
 archaea <= nrel_units:
 {
 eoarhiya (* => nrel_main_ru_idtf: [эоархия];; => nrel_main_en_idtf: [eoarhiya];; *);
 poleoarhiya (* => nrel_main_ru_idtf: [полеоархия];; => nrel_main_en_idtf: [poleoarhiya];; *);
 mezoarhiya (* => nrel_main_ru_idtf: [мезоархия];; => nrel_main_en_idtf: [mezoarhiya];; *);
-neoarhiya (* => nrel_main_ru_idtf: [неоархия];; => nrel_main_en_idtf: [neoarhiya];; *);
+neoarhiya (* => nrel_main_ru_idtf: [неоархия];; => nrel_main_en_idtf: [neoarhiya];; *)
 };;
 
 nrel_archean_rocks => nrel_main_en_idtf:
-[archean_rocks];;
+[archean_rocks*];;
 nrel_archean_rocks <- quasybinary_relation;;
 archaea <= nrel_archean_rocks:
 {
 iron_ore_deposits (* => nrel_main_ru_idtf: [железорудные месторождения];; => nrel_main_en_idtf: [iron ore deposits];; *);
 pyrite_deposits (* => nrel_main_ru_idtf: [колчеданные месторождения];; => nrel_main_en_idtf: [pyrite deposits];; *);
 polymetallic_deposits (* => nrel_main_ru_idtf: [полиметаллические месторождения];; => nrel_main_en_idtf: [polymetallic deposits];; *);
-gold_deposits (* => nrel_main_ru_idtf: [золоторудные месторождения];; => nrel_main_en_idtf: [gold deposits];; *);
+gold_deposits (* => nrel_main_ru_idtf: [золоторудные месторождения];; => nrel_main_en_idtf: [gold deposits];; *)
 
 };;
 
 nrel_ultra_type_metamorphism => nrel_main_en_idtf:
-[ultra_type_metamorphism];;
+[ultra_type_metamorphism*];;
 nrel_ultra_type_metamorphism <- quasybinary_relation;;
 archaea <= nrel_ultra_type_metamorphism:
 {
 grained_metamorphic_complexes (* => nrel_main_ru_idtf: [гранулированные метаморфические комплексы];; => nrel_main_en_idtf: [grained metamorphic complexes];; *);
-amphibolite-gneiss_metamorphic_complexes (* => nrel_main_ru_idtf: [амфибилит-гнейсовые метаморфические комплексы];; => nrel_main_en_idtf: [amphibolite-gneiss metamorphic complexes];; *);
+amphibolite-gneiss_metamorphic_complexes (* => nrel_main_ru_idtf: [амфибилит-гнейсовые метаморфические комплексы];; => nrel_main_en_idtf: [amphibolite-gneiss metamorphic complexes];; *)
 
 };;
 

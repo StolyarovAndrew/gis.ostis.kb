@@ -4,12 +4,12 @@ anthropogenic_soil => nrel_main_en_idtf:
 [Anthropogenic soil];;
 
 nrel_features_conversion_profile_and_educational_conditions_in_the_main_diagnostic_horizons => nrel_main_en_idtf:
-[features_conversion_profile_and_educational_conditions_in_the_main_diagnostic_horizons];;
+[features_conversion_profile_and_educational_conditions_in_the_main_diagnostic_horizons*];;
 nrel_features_conversion_profile_and_educational_conditions_in_the_main_diagnostic_horizons <- quasybinary_relation;;
 anthropogenic_soil <= nrel_features_conversion_profile_and_educational_conditions_in_the_main_diagnostic_horizons:
 {
 agrogene (* => nrel_main_ru_idtf: [агрогенные];; => nrel_main_en_idtf: [agrogene];; *);
-technogenic (* => nrel_main_ru_idtf: [техногенные];; => nrel_main_en_idtf: [technogenic];; *);
+technogenic (* => nrel_main_ru_idtf: [техногенные];; => nrel_main_en_idtf: [technogenic];; *)
 };;
 
 anthropogenic_soil => nrel_defenition:[самостоятельные почвенные образования, возникшие в результате глубокой трансформации профиля почв под влиянием хозяйственной деятельности человека и полностью утратившие свои естественные классификационно-диагностические признаки. ];;
