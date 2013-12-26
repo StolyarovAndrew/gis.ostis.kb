@@ -1,7 +1,7 @@
-sc_node_not_relation->shale;;
+﻿sc_node_not_relation->shale;;
 shale=>nrel_main_ru_idtf:[Горючие сланцы];;
 
-shale<-rrel_defenition:.hale_def;;
+shale<-rrel_defenition:shale_def;;
 shale_def<=nrel_translation:shale_def_translation;;
 shale_def_translation<-[осадочные горные породы с содержанием сапропелевого (остатки низших водорослей и зоопланктона) или гумусово-сапропелевого органического вещества (керогена) от 10 до 50и выше.](*<-lang_ru;;*);;
 shale_def<=nrel_used_constants:

@@ -1,4 +1,4 @@
-sc_node_not_relation->graben;;
+﻿sc_node_not_relation->graben;;
 graben=>nrel_main_ru_idtf:[Грабен];;
 
 graben<-rrel_defenition:graben_def;;

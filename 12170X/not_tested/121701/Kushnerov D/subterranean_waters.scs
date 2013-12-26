@@ -1,4 +1,4 @@
-sc_node_not_relation->subterranean_waters;;
+﻿sc_node_not_relation->subterranean_waters;;
 subterranean_waters=>nrel_main_ru_idtf:[Грунтовые воды];;
 
 subterranean_waters<-rrel_defenition:subterranean_waters_def;;
