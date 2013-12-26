@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+obrybi => nrel_main_ru_idtf:
 [Обрубы] ;;
-chechersk => nrel_main_en_idtf:
+obrybi => nrel_main_en_idtf:
 [Obrybi] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [10];;
-chechersk=> nrel_region: [Гродненская область];; 
-chechersk=> nrel_district: [Лидский район];;
-chechersk=> nrel_locality: [деревня Обрубы];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+obrybi=> nrel_population: [10];;
+obrybi=> nrel_region: [Гродненская область];; 
+obrybi=> nrel_district: [Лидский район];;
+obrybi=> nrel_locality: [деревня Обрубы];;
+obrybi=> nrel_state: [жилой] ;;
+obrybi=> nrel_politic: [не имеет политико-административного значения] ;;
