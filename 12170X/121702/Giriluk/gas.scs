@@ -1,6 +1,0 @@
-gas => nrel_main_idtf: 
-  [газ] (* <- lang_ru;; *);;
-gas => nrel_main_idtf: 
-  [gas] (* <- lang_en;; *);;
-gas <- substance;;
-gas <- aggregate_state;;

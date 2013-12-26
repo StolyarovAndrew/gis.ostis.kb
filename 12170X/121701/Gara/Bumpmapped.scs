@@ -1,6 +1,0 @@
-bumpmapped => nrel_main_ru_idtf:
-[Карты рельефа] ;;
-bumpmapped => nrel_main_en_idtf:
-[Bumpmapped] ;;
-
-bumpmapped => nrel_defenition: [отображают рельеф земной поверхности или морского дна, внутренних водоемов.];;

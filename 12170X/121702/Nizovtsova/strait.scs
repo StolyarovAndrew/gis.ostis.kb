@@ -1,5 +1,0 @@
-strait => nrel_main_ru_idtf:
-	[Пролив] ;;
-strait => nrel_main_en_idtf:
-	[strait] ;;
-strait => nrel_defenition: [ водное пространство, расположенное между двумя участками суши и соединяющее смежные водные бассейны или их части.] ;;

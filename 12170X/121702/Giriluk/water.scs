@@ -1,4 +1,0 @@
-water => nrel_main_idtf: [вода] (* <- lang_ru;; *);;
-
-water => nrel_main_idtf: 
-	[water] (* <- lang_en;; *);;
