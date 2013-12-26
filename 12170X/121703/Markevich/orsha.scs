@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+orsha => nrel_main_ru_idtf:
 [Орша] ;;
-chechersk => nrel_main_en_idtf:
+orsha => nrel_main_en_idtf:
 [Orsha] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [123000];;
-chechersk=> nrel_region: [Витебская область];; 
-chechersk=> nrel_district: [Оршанский район];;
-chechersk=> nrel_locality: [г.Орша];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [центр области] ;;
+orsha=> nrel_population: [123000];;
+orsha=> nrel_region: [Витебская область];; 
+orsha=> nrel_district: [Оршанский район];;
+orsha=> nrel_locality: [г.Орша];;
+orsha=> nrel_state: [жилой] ;;
+orsha=> nrel_politic: [центр области] ;;
