@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Орехово] ;;
-chechersk => nrel_main_en_idtf:
-[Orehovo] ;;
+orsha => nrel_main_ru_idtf:
+[Орша] ;;
+orsha => nrel_main_en_idtf:
+[Orsha] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [300];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Малоритский район];;
-chechersk=> nrel_locality: [деревня Орехово];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+orsha=> nrel_population: [123000];;
+orsha=> nrel_region: [Витебская область];; 
+orsha=> nrel_district: [Оршанский район];;
+orsha=> nrel_locality: [г.Орша];;
+orsha=> nrel_state: [жилой] ;;
+orsha=> nrel_politic: [центр области] ;;

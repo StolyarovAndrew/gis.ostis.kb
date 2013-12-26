@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Отруб] ;;
-chechersk => nrel_main_en_idtf:
-[Otryb] ;;
+orlensk => nrel_main_ru_idtf:
+[Орленск] ;;
+orlensk => nrel_main_en_idtf:
+[Orlensk] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [0];;
-chechersk=> nrel_region: [Витебская область];; 
-chechersk=> nrel_district: [Докшицкий район];;
-chechersk=> nrel_locality: [деревня Отруб];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+orlensk=> nrel_population: [270];;
+orlensk=> nrel_region: [Гомельская область];; 
+orlensk=> nrel_district: [Гомельский район];;
+orlensk=> nrel_locality: [поселок Орленск];;
+orlensk=> nrel_state: [жилой] ;;
+orlensk=> nrel_politic: [не имеет политико-административного значения] ;;

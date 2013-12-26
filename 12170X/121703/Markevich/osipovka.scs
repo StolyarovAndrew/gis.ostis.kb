@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Опечки] ;;
-chechersk => nrel_main_en_idtf:
-[Opechki] ;;
+osipovka => nrel_main_ru_idtf:
+[Осиповка] ;;
+osipovka => nrel_main_en_idtf:
+[Osipovka] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [24];;
-chechersk=> nrel_region: [Минская область];; 
-chechersk=> nrel_district: [Столбцовский район];;
-chechersk=> nrel_locality: [деревня Опечки];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+osipovka=> nrel_population: [0];;
+osipovka=> nrel_region: [Гомельская область];; 
+osipovka=> nrel_district: [Наровлянский район];;
+osipovka=> nrel_locality: [деревня Осиповка];;
+osipovka=> nrel_state: [нежилой] ;;
+osipovka=> nrel_politic: [не имеет политико-административного значения] ;;

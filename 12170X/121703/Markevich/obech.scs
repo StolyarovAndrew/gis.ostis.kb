@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Осиповка] ;;
-chechersk => nrel_main_en_idtf:
-[Osipovka] ;;
+obech => nrel_main_ru_idtf:
+[Обеч] ;;
+obech => nrel_main_en_idtf:
+[Obech] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [0];;
-chechersk=> nrel_region: [Гомельская область];; 
-chechersk=> nrel_district: [Наровлянский район];;
-chechersk=> nrel_locality: [деревня Осиповка];;
-chechersk=> nrel_state: [нежилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+obech=> nrel_population: [82];;
+obech=> nrel_region: [Брестская область];; 
+obech=> nrel_district: [Пружанский район];;
+obech=> nrel_locality: [деревня Обеч];;
+obech=> nrel_state: [жилой] ;;
+obech=> nrel_politic: [не имеет политико-административного значения] ;;

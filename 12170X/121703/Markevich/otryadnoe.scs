@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Орленск] ;;
-chechersk => nrel_main_en_idtf:
-[Orlensk] ;;
+otryadnoe => nrel_main_ru_idtf:
+[Отрядное] ;;
+otryadnoe => nrel_main_en_idtf:
+[Otryadnoe] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [270];;
-chechersk=> nrel_region: [Гомельская область];; 
-chechersk=> nrel_district: [Гомельский район];;
-chechersk=> nrel_locality: [поселок Орленск];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+otryadnoe=> nrel_population: [8];;
+otryadnoe=> nrel_region: [Могилевская область];; 
+otryadnoe=> nrel_district: [Белыничский район];;
+otryadnoe=> nrel_locality: [поселок Отрядное];;
+otryadnoe=> nrel_state: [жилой] ;;
+otryadnoe=> nrel_politic: [не имеет политико-административного значения] ;;

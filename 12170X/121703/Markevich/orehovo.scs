@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Олтуш] ;;
-chechersk => nrel_main_en_idtf:
-[Oltysh] ;;
+orehovo => nrel_main_ru_idtf:
+[Орехово] ;;
+orehovo => nrel_main_en_idtf:
+[Orehovo] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [200];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Малоритский район];;
-chechersk=> nrel_locality: [деревня Олтуш];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+orehovo=> nrel_population: [300];;
+orehovo=> nrel_region: [Брестская область];; 
+orehovo=> nrel_district: [Малоритский район];;
+orehovo=> nrel_locality: [деревня Орехово];;
+orehovo=> nrel_state: [жилой] ;;
+orehovo=> nrel_politic: [не имеет политико-административного значения] ;;

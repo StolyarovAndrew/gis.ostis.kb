@@ -1,6 +1,6 @@
-chechersk => nrel_main_ru_idtf:
+oschep => nrel_main_ru_idtf:
 [Ощеп] ;;
-chechersk => nrel_main_en_idtf:
+oschep => nrel_main_en_idtf:
 [Oschep] ;;
 
 
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [30];;
-chechersk=> nrel_region: [Гродненская область];; 
-chechersk=> nrel_district: [Свислочский район];;
-chechersk=> nrel_locality: [деревня Ощеп];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+oschep=> nrel_population: [30];;
+oschep=> nrel_region: [Гродненская область];; 
+oschep=> nrel_district: [Свислочский район];;
+oschep=> nrel_locality: [деревня Ощеп];;
+oschep=> nrel_state: [жилой] ;;
+oschep=> nrel_politic: [не имеет политико-административного значения] ;;

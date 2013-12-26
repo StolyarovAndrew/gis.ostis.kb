@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Оспин] ;;
-chechersk => nrel_main_en_idtf:
-[Ospin] ;;
+osmolovichi => nrel_main_ru_idtf:
+[Осмоловичи] ;;
+osmolovichi => nrel_main_en_idtf:
+[Osmolovichi] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [6];;
-chechersk=> nrel_region: [Гомельская область];; 
-chechersk=> nrel_district: [Октябрьский район];;
-chechersk=> nrel_locality: [деревня Оспин];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+osmolovichi=> nrel_population: [110];;
+osmolovichi=> nrel_region: [Брестская область];; 
+osmolovichi=> nrel_district: [Кобринский район];;
+osmolovichi=> nrel_locality: [деревня Осмоловичи];;
+osmolovichi=> nrel_state: [жилой] ;;
+osmolovichi=> nrel_politic: [не имеет политико-административного значения] ;;

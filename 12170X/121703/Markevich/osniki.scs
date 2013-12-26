@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Ошивки] ;;
-chechersk => nrel_main_en_idtf:
-[Oshivki] ;;
+osniki => nrel_main_ru_idtf:
+[Осники] ;;
+osniki => nrel_main_en_idtf:
+[Osniki] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [82];;
-chechersk=> nrel_region: [Гродненская область];; 
-chechersk=> nrel_district: [Свислочский район];;
-chechersk=> nrel_locality: [деревня Ошивки];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+osniki=> nrel_population: [100];;
+osniki=> nrel_region: [Гродненская область];; 
+osniki=> nrel_district: [Гродненский район];;
+osniki=> nrel_locality: [деревня Осники];;
+osniki=> nrel_state: [жилой] ;;
+osniki=> nrel_politic: [не имеет политико-административного значения] ;;

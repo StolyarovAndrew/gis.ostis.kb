@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Отчин] ;;
-chechersk => nrel_main_en_idtf:
-[Otchin] ;;
+oshivki => nrel_main_ru_idtf:
+[Ошивки] ;;
+oshivki => nrel_main_en_idtf:
+[Oshivki] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [260];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Малоритский район];;
-chechersk=> nrel_locality: [деревня Отчин];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+oshivki=> nrel_population: [82];;
+oshivki=> nrel_region: [Гродненская область];; 
+oshivki=> nrel_district: [Свислочский район];;
+oshivki=> nrel_locality: [деревня Ошивки];;
+oshivki=> nrel_state: [жилой] ;;
+oshivki=> nrel_politic: [не имеет политико-административного значения] ;;

@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Осники] ;;
-chechersk => nrel_main_en_idtf:
-[Osniki] ;;
+oltysh => nrel_main_ru_idtf:
+[Олтуш] ;;
+oltysh => nrel_main_en_idtf:
+[Oltysh] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [100];;
-chechersk=> nrel_region: [Гродненская область];; 
-chechersk=> nrel_district: [Гродненский район];;
-chechersk=> nrel_locality: [деревня Осники];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+oltysh=> nrel_population: [200];;
+oltysh=> nrel_region: [Брестская область];; 
+oltysh=> nrel_district: [Малоритский район];;
+oltysh=> nrel_locality: [деревня Олтуш];;
+oltysh=> nrel_state: [жилой] ;;
+oltysh=> nrel_politic: [не имеет политико-административного значения] ;;

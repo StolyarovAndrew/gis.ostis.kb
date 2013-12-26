@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Оса] ;;
-chechersk => nrel_main_en_idtf:
-[Osa] ;;
+otryb => nrel_main_ru_idtf:
+[Отруб] ;;
+otryb => nrel_main_en_idtf:
+[Otryb] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [850];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Кобринский район];;
-chechersk=> nrel_locality: [деревня Оса];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+otryb=> nrel_population: [0];;
+otryb=> nrel_region: [Витебская область];; 
+otryb=> nrel_district: [Докшицкий район];;
+otryb=> nrel_locality: [деревня Отруб];;
+otryb=> nrel_state: [жилой] ;;
+otryb=> nrel_politic: [не имеет политико-административного значения] ;;

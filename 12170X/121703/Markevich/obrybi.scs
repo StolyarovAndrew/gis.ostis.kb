@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Осмоловичи] ;;
-chechersk => nrel_main_en_idtf:
-[Osmolovichi] ;;
+obrybi => nrel_main_ru_idtf:
+[Обрубы] ;;
+obrybi => nrel_main_en_idtf:
+[Obrybi] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [110];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Кобринский район];;
-chechersk=> nrel_locality: [деревня Осмоловичи];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+obrybi=> nrel_population: [10];;
+obrybi=> nrel_region: [Гродненская область];; 
+obrybi=> nrel_district: [Лидский район];;
+obrybi=> nrel_locality: [деревня Обрубы];;
+obrybi=> nrel_state: [жилой] ;;
+obrybi=> nrel_politic: [не имеет политико-административного значения] ;;

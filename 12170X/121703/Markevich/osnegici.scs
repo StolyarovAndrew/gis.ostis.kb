@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Отрядное] ;;
-chechersk => nrel_main_en_idtf:
-[Otryadnoe] ;;
+osnegici => nrel_main_ru_idtf:
+[Оснежицы] ;;
+osnegici => nrel_main_en_idtf:
+[Osnegici] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [8];;
-chechersk=> nrel_region: [Могилевская область];; 
-chechersk=> nrel_district: [Белыничский район];;
-chechersk=> nrel_locality: [поселок Отрядное];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+osnegici=> nrel_population: [941];;
+osnegici=> nrel_region: [Брестская область];; 
+osnegici=> nrel_district: [Пинский район];;
+osnegici=> nrel_locality: [деревня Оснежицы];;
+osnegici=> nrel_state: [жилой] ;;
+osnegici=> nrel_politic: [не имеет политико-административного значения] ;;

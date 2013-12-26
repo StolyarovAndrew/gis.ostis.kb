@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Обеч] ;;
-chechersk => nrel_main_en_idtf:
-[Obech] ;;
+ospin => nrel_main_ru_idtf:
+[Оспин] ;;
+ospin => nrel_main_en_idtf:
+[Ospin] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [82];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Пружанский район];;
-chechersk=> nrel_locality: [деревня Обеч];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+ospin=> nrel_population: [6];;
+ospin=> nrel_region: [Гомельская область];; 
+ospin=> nrel_district: [Октябрьский район];;
+ospin=> nrel_locality: [деревня Оспин];;
+ospin=> nrel_state: [жилой] ;;
+ospin=> nrel_politic: [не имеет политико-административного значения] ;;

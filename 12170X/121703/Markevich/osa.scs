@@ -1,7 +1,7 @@
-chechersk => nrel_main_ru_idtf:
-[Оснежицы] ;;
-chechersk => nrel_main_en_idtf:
-[Osnegici] ;;
+osa => nrel_main_ru_idtf:
+[Оса] ;;
+osa => nrel_main_en_idtf:
+[Osa] ;;
 
 
 nrel_population <- sc_node_norole_relation;;
@@ -40,9 +40,9 @@ nrel_politic => nrel_main_ru_idtf:
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
-chechersk=> nrel_population: [941];;
-chechersk=> nrel_region: [Брестская область];; 
-chechersk=> nrel_district: [Пинский район];;
-chechersk=> nrel_locality: [деревня Оснежицы];;
-chechersk=> nrel_state: [жилой] ;;
-chechersk=> nrel_politic: [не имеет политико-административного значения] ;;
+osa=> nrel_population: [850];;
+osa=> nrel_region: [Брестская область];; 
+osa=> nrel_district: [Кобринский район];;
+osa=> nrel_locality: [деревня Оса];;
+osa=> nrel_state: [жилой] ;;
+osa=> nrel_politic: [не имеет политико-административного значения] ;;
